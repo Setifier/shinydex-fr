@@ -1,0 +1,434 @@
+{
+  "form": "GIGAMAX",
+  "pokemons": [
+    {
+      "id": "0003-giga",
+      "name": "Florizarre Gigamax",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/GIGAMAX/0003_giga.png",
+      "description": "Le pollen qu'il expulse en grande quantité avec la force d'un volcan en éruption fait perdre connaissance si l'on en respire trop.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Chlorophylle"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0006-giga",
+      "name": "Dracaufeu Gigamax",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/GIGAMAX/0006_giga.png",
+      "description": "Des flammes, dont la température atteint les 2 000 °C, dansent à l'intérieur de son corps. Quand il rugit, leur puissance augmente.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 28.0 m"
+    },
+    {
+      "id": "0009-giga",
+      "name": "Tortank Gigamax",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/GIGAMAX/0009_giga.png",
+      "description": "La précision n'est pas son point fort. Il préfère sortir l'artillerie lourde et tirer à volonté avec ses 31 canons.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Cuvette"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 25.0 m"
+    },
+    {
+      "id": "0012-giga",
+      "name": "Papilusion Gigamax",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/GIGAMAX/0012_giga.png",
+      "description": "Il soulève ses ennemis en provoquant un ouragan à même d'emporter des camions de dix tonnes, puis les achève avec ses écailles toxiques.",
+      "abilities": {
+        "regular": ["Oeil Composé"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 17.0 m"
+    },
+    {
+      "id": "0025-giga",
+      "name": "Pikachu Gigamax",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/GIGAMAX/0025_giga.png",
+      "description": "Un coup de sa queue en forme d'éclair donne à l'adversaire un choc électrique ayant l'intensité et la tension de la foudre qui tombe.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 21.0 m"
+    },
+    {
+      "id": "0052-giga",
+      "name": "Miaouss Gigamax",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/GIGAMAX/0052_giga.png",
+      "description": "On pense que le motif qui apparaît sur la grande pièce ornant son front permettrait de comprendre le phénomène Dynamax.",
+      "abilities": {
+        "regular": ["Ramassage", "Technicien"],
+        "hidden": "Tension"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 33.0 m"
+    },
+    {
+      "id": "0068-giga",
+      "name": "Mackogneur Gigamax",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/GIGAMAX/0068_giga.png",
+      "description": "La puissance du Gigamax s'est concentrée dans ses bras, et ses coups de poing sont maintenant aussi destructeurs que des bombes.",
+      "abilities": {
+        "regular": ["Cran", "Annule Garde"],
+        "hidden": "Impassible"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 25.0 m"
+    },
+    {
+      "id": "0094-giga",
+      "name": "Ectoplasma Gigamax",
+      "types": ["Spectre", "Poison"],
+      "image": "public/pokemon/shiny/GIGAMAX/0094_giga.png",
+      "description": "Il tend des pièges fatals : ses victimes entendent les voix de personnes qu'elles aiment les inciter à approcher lorsqu'elles sont devant sa bouche.",
+      "abilities": {
+        "regular": ["Corps Maudit"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 20.0 m"
+    },
+    {
+      "id": "0099-giga",
+      "name": "Krabboss Gigamax",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/GIGAMAX/0099_giga.png",
+      "description": "Grâce à la puissance du Gigamax, sa pince gauche est devenue géante et peut réduire n'importe quoi en miettes.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Coque Armure"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 19.0 m"
+    },
+    {
+      "id": "0131-giga",
+      "name": "Lokhlass Gigamax",
+      "types": ["Eau", "Glace"],
+      "image": "public/pokemon/shiny/GIGAMAX/0131_giga.png",
+      "description": "Plus de 5 000 êtres humains peuvent tenir sur la carapace de son dos. Ils ne ressentent pas le tangage et peuvent profiter de la croisière.",
+      "abilities": {
+        "regular": ["Absorb Eau", "Coque Armure"],
+        "hidden": "Hydratation"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0133-giga",
+      "name": "Évoli Gigamax",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/GIGAMAX/0133_giga.png",
+      "description": "Son adorable innocence a pris des proportions XXL. Il cherche à jouer avec tout le monde, mais il est si grand qu'il écrase ses camarades de jeu.",
+      "abilities": {
+        "regular": ["Fuite", "Adaptabilité"],
+        "hidden": "Anticipation"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 18.0 m"
+    },
+    {
+      "id": "0143-giga",
+      "name": "Ronflex Gigamax",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/GIGAMAX/0143_giga.png",
+      "description": "Il est capable de manger plus de 900 kg de nourriture en une journée. Il est donc très difficile de le rassasier.",
+      "abilities": {
+        "regular": ["Vaccin", "Isograisse"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 35.0 m"
+    },
+    {
+      "id": "0569-giga",
+      "name": "Miasmax Gigamax",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/GIGAMAX/0569_giga.png",
+      "description": "Quiconque entre en contact avec le gaz toxique qui jaillit de sa bouche et de ses doigts sera empoisonné jusqu'aux os.",
+      "abilities": {
+        "regular": ["Puanteur", "Armurouillée"],
+        "hidden": "Boom Final"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 21.0 m"
+    },
+    {
+      "id": "0809-giga",
+      "name": "Melmetal Gigamax",
+      "types": ["Acier"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Dans la mythologie d'une région lointaine, celui que l'on considérait comme le premier géant était en réalité un Melmetal sous sa forme Gigamax.",
+      "abilities": {
+        "regular": ["Poing de Fer"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 25.0 m"
+    },
+    {
+      "id": "0812-giga",
+      "name": "Gorythmic Gigamax",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/GIGAMAX/0812_giga.png",
+      "description": "Ne faisant plus qu'un avec sa forêt d'instruments de percussion, Gorythmic joue sans s'arrêter et ses battements font vibrer tout Galar.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Créa-Herbe"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 28.0 m"
+    },
+    {
+      "id": "0815-giga",
+      "name": "Pyrobut Gigamax",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/GIGAMAX/0815_giga.png",
+      "description": "Incapables d'échapper aux ballons de feu animés par sa combativité ardente, tous les adversaires de Pyrobut finissent consumés.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Libéro"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 27.0 m"
+    },
+    {
+      "id": "0818-giga",
+      "name": "Lézargus Gigamax",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/GIGAMAX/0818_giga.png",
+      "description": "Les jets d'eau qu'il tire atteignent Mach 7. Au moment de viser, il se sert de la crête sur sa tête pour jauger le vent et la température.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sniper"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 40.0 m"
+    },
+    {
+      "id": "0823-giga",
+      "name": "Corvaillus Gigamax",
+      "types": ["Vol", "Acier"],
+      "image": "public/pokemon/shiny/GIGAMAX/0823_giga.png",
+      "description": "Les huit plumes de son dos, aussi appelées \"oiseaux-lames\" se sont séparées de son corps et attaquent ses ennemis de manière autonome.",
+      "abilities": {
+        "regular": ["Pression", "Tension"],
+        "hidden": "Armure Miroir"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 14.0 m"
+    },
+    {
+      "id": "0826-giga",
+      "name": "Astronelle Gigamax",
+      "types": ["Insecte", "Psy"],
+      "image": "public/pokemon/shiny/GIGAMAX/0826_giga.png",
+      "description": "Son corps est devenu gigantesque, à commencer par son cerveau. Il est doté d'une intelligence supérieure et d'immenses pouvoirs psychiques.",
+      "abilities": {
+        "regular": ["Pression", "Tension"],
+        "hidden": "Armure Miroir"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 14.0 m"
+    },
+    {
+      "id": "0834-giga",
+      "name": "Torgamord Gigamax",
+      "types": ["Eau", "Roche"],
+      "image": "public/pokemon/shiny/GIGAMAX/0834_giga.png",
+      "description": "Les légendes de Galar racontent qu'il avait jadis réussi à endiguer des inondations en détruisant des montagnes rocheuses avec sa mâchoire.",
+      "abilities": {
+        "regular": ["Prognathe", "Coque Armure"],
+        "hidden": "Glissade"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0839-giga",
+      "name": "Monthracite Gigamax",
+      "types": ["Roche", "Feu"],
+      "image": "public/pokemon/shiny/GIGAMAX/0839_giga.png",
+      "description": "Son corps est devenu un immense fourneau. Grâce à la puissance du Gigamax, la température de ses flammes atteint 2 000°C.",
+      "abilities": {
+        "regular": ["Turbine", "Corps Ardent"],
+        "hidden": "Torche"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 42.0 m"
+    },
+    {
+      "id": "0841-giga",
+      "name": "Pomdrapi Gigamax",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/GIGAMAX/0841_giga.png",
+      "description": "Sous l'influence du pouvoir du Gigamax, le nectar afflue en masse dans son corps, qui prend alors la forme d'une pomme gigantesque.",
+      "abilities": {
+        "regular": ["Mûrissement", "Gloutonnerie"],
+        "hidden": "Agitation"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0842-giga",
+      "name": "Dratatin Gigamax",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/GIGAMAX/0842_giga.png",
+      "description": "Il fait jaillir par litres le nectar contenu dans son corps. Il asperge ses ennemis, qui suffoquent sous ce liquide visqueux.",
+      "abilities": {
+        "regular": ["Mûrissement", "Gloutonnerie"],
+        "hidden": "Isograisse"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0844-giga",
+      "name": "Dunaconda Gigamax",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/GIGAMAX/0844_giga.png",
+      "description": "Le sable qui gravite à grande vitesse autour de lui tourne si violemment qu'il peut réduire un gratte-ciel en poussière.",
+      "abilities": {
+        "regular": ["Expul'Sable", "Mue"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 22.0 m"
+    },
+    {
+      "id": "0849-giga",
+      "name": "Salarsen Gigamax",
+      "types": ["Électrik", "Poison"],
+      "image": "public/pokemon/shiny/GIGAMAX/0849_giga.png",
+      "description": "Son poison lui monte au cerveau et il perd tout contrôle. À chaque excès de violence, il répand des gouttes de sueur toxiques qui polluent le sol.",
+      "abilities": {
+        "regular": ["Punk Rock", "Plus"],
+        "hidden": "Technicien"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0851-giga",
+      "name": "Scolocendre Gigamax",
+      "types": ["Feu", "Insecte"],
+      "image": "public/pokemon/shiny/GIGAMAX/0851_giga.png",
+      "description": "Sous sa forme Gigamax, la chaleur émise par Scolocendre perturbe parfois les courants aériens au point de déclencher des tempêtes.",
+      "abilities": {
+        "regular": ["Torche", "Écran Fumée"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 75.0 m"
+    },
+    {
+      "id": "0858-giga",
+      "name": "Sorcilence Gigamax",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/GIGAMAX/0858_giga.png",
+      "description": "Il est capable de capter les émotions d'êtres vivants situés à une distance de 50 km. S'il ressent de l'animosité, il passe à l'attaque.",
+      "abilities": {
+        "regular": ["Coeur Soin", "Anticipation"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 26.0 m"
+    },
+    {
+      "id": "0861-giga",
+      "name": "Angoliath Gigamax",
+      "types": ["Ténèbres", "Fée"],
+      "image": "public/pokemon/shiny/GIGAMAX/0861_giga.png",
+      "description": "Il modifie la forme des poils de ses jambes et donne des coups de pied vrillés qui laissent des trous béants dans les plaines de Galar.",
+      "abilities": {
+        "regular": ["Farceur", "Fouille"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 32.0 m"
+    },
+    {
+      "id": "0869-giga",
+      "name": "Charmilly Gigamax",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/GIGAMAX/0869_giga.png",
+      "description": "Un seul tir de ses missiles à la crème ne contient pas moins de 100 000 kilocalories. Les ennemis touchés sont pris de vertige.",
+      "abilities": {
+        "regular": ["Gluco-Voile"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 30.0 m"
+    },
+    {
+      "id": "0879-giga",
+      "name": "Pachyradjah Gigamax",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/GIGAMAX/0879_giga.png",
+      "description": "Lorsqu'il bénéficie de la puissance du Gigamax, il peut mettre en pièces de grands bâtiments d'un seul coup de son énorme trompe.",
+      "abilities": {
+        "regular": ["Sans Limite"],
+        "hidden": "Heavy Metal"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 23.0 m"
+    },
+    {
+      "id": "0884-giga",
+      "name": "Duralugon Gigamax",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/GIGAMAX/0884_giga.png",
+      "description": "La solidité de sa structure cellulaire le classe parmi les Pokémon Acier les plus résistants : un séisme ne pourrait l'ébranler.",
+      "abilities": {
+        "regular": ["Light Metal", "Heavy Metal"],
+        "hidden": "Nerfs d'Acier"
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 24.0 m"
+    },
+    {
+      "id": "0892-giga-1",
+      "name": "Shifours Gigamax (Style Poing Final)",
+      "types": ["Combat", "Ténèbres"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "L'énergie qui émane de son poing provoque une onde de choc qui lui permet de balayer un Pokémon Dynamax d'un seul coup.",
+      "abilities": {
+        "regular": ["Poing Invisible"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 29.0 m"
+    },
+    {
+      "id": "0892-giga-2",
+      "name": "Shifours Gigamax (Style Mille Poings)",
+      "types": ["Combat", "Eau"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Il reste debout sur une patte et patiente ainsi sans bouger d'un poil jusqu'à ce qu'il fasse exploser le pouvoir du Gigamax.",
+      "abilities": {
+        "regular": ["Poing Invisible"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "Plus de 26.0 m"
+    }
+  ]
+}

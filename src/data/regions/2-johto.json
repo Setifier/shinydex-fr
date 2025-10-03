@@ -1,0 +1,1317 @@
+{
+  "region": "2 - JOHTO",
+  "pokemons": [
+    {
+      "id": "0152",
+      "name": "Germignon",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0152.png",
+      "description": "Lorsqu’il se bat, Germignon secoue sa feuille pour tenir son\nennemi à distance. Un doux parfum s’en dégage également,\napaisant les Pokémon qui se battent et créant une atmosphère\nagréable et amicale.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Feuille Garde"
+      },
+      "weight": "6.4 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0153",
+      "name": "Macronium",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0153.png",
+      "description": "Le cou de Macronium est entouré de nombreuses feuilles.\nDans chacune d’elles se trouve une pousse d’arbre. Le parfum\nde cette pousse donne la pêche aux personnes qui le sentent.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Feuille Garde"
+      },
+      "weight": "15.8 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0154",
+      "name": "Méganium",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0154.png",
+      "description": "Le parfum de la fleur de Méganium apaise et calme les esprits.\nPendant les combats, ce Pokémon émet son parfum relaxant\npour atténuer l’agressivité de l’ennemi.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Feuille Garde"
+      },
+      "weight": "100.5 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0155",
+      "name": "Héricendre",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0155.png",
+      "description": "Héricendre se protège en faisant jaillir des flammes de\nson dos. Ces flammes peuvent être violentes si le Pokémon\nest en colère. Cependant, s’il est fatigué, seules quelques\nflammèches vacillent laborieusement.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Torche"
+      },
+      "weight": "7.9 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0156",
+      "name": "Feurisson",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0156.png",
+      "description": "Feurisson garde ses ennemis à distance grâce à l’intensité\nde ses flammes et à des rafales d’air brûlant. Ce Pokémon\nutilise son incroyable agilité pour éviter les attaques,\ntout en enflammant ses ennemis.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Torche"
+      },
+      "weight": "19.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0157",
+      "name": "Typhlosion",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0157.png",
+      "description": "Typhlosion se cache derrière un chatoyant nuage de chaleur\nqu’il crée en attisant ses flammes intenses. Ce Pokémon\npeut générer des rafales explosives qui réduisent tout\nen cendres.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Torche"
+      },
+      "weight": "79.5 kg",
+      "height": "1.7 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0158",
+      "name": "Kaiminus",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0158.png",
+      "description": "Malgré son tout petit corps, la mâchoire de Kaiminus est\ntrès puissante. Parfois, ce Pokémon mordille les gens pour\njouer, sans se rendre compte que sa morsure peut gravement\nblesser quelqu’un.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "9.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0159",
+      "name": "Crocrodil",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0159.png",
+      "description": "Une fois que Crocrodil a refermé sa mâchoire sur son ennemi,\nil est impossible de le faire lâcher prise. Ses crocs sont\nrecourbés comme des hameçons et ne peuvent pas être\nretirés une fois enfoncés.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "25.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0160",
+      "name": "Aligatueur",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0160.png",
+      "description": "Aligatueur impressionne ses ennemis en ouvrant son\nénorme gueule. Pendant les combats, il piétine le sol\nde ses puissantes pattes arrière avant de charger ses\nadversaires à pleine vitesse.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "88.8 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0161",
+      "name": "Fouinette",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0161.png",
+      "description": "Lorsqu’un Fouinette dort, un autre monte la garde.\nLa sentinelle réveille les autres au moindre signe de danger.\nSi un de ces Pokémon est séparé de sa meute, il est incapable\nde dormir, car il a peur.",
+      "abilities": {
+        "regular": ["Fuite", "Regard Vif"],
+        "hidden": "Fouille"
+      },
+      "weight": "6.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0162",
+      "name": "Fouinar",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0162.png",
+      "description": "Fouinar est très mince. Lorsqu’il est attaqué, il peut\ns’enfuir en se faufilant habilement dans les recoins étroits.\nMalgré ses pattes courtes, ce Pokémon est très agile\net rapide.",
+      "abilities": {
+        "regular": ["Fuite", "Regard Vif"],
+        "hidden": "Fouille"
+      },
+      "weight": "32.5 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0163",
+      "name": "Hoothoot",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0163.png",
+      "description": "Il hulule chaque jour aux mêmes moments.\nCertains Dresseurs s’en servent comme\nd’une montre.",
+      "abilities": {
+        "regular": ["Insomnia", "Regard Vif"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "21.2 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0164",
+      "name": "Noarfang",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0164.png",
+      "description": "Quand il réfléchit, il tourne sa tête sur 180 degrés\npour optimiser son mode de pensée.",
+      "abilities": {
+        "regular": ["Insomnia", "Regard Vif"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "40.8 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0165",
+      "name": "Coxy",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0165.png",
+      "description": "Extrêmement timide, ce Pokémon défend le nid\nqu’il partage avec ses congénères en utilisant\nProtection.",
+      "abilities": {
+        "regular": ["Essaim", "Matinal"],
+        "hidden": "Phobique"
+      },
+      "weight": "10.8 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0166",
+      "name": "Coxyclaque",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0166.png",
+      "description": "Il vole dans le ciel nocturne en répandant une\npoudre scintillante. Si elle vous touche, quelque\nchose de positif devrait bientôt vous arriver.",
+      "abilities": {
+        "regular": ["Essaim", "Matinal"],
+        "hidden": "Poing de Fer"
+      },
+      "weight": "35.6 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0167",
+      "name": "Mimigal",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0167.png",
+      "description": "Le poison contenu dans les mandibules de\nce Pokémon n’est pas très violent, mais il suffit\nà immobiliser les proies piégées dans sa toile.",
+      "abilities": {
+        "regular": ["Essaim", "Insomnia"],
+        "hidden": "Sniper"
+      },
+      "weight": "8.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0168",
+      "name": "Migalos",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0168.png",
+      "description": "Il capture ses proies en projetant un fil qu’il\nsécrète. À la nuit tombée, il quitte sa toile\net part chasser activement.",
+      "abilities": {
+        "regular": ["Essaim", "Insomnia"],
+        "hidden": "Sniper"
+      },
+      "weight": "33.5 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0169",
+      "name": "Nostenfer",
+      "types": ["Poison", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0169.png",
+      "description": "Il vole en contrôlant librement ses quatre ailes\net peut se déplacer sans avoir besoin de ralentir,\nmême dans les grottes étroites.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": "Infiltration"
+      },
+      "weight": "75.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0170",
+      "name": "Loupio",
+      "types": ["Eau", "Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0170.png",
+      "description": "Au plus profond de l’océan, son seul moyen\nde communication est la lumière de ses antennes,\nqui clignotent constamment.",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Luminescence"],
+        "hidden": "Absorbe-Eau"
+      },
+      "weight": "12.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0171",
+      "name": "Lanturn",
+      "types": ["Eau", "Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0171.png",
+      "description": "Il dégage une vive lumière pour éblouir ses proies,\npuis leur inflige un choc électrique bien senti.",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Luminescence"],
+        "hidden": "Absorbe-Eau"
+      },
+      "weight": "22.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0172",
+      "name": "Pichu",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0172.png",
+      "description": "Les poches électriques de ses joues sont\ntrès petites. Lorsqu’elles sont surchargées,\nil s’électrocute lui-même.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "2.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0173",
+      "name": "Mélo",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0173.png",
+      "description": "Il ressemble un peu à une étoile. On suppose\nqu’il est venu sur terre accroché à une météorite.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Garde Magik"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "3.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0174",
+      "name": "Toudoudou",
+      "types": ["Normal", "Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0174.png",
+      "description": "Il se déplace en faisant rebondir son corps\ntout mou. Lorsque sa température corporelle\naugmente, il devient rose foncé.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Battant"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "1.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0175",
+      "name": "Togepi",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0175.png",
+      "description": "C’est un symbole de chance.\nOn dit que sa coquille est remplie de joie.",
+      "abilities": {
+        "regular": ["Agitation", "Sérénité"],
+        "hidden": "Chanceux"
+      },
+      "weight": "1.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0176",
+      "name": "Togetic",
+      "types": ["Fée", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0176.png",
+      "description": "Ce Pokémon est capable de léviter sans battre\ndes ailes. Il est vite démoralisé s’il n’est pas\nen compagnie de gens sympathiques.",
+      "abilities": {
+        "regular": ["Agitation", "Sérénité"],
+        "hidden": "Chanceux"
+      },
+      "weight": "3.2 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0177",
+      "name": "Natu",
+      "types": ["Psy", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0177.png",
+      "description": "Ses ailes ne sont pas assez développées\ndonc il ne peut se déplacer qu’en sautillant.\nIl fixe toujours quelque chose du regard.",
+      "abilities": {
+        "regular": ["Synchro", "Matinal"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "2.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0178",
+      "name": "Xatu",
+      "types": ["Psy", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0178.png",
+      "description": "Capable de voir le passé et l’avenir, ce Pokémon\nmystérieux consacre toutes ses journées\nà observer la course du soleil.",
+      "abilities": {
+        "regular": ["Synchro", "Matinal"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "15.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0179",
+      "name": "Wattouat",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0179.png",
+      "description": "Il a beau être mignon, sa laine génère de\nl’électricité quand on la frotte. Tentez de le\ncaresser, et il vous mettra vite au courant !",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Plus"
+      },
+      "weight": "7.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0180",
+      "name": "Lainergie",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0180.png",
+      "description": "Il accumule de l’électricité dans sa toison\nduveteuse. Il en a tellement stocké qu’il en\na perdu sa laine par endroits.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Plus"
+      },
+      "weight": "13.3 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0181",
+      "name": "Pharamp",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0181.png",
+      "description": "Sa queue brille d’une lumière éclatante.\nDepuis des temps très anciens, il est vénéré\ncomme le guide des marins.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Plus"
+      },
+      "weight": "61.5 kg",
+      "height": "1.4 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0182",
+      "name": "Joliflor",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0182.png",
+      "description": "Les Joliflor se réunissent parfois pour danser.\nOn pense que c’est un rituel pour invoquer\nle soleil.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Cœur Soin"
+      },
+      "weight": "5.8 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0183",
+      "name": "Marill",
+      "types": ["Eau", "Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0183.png",
+      "description": "Sa fourrure est hydrophobe, si bien qu’elle\nsèche en un instant. Il n’a donc jamais froid,\nmême lorsqu’il sort d’une mer glaciale.",
+      "abilities": {
+        "regular": ["Isograisse", "Coloforce"],
+        "hidden": "Herbivore"
+      },
+      "weight": "8.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0184",
+      "name": "Azumarill",
+      "types": ["Eau", "Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0184.png",
+      "description": "Il crée des bulles d’air dont il enveloppe\ngentiment les Azurill venus jouer dans la rivière.",
+      "abilities": {
+        "regular": ["Isograisse", "Coloforce"],
+        "hidden": "Herbivore"
+      },
+      "weight": "28.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0185",
+      "name": "Simularbre",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0185.png",
+      "description": "Il se déguise en arbre pour éviter de se faire\nattaquer. Il déteste l’eau et se cache par temps\nde pluie.",
+      "abilities": {
+        "regular": ["Fermeté", "Tête de Roc"],
+        "hidden": "Phobique"
+      },
+      "weight": "38.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0186",
+      "name": "Tarpaud",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0186.png",
+      "description": "Le cri des mâles est plus puissant que celui\ndes femelles, qui préfèrent les voix fortes\net intimidantes.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Moiteur"],
+        "hidden": "Crachin"
+      },
+      "weight": "33.9 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0187",
+      "name": "Granivol",
+      "types": ["Plante", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0187.png",
+      "description": "Ce Pokémon flotte à la dérive, porté par le vent. S’il sent\nqu’un vent très fort approche, Granivol attache ses feuilles aux\nautres Granivol pour ne pas être emporté par la bourrasque.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Feuille Garde"],
+        "hidden": "Infiltration"
+      },
+      "weight": "0.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0188",
+      "name": "Floravol",
+      "types": ["Plante", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0188.png",
+      "description": "La fleur de Floravol éclot lorsque la température atteint 18 °C.\nL’ouverture de la fleur change en fonction de la température.\nCertaines personnes se servent de ce Pokémon comme d’un\nthermomètre.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Feuille Garde"],
+        "hidden": "Infiltration"
+      },
+      "weight": "1.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0189",
+      "name": "Cotovol",
+      "types": ["Plante", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0189.png",
+      "description": "Cotovol traverse la mer, porté par les vents, pour découvrir\nde nouveaux territoires. Ce Pokémon se rapproche du sol\nquand le vent est trop froid.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Feuille Garde"],
+        "hidden": "Infiltration"
+      },
+      "weight": "3.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0190",
+      "name": "Capumain",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0190.png",
+      "description": "Il guette ses proies depuis la cime des arbres.\nQuand il aperçoit un Croquine, son mets préféré,\nil se jette dessus.",
+      "abilities": {
+        "regular": ["Fuite", "Ramassage"],
+        "hidden": "Multi-Coups"
+      },
+      "weight": "11.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0191",
+      "name": "Tournegrin",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0191.png",
+      "description": "Tournegrin essaie de bouger le moins possible. C’est parce\nqu’il veut conserver tous les nutriments qu’il stocke dans son\ncorps pour son évolution. Il ne mange pas, ne subsistant que\ngrâce à la rosée matinale.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Force Soleil"],
+        "hidden": "Matinal"
+      },
+      "weight": "1.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0192",
+      "name": "Héliatronc",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0192.png",
+      "description": "Héliatronc convertit l’énergie solaire en nutriments. Il remue\nactivement pendant la journée, quand il fait chaud. Il redevient\nimmobile dès que le soleil se couche.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Force Soleil"],
+        "hidden": "Matinal"
+      },
+      "weight": "8.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0193",
+      "name": "Yanma",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0193.png",
+      "description": "Yanma a un champ de vision de 360 degrés sans avoir besoin\nde bouger les yeux. Il vole incroyablement bien et peut faire\ndes figures acrobatiques. Ce Pokémon descend en piqué\nsur ses proies.",
+      "abilities": {
+        "regular": ["Turbo", "Œil Composé"],
+        "hidden": "Fouille"
+      },
+      "weight": "38.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0194",
+      "name": "Axoloto",
+      "types": ["Eau", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0194.png",
+      "description": "Lorsqu’il est sur la terre ferme, il couvre\nson corps d’un voile toxique qui le protège\nde la déshydratation.",
+      "abilities": {
+        "regular": ["Moiteur", "Absorbe-Eau"],
+        "hidden": "Inconscient"
+      },
+      "weight": "8.5 kg",
+      "height": "0.4 m",
+      "forms": ["paldea"]
+    },
+    {
+      "id": "0195",
+      "name": "Maraiste",
+      "types": ["Eau", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0195.png",
+      "description": "Il est toujours gluant. Quand il nage, il se cogne\nsouvent la tête au fond des rivières, mais semble\ns’en moquer.",
+      "abilities": {
+        "regular": ["Moiteur", "Absorbe-Eau"],
+        "hidden": "Inconscient"
+      },
+      "weight": "75.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0196",
+      "name": "Mentali",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0196.png",
+      "description": "Le joyau sur le front de Mentali projette\ndes ondes psychiques en combat, et s’obscurcit\nquand il est à bout de force.",
+      "abilities": {
+        "regular": ["Synchro"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "26.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0197",
+      "name": "Noctali",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0197.png",
+      "description": "Les nuits de pleine lune, ou s’il est agité,\nles anneaux sur sa peau se mettent à briller.",
+      "abilities": {
+        "regular": ["Synchro"],
+        "hidden": "Attention"
+      },
+      "weight": "27.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0198",
+      "name": "Cornèbre",
+      "types": ["Ténèbres", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0198.png",
+      "description": "Il cherche des objets brillants pour son chef.\nSa réputation d’oiseau de mauvais augure lui\nvaut la haine de nombreuses personnes.",
+      "abilities": {
+        "regular": ["Insomnia", "Chanceux"],
+        "hidden": "Farceur"
+      },
+      "weight": "2.1 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0199",
+      "name": "Roigada",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0199.png",
+      "description": "Il est capable de résoudre tous les problèmes\nqu’on lui présente, mais personne ne parvient\nà comprendre ce qu’il dit.",
+      "abilities": {
+        "regular": ["Benêt", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "79.5 kg",
+      "height": "2.0 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0200",
+      "name": "Feuforêve",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0200.png",
+      "description": "Il adore faire peur aux humains en imitant\nleurs pleurs, et n’apprécie guère ceux qui\nne se laissent pas intimider.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "1.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0201",
+      "name": "Zarbi",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0201.png",
+      "description": "Ce Pokémon a la forme d’un caractère d’écriture antique.\nPersonne ne sait si ces écritures antiques sont apparues\navant les Zarbi ou le contraire. Des études sont en cours,\nmais aucun résultat n’a été annoncé.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "5.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0202",
+      "name": "Qulbutoké",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0202.png",
+      "description": "Il vit discrètement dans l’obscurité pour cacher\nsa queue noire. Il n’attaque jamais en premier.",
+      "abilities": {
+        "regular": ["Marque Ombre"],
+        "hidden": "Télépathe"
+      },
+      "weight": "28.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0203",
+      "name": "Girafarig",
+      "types": ["Normal", "Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0203.png",
+      "description": "La tête à l’arrière de Girafarig abrite un cerveau trop petit\npour penser. En revanche, cette tête arrière n’a pas besoin\nde dormir, ce qui lui permet de monter la garde tout le temps.",
+      "abilities": {
+        "regular": ["Attention", "Matinal"],
+        "hidden": "Herbivore"
+      },
+      "weight": "41.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0204",
+      "name": "Pomdepik",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0204.png",
+      "description": "Il grandit en utilisant sa salive pour coller\nl’écorce des arbres sur son corps. Un Pomdepik\nâgé peut prendre des proportions démesurées.",
+      "abilities": {
+        "regular": ["Fermeté"],
+        "hidden": "Envelocape"
+      },
+      "weight": "7.2 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0205",
+      "name": "Foretress",
+      "types": ["Insecte", "Acier"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0205.png",
+      "description": "On ne peut voir l’intérieur de sa carapace que\nlorsqu’il engloutit sa nourriture, mais il est si\nrapide que personne n’a encore jamais réussi.",
+      "abilities": {
+        "regular": ["Fermeté"],
+        "hidden": "Envelocape"
+      },
+      "weight": "125.8 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0206",
+      "name": "Insolourdo",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0206.png",
+      "description": "Bien que son nid ressemble à un labyrinthe,\nil ne s’y perd jamais, car il se repère grâce\nà l’odeur de la terre.",
+      "abilities": {
+        "regular": ["Sérénité", "Fuite"],
+        "hidden": "Phobique"
+      },
+      "weight": "14.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0207",
+      "name": "Scorplane",
+      "types": ["Sol", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0207.png",
+      "description": "Scorplane plane dans les airs sans un bruit, comme s’il glissait.\nCe Pokémon s’accroche au visage de son ennemi grâce aux\nserres de ses pattes arrière et aux pinces de ses pattes avant,\net pique avec son dard empoisonné.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Voile Sable"],
+        "hidden": "Vaccin"
+      },
+      "weight": "64.8 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0208",
+      "name": "Steelix",
+      "types": ["Acier", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0208.png",
+      "description": "On pense que son corps s’est transformé à force\nd’avaler le fer contenu dans la terre en creusant.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Fermeté"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "400.0 kg",
+      "height": "9.2 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0209",
+      "name": "Snubbull",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0209.png",
+      "description": "Malgré les apparences, c’est un grand timide\nqui fait souvent l’objet de railleries quand il se\ntrouve au milieu d’un groupe de Pokémon Chiot.",
+      "abilities": {
+        "regular": ["Intimidation", "Fuite"],
+        "hidden": "Phobique"
+      },
+      "weight": "7.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0210",
+      "name": "Granbull",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0210.png",
+      "description": "Les jeunes gens en sont fous, mais sa timidité\net sa grande délicatesse en font un piètre\nPokémon de garde.",
+      "abilities": {
+        "regular": ["Intimidation", "Pied Véloce"],
+        "hidden": "Phobique"
+      },
+      "weight": "48.7 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0211",
+      "name": "Qwilfish",
+      "types": ["Eau", "Poison"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0211.png",
+      "description": "Ses petites épines étaient autrefois des écailles.\nElles sécrètent des toxines pouvant faire\nperdre connaissance.",
+      "abilities": {
+        "regular": ["Point Poison", "Glissade"],
+        "hidden": "Intimidation"
+      },
+      "weight": "3.9 kg",
+      "height": "0.5 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0212",
+      "name": "Cizayox",
+      "types": ["Insecte", "Acier"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0212.png",
+      "description": "Malgré son corps fin, sa puissance de frappe\nest prodigieuse, car même ses muscles sont\ncomposés de métal.",
+      "abilities": {
+        "regular": ["Essaim", "Technicien"],
+        "hidden": "Light Metal"
+      },
+      "weight": "118.0 kg",
+      "height": "1.8 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0213",
+      "name": "Caratroc",
+      "types": ["Insecte", "Roche"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0213.png",
+      "description": "Les Baies qu’il conserve dans sa carapace\nen forme d’urne se changent en jus onctueux\naprès un certain temps.",
+      "abilities": {
+        "regular": ["Fermeté", "Gloutonnerie"],
+        "hidden": "Contestation"
+      },
+      "weight": "20.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0214",
+      "name": "Scarhino",
+      "types": ["Insecte", "Combat"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0214.png",
+      "description": "Ce Pokémon est fier de sa force colossale\nqui lui permet de soulever cent fois son propre\npoids avec facilité.",
+      "abilities": {
+        "regular": ["Essaim", "Cran"],
+        "hidden": "Impudence"
+      },
+      "weight": "54.0 kg",
+      "height": "1.5 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0215",
+      "name": "Farfuret",
+      "types": ["Ténèbres", "Glace"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0215.png",
+      "description": "Un Pokémon aussi cruel que fourbe.\nIl se glisse dans le nid des autres Pokémon\nen leur absence pour dérober leurs Œufs.",
+      "abilities": {
+        "regular": ["Attention", "Regard Vif"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "28.0 kg",
+      "height": "0.9 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0216",
+      "name": "Teddiursa",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0216.png",
+      "description": "Ce Pokémon aime se lécher les paumes quand elles sont\nencore pleines de miel. Teddiursa concocte son propre miel\nen mélangeant les fruits et le pollen récolté par Dardargnan.",
+      "abilities": {
+        "regular": ["Ramassage", "Pied Véloce"],
+        "hidden": "Cherche Miel"
+      },
+      "weight": "8.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0217",
+      "name": "Ursaring",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0217.png",
+      "description": "On dit que les Ursaring trouvent leur nourriture dans les cours\nd’eau et les grands arbres des forêts où ils habitent.\nCe Pokémon erre dans la forêt toute la journée pour chercher\nde la nourriture.",
+      "abilities": {
+        "regular": ["Cran", "Pied Véloce"],
+        "hidden": "Tension"
+      },
+      "weight": "125.8 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0218",
+      "name": "Limagma",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0218.png",
+      "description": "Les veines de Limagma ne contiennent pas de sang.\nAu lieu de ça, du magma en fusion circule dans le corps\nde ce Pokémon, apportant les nutriments et l’oxygène\nnécessaires à ses organes.",
+      "abilities": {
+        "regular": ["Armumagma", "Corps Ardent"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "35.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0219",
+      "name": "Volcaropod",
+      "types": ["Feu", "Roche"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0219.png",
+      "description": "La température de Volcaropod est d’environ 10 000 °C.\nL’eau s’évapore à son contact. Si ce Pokémon se retrouve\nsous la pluie, les gouttes d’eau forment de la vapeur et\ncouvrent la zone de brouillard.",
+      "abilities": {
+        "regular": ["Armumagma", "Corps Ardent"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "55.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0220",
+      "name": "Marcacrin",
+      "types": ["Glace", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0220.png",
+      "description": "S’il sent une odeur attrayante, il fonce la tête\nla première pour trouver d’où elle vient.",
+      "abilities": {
+        "regular": ["Benêt", "Rideau Neige"],
+        "hidden": "Isograisse"
+      },
+      "weight": "6.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0221",
+      "name": "Cochignon",
+      "types": ["Glace", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0221.png",
+      "description": "Bien qu’il soit pourvu de pattes courtes,\nses sabots larges et pointus l’empêchent\nde glisser sur la glace.",
+      "abilities": {
+        "regular": ["Benêt", "Rideau Neige"],
+        "hidden": "Isograisse"
+      },
+      "weight": "55.8 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0222",
+      "name": "Corayon",
+      "types": ["Eau", "Roche"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0222.png",
+      "description": "Ces Pokémon habitués des mers chaudes\nse trouvaient autrefois en masse sur les côtes\nde Galar.",
+      "abilities": {
+        "regular": ["Agitation", "Médic Nature"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "5.0 kg",
+      "height": "0.6 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0223",
+      "name": "Rémoraid",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0223.png",
+      "description": "À l’aide de sa nageoire dorsale en forme\nde ventouse, il s’accroche sous un Démanta\npour récupérer ses restes.",
+      "abilities": {
+        "regular": ["Agitation", "Sniper"],
+        "hidden": "Lunatique"
+      },
+      "weight": "12.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0224",
+      "name": "Octillery",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0224.png",
+      "description": "Il capture ses ennemis avec ses tentacules\net les écrase ensuite avec sa tête dure comme\nla pierre.",
+      "abilities": {
+        "regular": ["Ventouse", "Sniper"],
+        "hidden": "Lunatique"
+      },
+      "weight": "28.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0225",
+      "name": "Cadoizo",
+      "types": ["Glace", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0225.png",
+      "description": "Ce Pokémon partage facilement son repas avec\nd’autres Pokémon et avec des humains, ce qui\nl’oblige à constamment courir après la nourriture.",
+      "abilities": {
+        "regular": ["Esprit Vital", "Agitation"],
+        "hidden": "Insomnia"
+      },
+      "weight": "16.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0226",
+      "name": "Démanta",
+      "types": ["Eau", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0226.png",
+      "description": "Il nage paisiblement, sans se soucier des Rémoraid\nqui s’agrippent à lui pour lui voler ses restes.",
+      "abilities": {
+        "regular": ["Glissade", "Absorbe-Eau"],
+        "hidden": "Ignifu-Voile"
+      },
+      "weight": "220.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0227",
+      "name": "Airmure",
+      "types": ["Acier", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0227.png",
+      "description": "Ce Pokémon orne souvent les blasons,\ncar les plumes qu’il perd sont utilisées\npour forger des épées.",
+      "abilities": {
+        "regular": ["Regard Vif", "Fermeté"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "50.5 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0228",
+      "name": "Malosse",
+      "types": ["Ténèbres", "Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0228.png",
+      "description": "Si ses congénères et lui poussent de sinistres\nhurlements avant l’aube, c’est pour signaler\nleur présence à tout le monde.",
+      "abilities": {
+        "regular": ["Matinal", "Torche"],
+        "hidden": "Tension"
+      },
+      "weight": "10.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0229",
+      "name": "Démolosse",
+      "types": ["Ténèbres", "Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0229.png",
+      "description": "Ceux qui le craignaient jadis lui ont donné le\nsurnom de « messager de la Faucheuse » à\ncause de son hurlement sinistre si particulier.",
+      "abilities": {
+        "regular": ["Matinal", "Torche"],
+        "hidden": "Tension"
+      },
+      "weight": "35.0 kg",
+      "height": "1.4 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0230",
+      "name": "Hyporoi",
+      "types": ["Eau", "Dragon"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0230.png",
+      "description": "Les écailles qui se détachent de son corps\nbrillent d’un éclat si élégant et si intense\nqu’on les offre aux familles royales.",
+      "abilities": {
+        "regular": ["Glissade", "Sniper"],
+        "hidden": "Moiteur"
+      },
+      "weight": "152.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0231",
+      "name": "Phanpy",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0231.png",
+      "description": "Phanpy utilise sa petite trompe pour se doucher.\nQuand plusieurs d’entre eux se réunissent, ils s’arrosent\njoyeusement. On peut souvent voir ces Pokémon se sécher\nau bord de l’eau.",
+      "abilities": {
+        "regular": ["Ramassage"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "33.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0232",
+      "name": "Donphan",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0232.png",
+      "description": "Si Donphan décidait de charger, il pourrait détruire\nune maison. Grâce à sa force étonnante, ce Pokémon\npeut aider à déplacer les rochers et les coulées de boue\nqui bloquent les chemins de montagne.",
+      "abilities": {
+        "regular": ["Fermeté"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "120.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0233",
+      "name": "Porygon2",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0233.png",
+      "description": "Depuis qu’on l’a doté d’une intelligence\nartificielle, il parle un langage mystérieux\nque seuls ses congénères comprennent.",
+      "abilities": {
+        "regular": ["Calque", "Télécharge"],
+        "hidden": "Analyste"
+      },
+      "weight": "32.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0234",
+      "name": "Cerfrousse",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0234.png",
+      "description": "Les superbes bois de Cerfrousse étaient vendus très cher\ncomme œuvres d’art. Ce Pokémon fut chassé et l’espèce\nproche de l’extinction à cause des gens qui recherchaient\nleurs précieux bois.",
+      "abilities": {
+        "regular": ["Intimidation", "Fouille"],
+        "hidden": "Herbivore"
+      },
+      "weight": "71.2 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0235",
+      "name": "Queulorior",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0235.png",
+      "description": "Il se sert du liquide qui sort de sa queue pour\ndessiner sa marque. Ses fans s’arrachent ses\nplus beaux tracés à prix d’or.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Technicien"],
+        "hidden": "Lunatique"
+      },
+      "weight": "58.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0236",
+      "name": "Debugant",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0236.png",
+      "description": "Même s’il est petit, il vaut mieux ne pas l’ignorer :\nquand il trouve un adversaire à sa hauteur,\nil frappe fort et souvent sans prévenir.",
+      "abilities": {
+        "regular": ["Cran", "Impassible"],
+        "hidden": "Esprit Vital"
+      },
+      "weight": "21.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0237",
+      "name": "Kapoera",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0237.png",
+      "description": "Après avoir effectué un poirier visant\nà désorienter son adversaire, il lui assène\ndes coups de pied furieux.",
+      "abilities": {
+        "regular": ["Intimidation", "Technicien"],
+        "hidden": "Impassible"
+      },
+      "weight": "48.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0238",
+      "name": "Lippouti",
+      "types": ["Glace", "Psy"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0238.png",
+      "description": "Ce Pokémon très curieux touche tout et n’importe\nquoi avec ses lèvres pour déterminer ce qu’il aime\net ce qu’il déteste.",
+      "abilities": {
+        "regular": ["Benêt", "Prédiction"],
+        "hidden": "Hydratation"
+      },
+      "weight": "6.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0239",
+      "name": "Élekid",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0239.png",
+      "description": "Il a encore du mal à emmagasiner l’électricité.\nPour s’en nourrir, il se faufile dans les maisons\nà la recherche de prises électriques.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Esprit Vital"
+      },
+      "weight": "23.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0240",
+      "name": "Magby",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0240.png",
+      "description": "Il vit près des volcans. À la fin de la journée,\nil se détend dans un bon bain de magma.",
+      "abilities": {
+        "regular": ["Corps Ardent"],
+        "hidden": "Esprit Vital"
+      },
+      "weight": "21.4 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0241",
+      "name": "Écrémeuh",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0241.png",
+      "description": "Sa santé décline si on ne le trait pas tous les jours.\nLe goût de son lait varie selon la saison.",
+      "abilities": {
+        "regular": ["Isograisse", "Querelleur"],
+        "hidden": "Herbivore"
+      },
+      "weight": "75.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0242",
+      "name": "Leuphorie",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0242.png",
+      "description": "Il pond d’étranges œufs remplis de bonheur.\nOn raconte que quiconque en mange un\ndevient aimable envers tout le monde.",
+      "abilities": {
+        "regular": ["Médic Nature", "Sérénité"],
+        "hidden": "Cœur Soin"
+      },
+      "weight": "46.8 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0243",
+      "name": "Raikou",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0243.png",
+      "description": "Raikou incarne la vitesse de l’éclair. Les rugissements de\nce Pokémon libèrent des ondes de choc provenant du ciel\net frappant le sol avec la puissance de la foudre.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Attention"
+      },
+      "weight": "178.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0244",
+      "name": "Entei",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0244.png",
+      "description": "Entei incarne la colère du magma. On pense que ce\nPokémon est né suite à l’éruption d’un volcan. Il peut\nenvoyer d’énormes jets de flammes qui calcinent tout\nce qu’ils touchent.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Attention"
+      },
+      "weight": "198.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0245",
+      "name": "Suicune",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0245.png",
+      "description": "Suicune incarne la tranquillité d’une source d’eau pure.\nIl parcourt les plaines avec grâce. Ce Pokémon a le pouvoir\nde purifier l’eau.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Attention"
+      },
+      "weight": "187.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0246",
+      "name": "Embrylex",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0246.png",
+      "description": "Il vit en se nourrissant de terre.\nAprès avoir dévoré une montagne, il s’endort\net entame sa croissance.",
+      "abilities": {
+        "regular": ["Cran"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "72.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0247",
+      "name": "Ymphect",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0247.png",
+      "description": "Malgré son état de chrysalide, il ne reste pas\nimmobile. Sous sa solide carapace, ses pattes\nsortent déjà.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": null
+      },
+      "weight": "152.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0248",
+      "name": "Tyranocif",
+      "types": ["Roche", "Ténèbres"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0248.png",
+      "description": "Son pas est si lourd qu’il fait trembler le sol\net s’écrouler même les plus grandes montagnes,\nce qui altère la topographie de la zone.",
+      "abilities": {
+        "regular": ["Sable Volant"],
+        "hidden": "Tension"
+      },
+      "weight": "202.0 kg",
+      "height": "2.0 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0249",
+      "name": "Lugia",
+      "types": ["Psy", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0249.png",
+      "description": "Les ailes de Lugia renferment une puissance dévastatrice.\nUn simple battement de ses ailes peut détruire de petites\nmaisons. Du coup, ce Pokémon a choisi de vivre loin de tout,\ndans les profondeurs océaniques.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Multiécaille"
+      },
+      "weight": "216.0 kg",
+      "height": "5.2 m"
+    },
+    {
+      "id": "0250",
+      "name": "Ho-Oh",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0250.png",
+      "description": "Les plumes de Ho-Oh brillent de sept couleurs selon\nl’orientation de son corps par rapport à la lumière.\nOn raconte que ces plumes portent bonheur. On dit\naussi que ce Pokémon vit au pied d’un arc-en-ciel.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "199.0 kg",
+      "height": "3.8 m"
+    },
+    {
+      "id": "0251",
+      "name": "Celebi",
+      "types": ["Psy", "Plante"],
+      "image": "public/pokemon/shiny/2 - JOHTO/0251.png",
+      "description": "Ce Pokémon venu du futur soigne les blessures\net donne de la force aux plantes.",
+      "abilities": {
+        "regular": ["Médic Nature"],
+        "hidden": null
+      },
+      "weight": "5.0 kg",
+      "height": "0.6 m"
+    }
+  ]
+}

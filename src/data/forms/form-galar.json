@@ -1,0 +1,252 @@
+{
+  "form": "GALAR",
+  "pokemons": [
+    {
+      "id": "0052-galar",
+      "name": "Miaouss (Galar)",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0052_galar.png",
+      "description": "Après avoir longtemps vécu avec une tribu de barbares des mers, il est devenu plus musclé, et des éléments métalliques lui ont poussé ici et là.",
+      "abilities": {
+        "regular": ["Ramassage", "Griffe Dure"],
+        "hidden": "Tension"
+      },
+      "weight": "7.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0077-galar",
+      "name": "Ponyta (Galar)",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0077_galar.png",
+      "description": "Sa petite corne possède des vertus curatives. Si une blessure n'est pas trop grave, il n'a qu'à la toucher de sa corne pour qu'elle guérisse.",
+      "abilities": {
+        "regular": ["Fuite", "Voile Pastel"],
+        "hidden": "Anticipation"
+      },
+      "weight": "24.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0078-galar",
+      "name": "Galopa (Galar)",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0078_galar.png",
+      "description": "Sa corne lui permet d'utiliser la capacité Coupe Psycho de façon dévastatrice, et même de percer des plaques d'acier renforcé.",
+      "abilities": {
+        "regular": ["Fuite", "Voile Pastel"],
+        "hidden": "Anticipation"
+      },
+      "weight": "80.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0079-galar",
+      "name": "Ramoloss (Galar)",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0079_galar.png",
+      "description": "Il pêche avec sa queue, mais à cause du parfum d'épices que celle-ci dégage, les proies ne mordent pas beaucoup.",
+      "abilities": {
+        "regular": ["Gloutonnerie", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "36.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0080-galar",
+      "name": "Flagadoss (Galar)",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0080_galar.png",
+      "description": "Lorsque Kokiyas mord plus fort pour aspirer plus de poison, il provoque des démangeaisons sur le bras de Flagadoss, qui se met à se débattre.",
+      "abilities": {
+        "regular": ["Gloutonnerie", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "70.5 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0083-galar",
+      "name": "Canarticho (Galar)",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0083_galar.png",
+      "description": "Les Canarticho ont pris cette forme à force de manier les poireaux de Galar, qui sont plus longs et plus larges que ceux des autres régions.",
+      "abilities": {
+        "regular": ["Impassible"],
+        "hidden": "Querelleur"
+      },
+      "weight": "42.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0110-galar",
+      "name": "Smogogo (Galar)",
+      "types": ["Poison", "Fée"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0110_galar.png",
+      "description": "Il aspire les particules polluantes dans l'air et excrète de l'air purifié.",
+      "abilities": {
+        "regular": ["Lévitation", "Gaz Inhibiteur"],
+        "hidden": "Créa-Brume"
+      },
+      "weight": "16.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0122-galar",
+      "name": "M. Mime (Galar)",
+      "types": ["Glace", "Psy"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0122_galar.png",
+      "description": "Les claquettes sont sa spécialité. En tapant contre le sol qu'il a gelé, il crée des barrières pour se protéger.",
+      "abilities": {
+        "regular": ["Esprit Vital", "Brise-Barrière"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "56.8 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0144-galar",
+      "name": "Artikodin (Galar)",
+      "types": ["Psy", "Vol"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0144_galar.png",
+      "description": "Les lames en forme de plumes qu'il crée grâce à ses pouvoirs psychiques peuvent trancher une épaisse plaque de fer comme si c'était du papier.",
+      "abilities": {
+        "regular": ["Battant"],
+        "hidden": null
+      },
+      "weight": "50.9 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0145-galar",
+      "name": "Électhor (Galar)",
+      "types": ["Combat", "Vol"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0145_galar.png",
+      "description": "Ses pattes sont assez robustes pour pulvériser un camion-benne d'un seul coup. On dit qu'il court dans les montagnes à plus de 300 km/h.",
+      "abilities": {
+        "regular": ["Acharné"],
+        "hidden": null
+      },
+      "weight": "58.2 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0146-galar",
+      "name": "Sulfura (Galar)",
+      "types": ["Ténèbres", "Vol"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0146_galar.png",
+      "description": "Son aura maléfique semblable à un brasier peut consumer intégralement l'âme de quiconque en est la cible.",
+      "abilities": {
+        "regular": ["Folle Furie"],
+        "hidden": null
+      },
+      "weight": "66.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0199-galar",
+      "name": "Roigada (Galar)",
+      "types": ["Poison", "Psy"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0199_galar.png",
+      "description": "Il mélange ce qu'il ingère aux toxines produites par son corps, tout en récitant de mystérieuses incantations, afin de créer un étrange breuvage.",
+      "abilities": {
+        "regular": ["Breuvage Suspect", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "79.5 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0222-galar",
+      "name": "Corayon (Galar)",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0222_galar.png",
+      "description": "Il s'agit d'un Corayon mort il y a longtemps à cause d'un changement brutal de l'environnement. Il vole l'essence vitale des gens avec ses branches.",
+      "abilities": {
+        "regular": ["Armurouillée"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "5.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0263-galar",
+      "name": "Zigzaton (Galar)",
+      "types": ["Ténèbres", "Normal"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0263_galar.png",
+      "description": "Il court partout sans s'arrêter. Quand il rencontre un autre Pokémon, il fait exprès de lui rentrer dedans pour le provoquer.",
+      "abilities": {
+        "regular": ["Ramassage", "Gloutonnerie"],
+        "hidden": "Pied Véloce"
+      },
+      "weight": "17.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0264-galar",
+      "name": "Linéon (Galar)",
+      "types": ["Ténèbres", "Normal"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0264_galar.png",
+      "description": "Il a un caractère extrêmement bagarreur. Il provoque ses adversaires sur un coup de tête, même s'ils sont bien plus grands et forts que lui.",
+      "abilities": {
+        "regular": ["Ramassage", "Gloutonnerie"],
+        "hidden": "Pied Véloce"
+      },
+      "weight": "32.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0554-galar",
+      "name": "Darumarond (Galar)",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0554_galar.png",
+      "description": "Plus leur corps est froid, plus ils sont en forme. Ils s'amusent en faisant des batailles de boules de neige, qu'ils créent en refroidissant leur souffle.",
+      "abilities": {
+        "regular": ["Agitation"],
+        "hidden": "Attention"
+      },
+      "weight": "40.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0555-galar",
+      "name": "Darumacho (Galar)",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0555_galar.png",
+      "description": "Il conserve sa nourriture dans la boule de neige sur sa tête. Les jours de blizzard, il descend dans les villages habités par les humains.",
+      "abilities": {
+        "regular": ["Entêtement"],
+        "hidden": "Mode Transe"
+      },
+      "weight": "120.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0562-galar",
+      "name": "Tutafeh (Galar)",
+      "types": ["Sol", "Spectre"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0562_galar.png",
+      "description": "Tutafeh a pris possession d'une tablette en argile où est gravée une malédiction. On dit qu'il aspire la rancune des autres pour en faire sa force.",
+      "abilities": {
+        "regular": ["Âme Vagabonde"],
+        "hidden": null
+      },
+      "weight": "1.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0618-galar",
+      "name": "Limonde (Galar)",
+      "types": ["Sol", "Acier"],
+      "image": "public/pokemon/shiny/FORMES GALAR/0618_galar.png",
+      "description": "Il se cache dans la boue et attire l'attention de ses proies avec son étrange bouche. Il les coince ensuite dans ses nageoires d'acier dentelées.",
+      "abilities": {
+        "regular": ["Mimétisme"],
+        "hidden": null
+      },
+      "weight": "20.5 kg",
+      "height": "0.7 m"
+    }
+  ]
+}

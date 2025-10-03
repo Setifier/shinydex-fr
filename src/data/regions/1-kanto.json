@@ -1,0 +1,2019 @@
+{
+  "region": "1 - KANTO",
+  "pokemons": [
+    {
+      "id": "0001",
+      "name": "Bulbizarre",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0001.png",
+      "description": "Quand il est jeune, il absorbe les nutriments\nconservés dans son dos pour grandir\net se développer.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Chlorophylle"
+      },
+      "weight": "6.9 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0002",
+      "name": "Herbizarre",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0002.png",
+      "description": "La lumière du soleil le rend plus fort et vigoureux.\nLe bulbe sur son dos grossit en conséquence.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Chlorophylle"
+      },
+      "weight": "13.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0003",
+      "name": "Florizarre",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0003.png",
+      "description": "Une douce senteur émane de sa plante.\nCette fragrance calme tous ceux qui sont\nengagés dans un combat.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Chlorophylle"
+      },
+      "weight": "100.0 kg",
+      "height": "2.0 m",
+      "forms": ["mega", "giga"]
+    },
+    {
+      "id": "0004",
+      "name": "Salamèche",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0004.png",
+      "description": "Depuis sa naissance, une petite flamme brûle\nau bout de sa queue. Si cette flamme s'éteint,\nla vie de ce Pokémon s'éteindra elle aussi.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "8.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0005",
+      "name": "Reptincel",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0005.png",
+      "description": "S'il s'excite pendant un combat, il crache\nde grandes flammes, brûlant tout ce qui\nse trouve aux alentours.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "19.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0006",
+      "name": "Dracaufeu",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0006.png",
+      "description": "Ses ailes lui permettent de voler à plus de\n1 400 m d'altitude. Ce Pokémon crache du feu\nà des températures très élevées.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "90.5 kg",
+      "height": "1.7 m",
+      "forms": ["mega-x", "mega-y", "giga"]
+    },
+    {
+      "id": "0007",
+      "name": "Carapuce",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0007.png",
+      "description": "S'il se sent menacé, il rétracte ses pattes dans\nsa carapace pour se protéger et crache de l'eau.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Cuvette"
+      },
+      "weight": "9.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0008",
+      "name": "Carabaffe",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0008.png",
+      "description": "Il se sert habilement de sa queue et de ses\noreilles touffues pour garder son équilibre\nsous l'eau.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Cuvette"
+      },
+      "weight": "22.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0009",
+      "name": "Tortank",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0009.png",
+      "description": "Les canons sur sa carapace tirent des jets d'eau\ncapables de percer même de l'acier trempé.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Cuvette"
+      },
+      "weight": "85.5 kg",
+      "height": "1.6 m",
+      "forms": ["mega", "giga"]
+    },
+    {
+      "id": "0010",
+      "name": "Chenipan",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/1 - KANTO/0010.png",
+      "description": "Ses petites pattes munies de ventouses\nlui permettent de monter les pentes\net de grimper aux murs sans se fatiguer.",
+      "abilities": {
+        "regular": ["Écran Poudre"],
+        "hidden": "Fuite"
+      },
+      "weight": "2.9 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0011",
+      "name": "Chrysacier",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/1 - KANTO/0011.png",
+      "description": "Bien que son corps soit entouré d'une carapace\nsolide, l'intérieur est si mou qu'il ne résisterait\npas à une attaque violente.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": null
+      },
+      "weight": "9.9 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0012",
+      "name": "Papilusion",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0012.png",
+      "description": "Il ramasse du nectar chaque jour et l'agglutine\nsur les poils de ses pattes pour le transporter\njusqu'à son nid.",
+      "abilities": {
+        "regular": ["Œil Composé"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "32.0 kg",
+      "height": "1.1 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0013",
+      "name": "Aspicot",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0013.png",
+      "description": "L'aiguillon sur son front est très pointu.\nIl se cache dans les bois et les hautes herbes,\noù il se gave de feuilles.",
+      "abilities": {
+        "regular": ["Écran Poudre"],
+        "hidden": "Fuite"
+      },
+      "weight": "3.2 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0014",
+      "name": "Coconfort",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0014.png",
+      "description": "Il peut à peine bouger. Quand il est menacé,\nil sort parfois son aiguillon pour empoisonner\nses ennemis.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": null
+      },
+      "weight": "10.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0015",
+      "name": "Dardargnan",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0015.png",
+      "description": "Il se sert de ses trois aiguillons empoisonnés\nsitués sur les pattes avant et l'abdomen pour\nattaquer sans relâche ses adversaires.",
+      "abilities": {
+        "regular": ["Essaim"],
+        "hidden": "Sniper"
+      },
+      "weight": "29.5 kg",
+      "height": "1.0 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0016",
+      "name": "Roucool",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0016.png",
+      "description": "De nature très docile, il préfère projeter\ndu sable pour se défendre plutôt que\ncontre-attaquer.",
+      "abilities": {
+        "regular": ["Regard Vif", "Pied Confus"],
+        "hidden": "Cœur de Coq"
+      },
+      "weight": "1.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0017",
+      "name": "Roucoups",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0017.png",
+      "description": "Ce Pokémon est très endurant. Il survole\nen permanence son territoire pour chasser.",
+      "abilities": {
+        "regular": ["Regard Vif", "Pied Confus"],
+        "hidden": "Cœur de Coq"
+      },
+      "weight": "30.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0018",
+      "name": "Roucarnage",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0018.png",
+      "description": "Ce Pokémon vole à Mach 2 quand il chasse.\nSes grandes serres sont des armes redoutables.",
+      "abilities": {
+        "regular": ["Regard Vif", "Pied Confus"],
+        "hidden": "Cœur de Coq"
+      },
+      "weight": "39.5 kg",
+      "height": "1.5 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0019",
+      "name": "Rattata",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0019.png",
+      "description": "Il peut ronger n'importe quoi avec ses\ndeux dents. Quand on en voit un, il y en\na certainement 40 dans le coin.",
+      "abilities": {
+        "regular": ["Fuite", "Cran"],
+        "hidden": "Agitation"
+      },
+      "weight": "3.5 kg",
+      "height": "0.3 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0020",
+      "name": "Rattatac",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0020.png",
+      "description": "Ses pattes arrière sont palmées. Il peut donc\npoursuivre sa proie dans les cours d'eau et\nles rivières.",
+      "abilities": {
+        "regular": ["Fuite", "Cran"],
+        "hidden": "Agitation"
+      },
+      "weight": "18.5 kg",
+      "height": "0.7 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0021",
+      "name": "Piafabec",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0021.png",
+      "description": "Il est incapable de voler à haute altitude.\nIl se déplace très vite pour protéger\nson territoire.",
+      "abilities": {
+        "regular": ["Regard Vif"],
+        "hidden": "Sniper"
+      },
+      "weight": "2.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0022",
+      "name": "Rapasdepic",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0022.png",
+      "description": "Un Pokémon très ancien. S'il perçoit un danger,\nil fuit instantanément à haute altitude.",
+      "abilities": {
+        "regular": ["Regard Vif"],
+        "hidden": "Sniper"
+      },
+      "weight": "38.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0023",
+      "name": "Abo",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0023.png",
+      "description": "Plus il est âgé, plus son corps est long.\nLa nuit, il s'enroule autour de branches d'arbres\npour se reposer.",
+      "abilities": {
+        "regular": ["Intimidation", "Mue"],
+        "hidden": "Tension"
+      },
+      "weight": "6.9 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0024",
+      "name": "Arbok",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0024.png",
+      "description": "Des études ont révélé que les marques\neffrayantes de son corps pouvaient former\nsix motifs différents.",
+      "abilities": {
+        "regular": ["Intimidation", "Mue"],
+        "hidden": "Tension"
+      },
+      "weight": "65.0 kg",
+      "height": "3.5 m"
+    },
+    {
+      "id": "0025",
+      "name": "Pikachu",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0025.png",
+      "description": "Les Pikachu se disent bonjour en se frottant\nla queue et en y faisant passer du courant\nélectrique.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "6.0 kg",
+      "height": "0.4 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0026",
+      "name": "Raichu",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0026.png",
+      "description": "Si ses joues sont à court d'énergie, il lève la queue\net capte l'électricité contenue dans l'atmosphère.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "30.0 kg",
+      "height": "0.8 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0027",
+      "name": "Sabelette",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0027.png",
+      "description": "Il creuse le sol pour construire sa tanière.\nRien n'arrête ses griffes acérées, pas même\nla roche la plus solide.",
+      "abilities": {
+        "regular": ["Voile Sable"],
+        "hidden": "Baigne Sable"
+      },
+      "weight": "12.0 kg",
+      "height": "0.6 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0028",
+      "name": "Sablaireau",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0028.png",
+      "description": "Il grimpe aux arbres grâce à ses griffes acérées\net fait tomber des Baies pour les Sabelette\nqui attendent au sol.",
+      "abilities": {
+        "regular": ["Voile Sable"],
+        "hidden": "Baigne Sable"
+      },
+      "weight": "29.5 kg",
+      "height": "1.0 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0029",
+      "name": "Nidoran♀",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0029.png",
+      "description": "Ce Pokémon se nourrit de Baies en les ouvrant\navec ses incisives. Le bout de sa corne est plus\narrondi que celui du mâle.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Agitation"
+      },
+      "weight": "7.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0030",
+      "name": "Nidorina",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0030.png",
+      "description": "Si un danger menace le groupe, ces Pokémon\nse réunissent et l'affrontent en émettant\ndes ultrasons en chœur.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Agitation"
+      },
+      "weight": "20.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0031",
+      "name": "Nidoqueen",
+      "types": ["Poison", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0031.png",
+      "description": "Ce Pokémon calme les petits de son espèce\nen les plaçant entre ses épines dorsales.\nDans ce cas, elles ne libèrent pas de poison.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "60.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0032",
+      "name": "Nidoran♂",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0032.png",
+      "description": "Malgré sa petite taille, il est très téméraire.\nAfin de protéger sa compagne, il est prêt à\nse battre et à risquer sa vie.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Agitation"
+      },
+      "weight": "9.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0033",
+      "name": "Nidorino",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0033.png",
+      "description": "D'un naturel nerveux, il est prompt à se battre.\nLorsqu'il a une montée d'adrénaline,\nla concentration de son poison augmente.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Agitation"
+      },
+      "weight": "19.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0034",
+      "name": "Nidoking",
+      "types": ["Poison", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0034.png",
+      "description": "Très fier de sa force, il se bat vigoureusement\nà l'aide de sa queue robuste et de sa corne\ncapable de briser le diamant.",
+      "abilities": {
+        "regular": ["Point Poison", "Rivalité"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "62.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0035",
+      "name": "Mélofée",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/1 - KANTO/0035.png",
+      "description": "Son comportement et son cri adorables font de\nlui un Pokémon très populaire. Malheureusement,\nil est difficile d'en croiser un spécimen.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Garde Magik"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "7.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0036",
+      "name": "Mélodelfe",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/1 - KANTO/0036.png",
+      "description": "Capable d'entendre une aiguille tomber à plus\nd'un kilomètre, ce Pokémon préfère les endroits\ncalmes et isolés.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Garde Magik"],
+        "hidden": "Inconscient"
+      },
+      "weight": "40.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0037",
+      "name": "Goupix",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0037.png",
+      "description": "Avec l'âge, la fourrure de ses six queues devient\nde plus en plus belle et soyeuse.\nElle est chaude au toucher.",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Sécheresse"
+      },
+      "weight": "9.9 kg",
+      "height": "0.6 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0038",
+      "name": "Feunard",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0038.png",
+      "description": "Il est très intelligent et rancunier.\nQuiconque attrape une de ses queues se fera\nmaudire pour 1 000 ans.",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Sécheresse"
+      },
+      "weight": "19.9 kg",
+      "height": "1.1 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0039",
+      "name": "Rondoudou",
+      "types": ["Normal", "Fée"],
+      "image": "public/pokemon/shiny/1 - KANTO/0039.png",
+      "description": "Il module librement la longueur d'onde de\nsa voix pour chanter une étrange mélodie\nqui endort à tous les coups celui qui l'écoute.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Battant"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "5.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0040",
+      "name": "Grodoudou",
+      "types": ["Normal", "Fée"],
+      "image": "public/pokemon/shiny/1 - KANTO/0040.png",
+      "description": "Sa fourrure soyeuse fait sa fierté. La touffe\nsur son front est si douce que la caresser\ndonne l'impression d'être sur un petit nuage.",
+      "abilities": {
+        "regular": ["Joli Sourire", "Battant"],
+        "hidden": "Fouille"
+      },
+      "weight": "12.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0041",
+      "name": "Nosferapti",
+      "types": ["Poison", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0041.png",
+      "description": "Ils vivent dans les grottes où la lumière du jour\nne perce jamais. Le matin, ils se blottissent les uns\ncontre les autres pour se réchauffer et dormir.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": "Infiltration"
+      },
+      "weight": "7.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0042",
+      "name": "Nosferalto",
+      "types": ["Poison", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0042.png",
+      "description": "Il se déplace habilement sur ses petites pattes,\ns'approche silencieusement de sa proie endormie,\net lui suce le sang à l'aide de ses crocs.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": "Infiltration"
+      },
+      "weight": "55.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0043",
+      "name": "Mystherbe",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0043.png",
+      "description": "Pendant la journée, il reste en sous-sol et évite\nle soleil. Il grandit en se baignant au clair de lune.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Fuite"
+      },
+      "weight": "5.4 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0044",
+      "name": "Ortide",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0044.png",
+      "description": "Ce qui semble être sa bave est en fait du nectar\ntrès collant. Si on le touche, il est très difficile\nde s'en dépêtrer.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Puanteur"
+      },
+      "weight": "8.6 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0045",
+      "name": "Rafflesia",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0045.png",
+      "description": "Plus ses pétales sont grands, plus il produit\nde pollen toxique. Toutefois, le poids de sa tête\nle fatigue.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Pose Spore"
+      },
+      "weight": "18.6 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0046",
+      "name": "Paras",
+      "types": ["Insecte", "Plante"],
+      "image": "public/pokemon/shiny/1 - KANTO/0046.png",
+      "description": "Il s'enfouit pour ronger des racines, mais ce sont\nles champignons sur son dos qui absorbent\npresque tous les nutriments.",
+      "abilities": {
+        "regular": ["Pose Spore", "Peau Sèche"],
+        "hidden": "Moiteur"
+      },
+      "weight": "5.4 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0047",
+      "name": "Parasect",
+      "types": ["Insecte", "Plante"],
+      "image": "public/pokemon/shiny/1 - KANTO/0047.png",
+      "description": "À force de voir son énergie aspirée, il semblerait\nque ce ne soit plus l'insecte qui réfléchisse,\nmais le champignon sur son dos.",
+      "abilities": {
+        "regular": ["Pose Spore", "Peau Sèche"],
+        "hidden": "Moiteur"
+      },
+      "weight": "29.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0048",
+      "name": "Mimitoss",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0048.png",
+      "description": "Ses grands yeux lui servent de radar. En pleine\nlumière, on peut y distinguer des facettes.",
+      "abilities": {
+        "regular": ["Œil Composé", "Lentiteintée"],
+        "hidden": "Fuite"
+      },
+      "weight": "30.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0049",
+      "name": "Aéromite",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0049.png",
+      "description": "Les écailles de ses ailes sont presque impossibles\nà retirer lorsqu'elles se collent à la peau,\net elles libèrent un poison violent au contact.",
+      "abilities": {
+        "regular": ["Écran Poudre", "Lentiteintée"],
+        "hidden": "Peau Miracle"
+      },
+      "weight": "12.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0050",
+      "name": "Taupiqueur",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0050.png",
+      "description": "Ce Pokémon creuse sous terre à faible profondeur.\nLa terre qu'il laisse dans son sillage le rend facile\nà repérer.",
+      "abilities": {
+        "regular": ["Voile Sable", "Piège Sable"],
+        "hidden": "Force Sable"
+      },
+      "weight": "0.8 kg",
+      "height": "0.2 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0051",
+      "name": "Triopikeur",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0051.png",
+      "description": "Ce trio de Taupiqueur est capable de creuser\njusqu'à 100 km sous terre, vers l'inconnu.",
+      "abilities": {
+        "regular": ["Voile Sable", "Piège Sable"],
+        "hidden": "Force Sable"
+      },
+      "weight": "33.3 kg",
+      "height": "0.7 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0052",
+      "name": "Miaouss",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0052.png",
+      "description": "Tatillon sur la propreté de la pièce sur son front,\nil se lave la figure avec grand soin. Il ne s'entend\npas avec les Miaouss de Galar.",
+      "abilities": {
+        "regular": ["Ramassage", "Technicien"],
+        "hidden": "Tension"
+      },
+      "weight": "4.2 kg",
+      "height": "0.4 m",
+      "forms": ["alola", "galar", "giga"]
+    },
+    {
+      "id": "0053",
+      "name": "Persian",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0053.png",
+      "description": "Il se comporte avec grâce et élégance,\net ne s'entend pas avec les rustres Berserkatt :\nles deux espèces se méprisent.",
+      "abilities": {
+        "regular": ["Échauffement", "Technicien"],
+        "hidden": "Tension"
+      },
+      "weight": "32.0 kg",
+      "height": "1.0 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0054",
+      "name": "Psykokwak",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0054.png",
+      "description": "Sa migraine s'intensifie à mesure que son stress\nmonte. Il libère une force psychique puissante\nqui terrasse tous ceux qui l'entourent.",
+      "abilities": {
+        "regular": ["Moiteur", "Ciel Gris"],
+        "hidden": "Glissade"
+      },
+      "weight": "19.6 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0055",
+      "name": "Akwakwak",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0055.png",
+      "description": "D'après de vieilles légendes, ce Pokémon\nentraînait au fond de l'eau tous ceux\nqui osaient souiller sa rivière.",
+      "abilities": {
+        "regular": ["Moiteur", "Ciel Gris"],
+        "hidden": "Glissade"
+      },
+      "weight": "76.6 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0056",
+      "name": "Férosinge",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0056.png",
+      "description": "Agile et rapide, ce Pokémon vit dans les arbres.\nIl s'énerve facilement et s'attaque à tout ce qui\nbouge quand il est en colère.",
+      "abilities": {
+        "regular": ["Esprit Vital", "Colérique"],
+        "hidden": "Acharné"
+      },
+      "weight": "28.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0057",
+      "name": "Colossinge",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0057.png",
+      "description": "Sa fureur prend fin quand il n'a plus personne\nà frapper. Il est difficile d'en être témoin.",
+      "abilities": {
+        "regular": ["Esprit Vital", "Colérique"],
+        "hidden": "Acharné"
+      },
+      "weight": "32.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0058",
+      "name": "Caninos",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0058.png",
+      "description": "Très fidèle, il aboie de toutes ses forces pour\nprotéger son Dresseur d'Origine quand un danger\nle guette.",
+      "abilities": {
+        "regular": ["Intimidation", "Torche"],
+        "hidden": "Cœur Noble"
+      },
+      "weight": "19.0 kg",
+      "height": "0.7 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0059",
+      "name": "Arcanin",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0059.png",
+      "description": "Ce Pokémon est admiré depuis toujours pour\nsa beauté. Il court avec tellement de légèreté\nqu'on dirait qu'il vole.",
+      "abilities": {
+        "regular": ["Intimidation", "Torche"],
+        "hidden": "Cœur Noble"
+      },
+      "weight": "155.0 kg",
+      "height": "1.9 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0060",
+      "name": "Ptitard",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0060.png",
+      "description": "Dans les rivières au courant puissant, il se sert\nde ses lèvres épaisses comme d’une ventouse\npour s’accrocher aux rochers.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Moiteur"],
+        "hidden": "Glissade"
+      },
+      "weight": "12.4 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0061",
+      "name": "Têtarte",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0061.png",
+      "description": "Il sécrète une sorte de mucus huileux qui lui\npermet d’échapper aux ennemis qui tentent\nde l’attraper.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Moiteur"],
+        "hidden": "Glissade"
+      },
+      "weight": "20.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0062",
+      "name": "Tartard",
+      "types": ["Eau", "Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0062.png",
+      "description": "Aussi habile à la nage qu’au combat, il peut\ndonner de vigoureux coups de poing avec\nses bras musclés.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Moiteur"],
+        "hidden": "Glissade"
+      },
+      "weight": "54.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0063",
+      "name": "Abra",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0063.png",
+      "description": "Il peut se téléporter en dormant. On dit que plus\nson sommeil est profond, plus il se téléporte loin.",
+      "abilities": {
+        "regular": ["Synchro", "Attention"],
+        "hidden": "Garde Magik"
+      },
+      "weight": "19.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0064",
+      "name": "Kadabra",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0064.png",
+      "description": "Incroyablement doué en télékinésie, il concentre\nson énergie psychique dans l’étoile sur son front\nen prévision de son évolution.",
+      "abilities": {
+        "regular": ["Synchro", "Attention"],
+        "hidden": "Garde Magik"
+      },
+      "weight": "56.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0065",
+      "name": "Alakazam",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0065.png",
+      "description": "Il dispose d’immenses pouvoirs psychiques.\nOn raconte qu’il s’en est servi afin de créer\nles cuillères qu’il tient dans chaque main.",
+      "abilities": {
+        "regular": ["Synchro", "Attention"],
+        "hidden": "Garde Magik"
+      },
+      "weight": "48.0 kg",
+      "height": "1.5 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0066",
+      "name": "Machoc",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0066.png",
+      "description": "Il essaie de dépenser son énergie débordante\nen soulevant des rochers, ce qui le rend encore\nplus fort.",
+      "abilities": {
+        "regular": ["Cran", "Annule Garde"],
+        "hidden": "Impassible"
+      },
+      "weight": "19.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0067",
+      "name": "Machopeur",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0067.png",
+      "description": "Son corps robuste ne se fatigue jamais.\nIl n’hésite pas à aider les gens lorsqu’il s’agit\nde soulever des objets très lourds.",
+      "abilities": {
+        "regular": ["Cran", "Annule Garde"],
+        "hidden": "Impassible"
+      },
+      "weight": "70.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0068",
+      "name": "Mackogneur",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0068.png",
+      "description": "Il enchaîne les coups de poing avec ses quatre\nbras à une vitesse surprenante.",
+      "abilities": {
+        "regular": ["Cran", "Annule Garde"],
+        "hidden": "Impassible"
+      },
+      "weight": "130.0 kg",
+      "height": "1.6 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0069",
+      "name": "Chétiflor",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0069.png",
+      "description": "Il préfère les endroits chauds et humides.\nIl capture les Pokémon Insecte avec ses lianes\npour les dévorer.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "4.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0070",
+      "name": "Boustiflor",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0070.png",
+      "description": "Quand il a faim, il avale tout ce qui bouge,\npuis achève ses proies avec de l’acide.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "6.4 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0071",
+      "name": "Empiflor",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0071.png",
+      "description": "Il attire ses proies avec une odeur de miel\net les avale tout entières. Il les digère en un\njour seulement, les os y compris.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "15.5 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0072",
+      "name": "Tentacool",
+      "types": ["Eau", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0072.png",
+      "description": "Il est presque totalement composé d’eau.\nLorsqu’il s’immerge dans les flots, son corps se\nfond dans l’eau, ce qui le rend presque invisible.",
+      "abilities": {
+        "regular": ["Corps Sain", "Suintement"],
+        "hidden": "Cuvette"
+      },
+      "weight": "45.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0073",
+      "name": "Tentacruel",
+      "types": ["Eau", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0073.png",
+      "description": "Il peut allonger ses 80 tentacules à volonté et\nles utiliser comme un filet pour attraper sa proie\net la transpercer de ses pics empoisonnés.",
+      "abilities": {
+        "regular": ["Corps Sain", "Suintement"],
+        "hidden": "Cuvette"
+      },
+      "weight": "55.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0074",
+      "name": "Racaillou",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0074.png",
+      "description": "On en trouve près des sentiers de montagne.\nSi vous marchez dessus par inadvertance,\nils s’énervent et attaquent.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Fermeté"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "20.0 kg",
+      "height": "0.4 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0075",
+      "name": "Gravalanch",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0075.png",
+      "description": "Il dévale les sentiers de montagne et traverse\nles obstacles en les pulvérisant.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Fermeté"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "105.0 kg",
+      "height": "1.0 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0076",
+      "name": "Grolem",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0076.png",
+      "description": "Juste après la mue, son corps est blanc et\ntendre. Au contact de l’air, sa peau se solidifie\net forme une armure.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Fermeté"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "300.0 kg",
+      "height": "1.4 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0077",
+      "name": "Ponyta",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0077.png",
+      "description": "Il semblerait qu’une fois qu’un Dresseur a gagné\nla confiance de Ponyta, sa crinière enflammée\nne le brûle plus au toucher.",
+      "abilities": {
+        "regular": ["Fuite", "Torche"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "30.0 kg",
+      "height": "1.0 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0078",
+      "name": "Galopa",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0078.png",
+      "description": "Au sein d’un troupeau, c’est le plus rapide qui\ndevient le chef. Il choisit les lieux où se rendre\net détermine la vitesse de galop.",
+      "abilities": {
+        "regular": ["Fuite", "Torche"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "95.0 kg",
+      "height": "1.7 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0079",
+      "name": "Ramoloss",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0079.png",
+      "description": "Lorsqu’il trempe le bout de sa queue dans l’eau,\nune substance sucrée s’en dégage. Il s’en sert\npour appâter ses proies quand il pêche.",
+      "abilities": {
+        "regular": ["Benêt", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "36.0 kg",
+      "height": "1.2 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0080",
+      "name": "Flagadoss",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0080.png",
+      "description": "La morsure du Kokiyas l’a tellement surpris\nqu’il est devenu bipède. Il paraît qu’il redevient\nun Ramoloss si le Kokiyas lâche prise.",
+      "abilities": {
+        "regular": ["Benêt", "Tempo Perso"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "78.5 kg",
+      "height": "1.6 m",
+      "forms": ["mega", "galar"]
+    },
+    {
+      "id": "0081",
+      "name": "Magnéti",
+      "types": ["Électrik", "Acier"],
+      "image": "public/pokemon/shiny/1 - KANTO/0081.png",
+      "description": "Il se nourrit d’électricité et flotte dans les airs\nen libérant des ondes électromagnétiques avec\nles aimants situés de part et d’autre de son corps.",
+      "abilities": {
+        "regular": ["Magnépiège", "Fermeté"],
+        "hidden": "Analyste"
+      },
+      "weight": "6.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0082",
+      "name": "Magnéton",
+      "types": ["Électrik", "Acier"],
+      "image": "public/pokemon/shiny/1 - KANTO/0082.png",
+      "description": "Il émet constamment une énergie magnétique\npuissante qui interfère avec la grande majorité\ndes ordinateurs dont il s’approche.",
+      "abilities": {
+        "regular": ["Magnépiège", "Fermeté"],
+        "hidden": "Analyste"
+      },
+      "weight": "60.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0083",
+      "name": "Canarticho",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0083.png",
+      "description": "Il se bat à l’aide de sa tige. Il existe plusieurs\nécoles quant à son maniement.",
+      "abilities": {
+        "regular": ["Regard Vif", "Attention"],
+        "hidden": "Acharné"
+      },
+      "weight": "15.0 kg",
+      "height": "0.8 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0084",
+      "name": "Doduo",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0084.png",
+      "description": "Ses petites ailes ne lui permettent pas de voler,\nmais grâce à ses puissantes pattes, il peut courir\ntrès rapidement.",
+      "abilities": {
+        "regular": ["Fuite", "Matinal"],
+        "hidden": "Pied Confus"
+      },
+      "weight": "39.2 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0085",
+      "name": "Dodrio",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0085.png",
+      "description": "Quand une des têtes de Doduo se divise,\nil devient un Dodrio capable de courir à\n60 km/h.",
+      "abilities": {
+        "regular": ["Fuite", "Matinal"],
+        "hidden": "Pied Confus"
+      },
+      "weight": "85.2 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0086",
+      "name": "Otaria",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0086.png",
+      "description": "Il est à l’aise dans les endroits gelés.\nIl nage avec plaisir dans de l’eau à -10 ºC.",
+      "abilities": {
+        "regular": ["Isograisse", "Hydratation"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "90.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0087",
+      "name": "Lamantine",
+      "types": ["Eau", "Glace"],
+      "image": "public/pokemon/shiny/1 - KANTO/0087.png",
+      "description": "Son corps entier est aussi blanc que la neige.\nIl résiste bien au froid et peut même nager\nau milieu des icebergs.",
+      "abilities": {
+        "regular": ["Isograisse", "Hydratation"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "120.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0088",
+      "name": "Tadmorv",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0088.png",
+      "description": "Ce tas de fange sent si mauvais qu’il est\nimpossible de le toucher. Plus rien ne pousse\ndans son sillage putride.",
+      "abilities": {
+        "regular": ["Puanteur", "Glu"],
+        "hidden": "Toxitouche"
+      },
+      "weight": "30.0 kg",
+      "height": "0.9 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0089",
+      "name": "Grotadmorv",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0089.png",
+      "description": "Son odeur immonde provoque des\névanouissements. Son odorat s’est atrophié\nà cause de sa propre puanteur.",
+      "abilities": {
+        "regular": ["Puanteur", "Glu"],
+        "hidden": "Toxitouche"
+      },
+      "weight": "30.0 kg",
+      "height": "1.2 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0090",
+      "name": "Kokiyas",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0090.png",
+      "description": "Sa coquille est si résistante qu’elle repousse\ntoutes les attaques. En revanche, il est vulnérable\nquand celle-ci s’ouvre.",
+      "abilities": {
+        "regular": ["Coque Armure", "Multi-Coups"],
+        "hidden": "Envelocape"
+      },
+      "weight": "4.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0091",
+      "name": "Crustabri",
+      "types": ["Eau", "Glace"],
+      "image": "public/pokemon/shiny/1 - KANTO/0091.png",
+      "description": "Quand il referme sa coquille, il est impossible de\nla rouvrir, même avec une force hors du commun.",
+      "abilities": {
+        "regular": ["Coque Armure", "Multi-Coups"],
+        "hidden": "Envelocape"
+      },
+      "weight": "132.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0092",
+      "name": "Fantominus",
+      "types": ["Spectre", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0092.png",
+      "description": "Son corps gazéiforme lui permet de se glisser\nn’importe où, mais au moindre coup de vent,\nil s’envole.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "0.1 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0093",
+      "name": "Spectrum",
+      "types": ["Spectre", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0093.png",
+      "description": "On dit que lorsque quelqu’un a l’impression\nd’être surveillé dans le noir, c’est sûrement\nqu’un Spectrum se trouve dans les parages.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "0.1 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0094",
+      "name": "Ectoplasma",
+      "types": ["Spectre", "Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0094.png",
+      "description": "On dit qu’Ectoplasma surgit parfois des ténèbres\npour prendre la vie des personnes égarées\nen montagne.",
+      "abilities": {
+        "regular": ["Corps Maudit"],
+        "hidden": null
+      },
+      "weight": "40.5 kg",
+      "height": "1.5 m",
+      "forms": ["mega", "giga"]
+    },
+    {
+      "id": "0095",
+      "name": "Onix",
+      "types": ["Roche", "Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0095.png",
+      "description": "Il creuse dans le sol à une vitesse de 80 km/h\nen contorsionnant son immense corps de pierre.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Fermeté"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "210.0 kg",
+      "height": "8.8 m"
+    },
+    {
+      "id": "0096",
+      "name": "Soporifik",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0096.png",
+      "description": "Si vous dormez tout le temps près de lui,\nil partagera parfois avec vous les rêves\nqu’il a dévorés par le passé.",
+      "abilities": {
+        "regular": ["Insomnia", "Prédiction"],
+        "hidden": "Attention"
+      },
+      "weight": "32.4 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0097",
+      "name": "Hypnomade",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0097.png",
+      "description": "Évitez son regard quand vous en croisez un,\nou il pourrait essayer de vous hypnotiser\navec son pendule.",
+      "abilities": {
+        "regular": ["Insomnia", "Prédiction"],
+        "hidden": "Attention"
+      },
+      "weight": "75.6 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0098",
+      "name": "Krabby",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0098.png",
+      "description": "S’il se sent menacé, il se cache derrière les bulles\némises par sa bouche pour paraître plus gros.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Coque Armure"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "6.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0099",
+      "name": "Krabboss",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0099.png",
+      "description": "Sa pince gigantesque possède une puissance\ndestructrice phénoménale, mais hors combat,\nson poids devient un handicap.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Coque Armure"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "60.0 kg",
+      "height": "1.3 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0100",
+      "name": "Voltorbe",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0100.png",
+      "description": "On dit qu’il se déguise en Poké Ball.\nIl s’autodétruit à la moindre stimulation.",
+      "abilities": {
+        "regular": ["Anti-Bruit", "Statik"],
+        "hidden": "Boom Final"
+      },
+      "weight": "10.4 kg",
+      "height": "0.5 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0101",
+      "name": "Électrode",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0101.png",
+      "description": "Il stocke de l’énergie électrique dans son corps,\nce qui le rend instable et explosif.",
+      "abilities": {
+        "regular": ["Anti-Bruit", "Statik"],
+        "hidden": "Boom Final"
+      },
+      "weight": "66.6 kg",
+      "height": "1.2 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0102",
+      "name": "Noeunoeuf",
+      "types": ["Plante", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0102.png",
+      "description": "Il a besoin d’être constitué de ses six membres\npour rester calme. Sitôt qu’il en manque un,\nil lui prend soudainement l’envie de fuir.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Récolte"
+      },
+      "weight": "2.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0103",
+      "name": "Noadkoko",
+      "types": ["Plante", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0103.png",
+      "description": "Les attaques psychiques lancées par ses trois\ntêtes à l’unisson sont très puissantes. Par temps\nnuageux, ses mouvements sont plus lents.",
+      "abilities": {
+        "regular": ["Chlorophylle"],
+        "hidden": "Récolte"
+      },
+      "weight": "120.0 kg",
+      "height": "2.0 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0104",
+      "name": "Osselait",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0104.png",
+      "description": "Il porte sur sa tête le crâne de sa défunte mère.\nIl lui arrive de rêver d’elle et de pleurer, mais\nchaque larme qu’il verse le rend plus fort.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Paratonnerre"],
+        "hidden": "Armurbaston"
+      },
+      "weight": "6.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0105",
+      "name": "Ossatueur",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0105.png",
+      "description": "En évoluant, il est devenu violent, et le crâne\nde sa mère qu’il portait a fusionné avec sa tête.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Paratonnerre"],
+        "hidden": "Armurbaston"
+      },
+      "weight": "45.0 kg",
+      "height": "1.0 m",
+      "forms": ["alola"]
+    },
+    {
+      "id": "0106",
+      "name": "Kicklee",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0106.png",
+      "description": "Kicklee peut rétracter et étendre ses jambes\nà sa guise. La formidable allonge dont il dispose\nlui permet de frapper des adversaires éloignés.",
+      "abilities": {
+        "regular": ["Échauffement", "Téméraire"],
+        "hidden": "Délestage"
+      },
+      "weight": "49.8 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0107",
+      "name": "Tygnon",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/1 - KANTO/0107.png",
+      "description": "Ses poings fendent l’air, mais il se fatigue au bout\nde trois minutes à enchaîner les coups.",
+      "abilities": {
+        "regular": ["Regard Vif", "Poing de Fer"],
+        "hidden": "Attention"
+      },
+      "weight": "50.2 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0108",
+      "name": "Excelangue",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0108.png",
+      "description": "Excelangue se nourrit essentiellement de Pokémon\nInsecte. Il lèche ses ennemis avec sa longue langue\npour les paralyser, puis les avale tout rond.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Benêt"],
+        "hidden": "Ciel Gris"
+      },
+      "weight": "65.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0109",
+      "name": "Smogo",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0109.png",
+      "description": "On raconte qu’il y a longtemps, ces Pokémon\namateurs d’air pollué étaient beaucoup plus\nnombreux à Galar.",
+      "abilities": {
+        "regular": ["Lévitation", "Gaz Inhibiteur"],
+        "hidden": "Puanteur"
+      },
+      "weight": "1.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0110",
+      "name": "Smogogo",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/1 - KANTO/0110.png",
+      "description": "Il ne peut pas aspirer autant d’air que le Smogogo\nde Galar, mais le poison qu’il produit est plus\npuissant.",
+      "abilities": {
+        "regular": ["Lévitation", "Gaz Inhibiteur"],
+        "hidden": "Puanteur"
+      },
+      "weight": "9.5 kg",
+      "height": "1.2 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0111",
+      "name": "Rhinocorne",
+      "types": ["Sol", "Roche"],
+      "image": "public/pokemon/shiny/1 - KANTO/0111.png",
+      "description": "Il ne peut se souvenir que d’une chose à la fois.\nS’il se met à courir, il en oublie tout de suite\nla raison.",
+      "abilities": {
+        "regular": ["Paratonnerre", "Tête de Roc"],
+        "hidden": "Téméraire"
+      },
+      "weight": "115.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0112",
+      "name": "Rhinoféros",
+      "types": ["Sol", "Roche"],
+      "image": "public/pokemon/shiny/1 - KANTO/0112.png",
+      "description": "Son épiderme est si épais qu’il lui permet même\nde survivre dans du magma d’une température\nde 2 000 °C.",
+      "abilities": {
+        "regular": ["Paratonnerre", "Tête de Roc"],
+        "hidden": "Téméraire"
+      },
+      "weight": "120.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0113",
+      "name": "Leveinard",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0113.png",
+      "description": "Ce Pokémon lent à l’origine a appris à fuir\nplus vite pour protéger ses œufs des voleurs.",
+      "abilities": {
+        "regular": ["Médic Nature", "Sérénité"],
+        "hidden": "Cœur Soin"
+      },
+      "weight": "34.6 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0114",
+      "name": "Saquedeneu",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/1 - KANTO/0114.png",
+      "description": "Ses lianes ont une odeur particulière.\nElles servent d’herbes aromatiques\ndans une certaine zone de Galar.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Feuille Garde"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "35.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0115",
+      "name": "Kangourex",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0115.png",
+      "description": "Certains documents certifient que les Kangourex\nsans progéniture élevaient des enfants humains\nen détresse.",
+      "abilities": {
+        "regular": ["Matinal", "Querelleur"],
+        "hidden": "Attention"
+      },
+      "weight": "80.0 kg",
+      "height": "2.2 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0116",
+      "name": "Hypotrempe",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0116.png",
+      "description": "Hypotrempe crée des tourbillons en dansant\nsous l’eau. Il s’amuse à comparer la taille des\nremous qu’il fait avec ceux de ses congénères.",
+      "abilities": {
+        "regular": ["Glissade", "Sniper"],
+        "hidden": "Moiteur"
+      },
+      "weight": "8.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0117",
+      "name": "Hypocéan",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0117.png",
+      "description": "Sa puissance de succion est si forte qu’il peut\naspirer en un instant ses proies pour les manger,\nmême si elles sont plus grosses que sa bouche.",
+      "abilities": {
+        "regular": ["Point Poison", "Sniper"],
+        "hidden": "Moiteur"
+      },
+      "weight": "25.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0118",
+      "name": "Poissirène",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0118.png",
+      "description": "Ses nageoires dorsales et pectorales sont très\ndéveloppées. Elles lui permettent de nager\nà une vitesse de cinq nœuds.",
+      "abilities": {
+        "regular": ["Glissade", "Ignifu-Voile"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "15.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0119",
+      "name": "Poissoroy",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0119.png",
+      "description": "S’il fait des trous dans les rochers avec sa corne\npour bâtir son nid, c’est pour éviter que ses Œufs\nne soient emportés par les flots.",
+      "abilities": {
+        "regular": ["Glissade", "Ignifu-Voile"],
+        "hidden": "Paratonnerre"
+      },
+      "weight": "39.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0120",
+      "name": "Stari",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0120.png",
+      "description": "Il ne se soucie guère des Pokémon poissons\nqui viennent le grignoter, car même si son corps\nest déchiqueté, il se régénère aussitôt.",
+      "abilities": {
+        "regular": ["Luminescence", "Médic Nature"],
+        "hidden": "Analyste"
+      },
+      "weight": "34.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0121",
+      "name": "Staross",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0121.png",
+      "description": "Il aspire du plancton quand il nage dans la mer\nen faisant tourner son corps à grande vitesse.",
+      "abilities": {
+        "regular": ["Luminescence", "Médic Nature"],
+        "hidden": "Analyste"
+      },
+      "weight": "80.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0122",
+      "name": "M. Mime",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/1 - KANTO/0122.png",
+      "description": "Son talent pour le mime est indéniable.\nIl émet des ondes du bout des doigts pour créer\nun mur qui le protège de nombreuses attaques.",
+      "abilities": {
+        "regular": ["Anti-Bruit", "Filtre"],
+        "hidden": "Technicien"
+      },
+      "weight": "54.5 kg",
+      "height": "1.3 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0123",
+      "name": "Insécateur",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0123.png",
+      "description": "Si l’on voit un grand nombre d’arbres abattus au\nmême endroit dans une forêt, cela signifie que\nl’on se trouve sur le territoire d’un Insécateur.",
+      "abilities": {
+        "regular": ["Essaim", "Technicien"],
+        "hidden": "Impassible"
+      },
+      "weight": "56.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0124",
+      "name": "Lippoutou",
+      "types": ["Glace", "Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0124.png",
+      "description": "Les Lippoutou vivant à Galar sont souvent dotés\nd’une belle voix cristalline, ce qui leur vaut\nd’attirer des fans.",
+      "abilities": {
+        "regular": ["Benêt", "Prédiction"],
+        "hidden": "Peau Sèche"
+      },
+      "weight": "40.6 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0125",
+      "name": "Élektek",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0125.png",
+      "description": "Quand un orage approche, ils se réunissent\ntous autour d’un grand arbre et attendent\npatiemment que la foudre s’abatte.",
+      "abilities": {
+        "regular": ["Statik"],
+        "hidden": "Esprit Vital"
+      },
+      "weight": "30.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0126",
+      "name": "Magmar",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0126.png",
+      "description": "Tout son corps est en combustion permanente.\nIl est craint, car on dit qu’il cause des incendies.",
+      "abilities": {
+        "regular": ["Corps Ardent"],
+        "hidden": "Esprit Vital"
+      },
+      "weight": "44.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0127",
+      "name": "Scarabrute",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/1 - KANTO/0127.png",
+      "description": "Une fois sa proie enserrée entre ses cornes,\ndeux choix s’offrent à lui : la couper en deux\nou la projeter au loin de toutes ses forces.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Brise Moule"],
+        "hidden": "Impudence"
+      },
+      "weight": "55.0 kg",
+      "height": "1.5 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0128",
+      "name": "Tauros",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0128.png",
+      "description": "Les Tauros vivant à Galar ont un tempérament\nviolent et ne tolèrent pas que les êtres humains\nmontent sur leur dos.",
+      "abilities": {
+        "regular": ["Intimidation", "Colérique"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "88.4 kg",
+      "height": "1.4 m",
+      "forms": ["paldea"]
+    },
+    {
+      "id": "0129",
+      "name": "Magicarpe",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0129.png",
+      "description": "Ce Pokémon est si faible que, dans les eaux\nà forts courants, il se contente de se laisser\nporter lamentablement.",
+      "abilities": {
+        "regular": ["Glissade"],
+        "hidden": "Phobique"
+      },
+      "weight": "10.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0130",
+      "name": "Léviator",
+      "types": ["Eau", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0130.png",
+      "description": "Quand il se laisse emporter par la rage,\nmême la plus violente des tempêtes ne peut\nl’empêcher de détruire tout ce qui l’entoure.",
+      "abilities": {
+        "regular": ["Intimidation"],
+        "hidden": "Impudence"
+      },
+      "weight": "235.0 kg",
+      "height": "6.5 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0131",
+      "name": "Lokhlass",
+      "types": ["Eau", "Glace"],
+      "image": "public/pokemon/shiny/1 - KANTO/0131.png",
+      "description": "Il résiste bien aux très basses températures\net peut nager dans des mers glaciales.\nSa peau est lisse et légèrement froide au toucher.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Coque Armure"],
+        "hidden": "Hydratation"
+      },
+      "weight": "220.0 kg",
+      "height": "2.5 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0132",
+      "name": "Métamorph",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0132.png",
+      "description": "Quand il rencontre l’un de ses semblables,\nil s’agite avec plus de vivacité que d’habitude\npour adopter exactement la même forme que lui.",
+      "abilities": {
+        "regular": ["Échauffement"],
+        "hidden": "Imposteur"
+      },
+      "weight": "4.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0133",
+      "name": "Évoli",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0133.png",
+      "description": "L’ADN de ce Pokémon très particulier recèle\nde nombreuses possibilités d’évolution.",
+      "abilities": {
+        "regular": ["Fuite", "Adaptabilité"],
+        "hidden": "Anticipation"
+      },
+      "weight": "6.5 kg",
+      "height": "0.3 m",
+      "forms": ["giga"]
+    },
+    {
+      "id": "0134",
+      "name": "Aquali",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0134.png",
+      "description": "Sa structure cellulaire est similaire à la composition\nmoléculaire de l’eau. Une fois dans cet élément,\nil devient indétectable à l’œil nu.",
+      "abilities": {
+        "regular": ["Absorbe-Eau"],
+        "hidden": "Hydratation"
+      },
+      "weight": "29.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0135",
+      "name": "Voltali",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/1 - KANTO/0135.png",
+      "description": "Il se charge d’ions négatifs contenus dans l’air\npour envoyer des décharges d’environ\n10 000 volts.",
+      "abilities": {
+        "regular": ["Absorbe-Volt"],
+        "hidden": "Pied Véloce"
+      },
+      "weight": "24.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0136",
+      "name": "Pyroli",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/1 - KANTO/0136.png",
+      "description": "Il emmagasine de l’air dans sa poche de flammes\net le chauffe à une température de 1 700 °C.",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Cran"
+      },
+      "weight": "25.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0137",
+      "name": "Porygon",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0137.png",
+      "description": "Ces dernières années, il s’est rendu très utile\ndans le cyberespace, qu’il arpente pour s’assurer\nqu’il n’y a aucune donnée suspecte.",
+      "abilities": {
+        "regular": ["Calque", "Télécharge"],
+        "hidden": "Analyste"
+      },
+      "weight": "36.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0138",
+      "name": "Amonita",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0138.png",
+      "description": "Un Pokémon préhistorique aujourd’hui disparu.\nIl semble flotter lorsqu’il nage en brassant l’eau\navec ses dix tentacules.",
+      "abilities": {
+        "regular": ["Glissade", "Coque Armure"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "7.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0139",
+      "name": "Amonistar",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0139.png",
+      "description": "Ses crocs sont capables de broyer la roche,\nmais il ne peut s’attaquer qu’aux proies\nà portée de ses tentacules.",
+      "abilities": {
+        "regular": ["Glissade", "Coque Armure"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "35.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0140",
+      "name": "Kabuto",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0140.png",
+      "description": "On raconte qu’ils se seraient éteints,\nmais apparemment, on peut souvent\nen croiser dans une zone particulière.",
+      "abilities": {
+        "regular": ["Glissade", "Armurbaston"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "11.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0141",
+      "name": "Kabutops",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/1 - KANTO/0141.png",
+      "description": "Nul ne sait pourquoi il s’est éteint.\nCe Pokémon préhistorique féroce\nvivait dans les mers chaudes.",
+      "abilities": {
+        "regular": ["Glissade", "Armurbaston"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "40.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0142",
+      "name": "Ptéra",
+      "types": ["Roche", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0142.png",
+      "description": "Sa dentition semblable à une scie peut même\nbroyer la peau des Pokémon Acier.",
+      "abilities": {
+        "regular": ["Tête de Roc", "Pression"],
+        "hidden": "Tension"
+      },
+      "weight": "59.0 kg",
+      "height": "1.8 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0143",
+      "name": "Ronflex",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/1 - KANTO/0143.png",
+      "description": "L’estomac de ce Pokémon est si résistant\nqu’il peut même digérer de la nourriture avariée.",
+      "abilities": {
+        "regular": ["Vaccin", "Isograisse"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "460.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0144",
+      "name": "Artikodin",
+      "types": ["Glace", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0144.png",
+      "description": "Il possède le pouvoir de contrôler la glace.\nSelon les dires, il vivrait sur les sommets\nrecouverts de neiges éternelles.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Rideau Neige"
+      },
+      "weight": "55.4 kg",
+      "height": "1.7 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0145",
+      "name": "Électhor",
+      "types": ["Électrik", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0145.png",
+      "description": "On raconte que lorsque ce Pokémon oiseau\nlégendaire fait vibrer ses plumes, le frottement\nfait tomber la foudre instantanément.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Statik"
+      },
+      "weight": "52.6 kg",
+      "height": "1.6 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0146",
+      "name": "Sulfura",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0146.png",
+      "description": "On raconte qu’il a sauvé des personnes perdues\nen montagne en illuminant les sentiers à l’aide\nde ses splendides ailes flamboyantes.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "60.0 kg",
+      "height": "2.0 m",
+      "forms": ["galar"]
+    },
+    {
+      "id": "0147",
+      "name": "Minidraco",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/1 - KANTO/0147.png",
+      "description": "On a longtemps douté de l’existence de\nce Pokémon. La petite bosse sur son front\nest en fait sa corne en pleine croissance.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": "Écaille Spéciale"
+      },
+      "weight": "3.3 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0148",
+      "name": "Draco",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/1 - KANTO/0148.png",
+      "description": "Il contrôle la météo en accumulant de l’énergie\ndans les orbes au bout de sa queue. Sa silhouette\nnimbée d’une aura lui confère un air mystique.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": "Écaille Spéciale"
+      },
+      "weight": "16.5 kg",
+      "height": "4.0 m"
+    },
+    {
+      "id": "0149",
+      "name": "Dracolosse",
+      "types": ["Dragon", "Vol"],
+      "image": "public/pokemon/shiny/1 - KANTO/0149.png",
+      "description": "On l’appelle « l’avatar de la mer ». Nombreux\nsont les navires arborant une figure de proue\nen forme de Dracolosse.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": "Multiécaille"
+      },
+      "weight": "210.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0150",
+      "name": "Mewtwo",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0150.png",
+      "description": "Son ADN est presque le même que celui de\nMew, mais sa taille et son caractère sont très\ndifférents.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Tension"
+      },
+      "weight": "122.0 kg",
+      "height": "2.0 m",
+      "forms": ["mega-x", "mega-y"]
+    },
+    {
+      "id": "0151",
+      "name": "Mew",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/1 - KANTO/0151.png",
+      "description": "À l’aide d’un microscope, on peut distinguer\nle pelage extrêmement court, fin et délicat\nde ce Pokémon.",
+      "abilities": {
+        "regular": ["Synchro"],
+        "hidden": null
+      },
+      "weight": "4.0 kg",
+      "height": "0.4 m"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "form": "INFINIMAX",
+  "pokemons": [
+    {
+      "id": "0890-infini",
+      "name": "Éthernatos Infinimax",
+      "types": ["Poison", "Dragon"],
+      "image": "public/pokemon/shiny/INFINIMAX/0890_Infini.png",
+      "description": "Par la faute de Shehroz, il a absorbé l'énergie de la région de Galar tout entière, et il est désormais en surcharge.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": null
+      },
+      "weight": "???,? kg",
+      "height": "100.0 m"
+    }
+  ]
+}

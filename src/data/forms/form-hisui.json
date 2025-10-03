@@ -1,0 +1,213 @@
+{
+  "form": "HISUI",
+  "pokemons": [
+    {
+      "id": "0058-hisui",
+      "name": "Caninos (Hisui)",
+      "types": ["Feu", "Roche"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0058_hisui.png",
+      "description": "Ils patrouillent sur leur territoire en duo. Je pense que les roches magmatiques qui constituent en partie leur toison sont liées à l'activité volcanique.",
+      "abilities": {
+        "regular": ["Intimidation", "Torche"],
+        "hidden": "Tête de Roc"
+      },
+      "weight": "22.7 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0059-hisui",
+      "name": "Arcanin (Hisui)",
+      "types": ["Feu", "Roche"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0059_hisui.png",
+      "description": "Il inflige des morsures grâce à ses canines enveloppées de flammes ardentes. Malgré sa grande taille, il est très agile : il semble danser autour de ses ennemis déconcertés.",
+      "abilities": {
+        "regular": ["Intimidation", "Torche"],
+        "hidden": "Tête de Roc"
+      },
+      "weight": "168.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0100-hisui",
+      "name": "Voltorbe (Hisui)",
+      "types": ["Électrik", "Plante"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0100_hisui.png",
+      "description": "Ce Pokémon mystérieux ressemble étrangement à une Poké Ball. Lorsqu'il est agité, il relâche le courant électrique emmagasiné dans son abdomen et laisse échapper des éclats de rire.",
+      "abilities": {
+        "regular": ["Anti-Bruit", "Statik"],
+        "hidden": "Boom Final"
+      },
+      "weight": "13.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0101-hisui",
+      "name": "Électrode (Hisui)",
+      "types": ["Électrik", "Plante"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0101_hisui.png",
+      "description": "Son enveloppe corporelle est étrangement semblable à celle des Noigrumes. S'il est irrité, il relâche un courant électrique dont l'intensité atteint vingt fois celle de la foudre.",
+      "abilities": {
+        "regular": ["Anti-Bruit", "Statik"],
+        "hidden": "Boom Final"
+      },
+      "weight": "71.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0157-hisui",
+      "name": "Typhlosion (Hisui)",
+      "types": ["Feu", "Spectre"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0157_hisui.png",
+      "description": "On dit qu'il purifie les âmes perdues à l'aide de ses flammes avant de les envoyer dans l'au-delà. Je pense que sa forme est influencée par la montagne sacrée située au cœur de Hisui.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Fouille"
+      },
+      "weight": "69.8 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0211-hisui",
+      "name": "Qwilfish (Hisui)",
+      "types": ["Ténèbres", "Poison"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0211_hisui.png",
+      "description": "Les pêcheurs exècrent les Qwilfish, car leurs épines expulsent des toxines. Les spécimens d'autres régions se présentent sous une forme dissemblable.",
+      "abilities": {
+        "regular": ["Point Poison", "Glissade"],
+        "hidden": "Intimidation"
+      },
+      "weight": "3.9 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0215-hisui",
+      "name": "Farfuret (Hisui)",
+      "types": ["Combat", "Poison"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0215_hisui.png",
+      "description": "La forme de ses griffes puissantes lui procure un avantage pour escalader les précipices escarpés. Le poison qui flue de leur extrémité agit sur les nerfs des proies capturées par Farfuret.",
+      "abilities": {
+        "regular": ["Attention", "Regard Vif"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "27.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0503-hisui",
+      "name": "Clamiral (Hisui)",
+      "types": ["Eau", "Ténèbres"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0503_hisui.png",
+      "description": "Cette fine lame au tempérament impitoyable est une évolution rare qui ne se produit qu'à Hisui. Ses attaques sont aussi ravageuses que les vagues déferlantes.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Incisif"
+      },
+      "weight": "58.2 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0549-hisui",
+      "name": "Fragilady (Hisui)",
+      "types": ["Plante", "Combat"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0549_hisui.png",
+      "description": "Je spécule que ce Pokémon doit ses jambes musclées à son habitat dans les montagnes couvertes de neige épaisse. La fleur sur sa couronne exhale un parfum stimulant tout être alentour.",
+      "abilities": {
+        "regular": ["Chlorophylle", "Agitation"],
+        "hidden": "Feuille Garde"
+      },
+      "weight": "19.2 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0570-hisui",
+      "name": "Zorua (Hisui)",
+      "types": ["Normal", "Spectre"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0570_hisui.png",
+      "description": "Zorua serait une âme disparue, ressuscitée à Hisui. Sa rancœur émane sous forme d'énergie au-dessus de sa tête, puis adopte l'apparence de ses ennemis, et finit par se dissiper.",
+      "abilities": {
+        "regular": ["Illusion"],
+        "hidden": null
+      },
+      "weight": "12.5 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0571-hisui",
+      "name": "Zoroark (Hisui)",
+      "types": ["Normal", "Spectre"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0571_hisui.png",
+      "description": "Sa crinière blanche échevelée lui donne l'allure d'un dieu de la mort. Le ressentiment qu'il éprouve le déchire physiquement, mais lui donne une énergie telle qu'elle peut occire tout ennemi.",
+      "abilities": {
+        "regular": ["Illusion"],
+        "hidden": null
+      },
+      "weight": "73.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0628-hisui",
+      "name": "Gueriaigle (Hisui)",
+      "types": ["Psy", "Vol"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0628_hisui.png",
+      "description": "De taille imposante, ce preux volatile chasse en lançant de terribles cris de guerre. Il propage des ondes de choc dans les lacs, puis se saisit des proies remontées à la surface.",
+      "abilities": {
+        "regular": ["Regard Vif", "Sans Limite"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "43.4 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0705-hisui",
+      "name": "Colimucus (Hisui)",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0705_hisui.png",
+      "description": "Ce Pokémon est de nature plutôt mélancolique. Je spécule que le fer contenu dans les eaux de Hisui a agi sur son mucus épidermique et a changé sa peau en carapace de métal.",
+      "abilities": {
+        "regular": ["Herbivore", "Coque Armure"],
+        "hidden": "Poisseux"
+      },
+      "weight": "68.5 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0706-hisui",
+      "name": "Muplodocus (Hisui)",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0706_hisui.png",
+      "description": "Il peut moduler la rigidité de sa carapace de métal à volonté. Il abhorre la solitude et enrage si un être qu'il affectionne profondément l'abandonne.",
+      "abilities": {
+        "regular": ["Herbivore", "Coque Armure"],
+        "hidden": "Poisseux"
+      },
+      "weight": "334.1 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0713-hisui",
+      "name": "Séracrawl (Hisui)",
+      "types": ["Glace", "Roche"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0713_hisui.png",
+      "description": "L'armure de glace qui enveloppe sa mâchoire inférieure peut briser des rocs plus durs que l'acier. Il se meut vélocement en fendant la neige épaisse des chemins de montagne.",
+      "abilities": {
+        "regular": ["Prognathe", "Corps Gel"],
+        "hidden": "Fermeté"
+      },
+      "weight": "262.4.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0724-hisui",
+      "name": "Archéduc (Hisui)",
+      "types": ["Plante", "Combat"],
+      "image": "public/pokemon/shiny/FORMES HISUI/0724_hisui.png",
+      "description": "Les plumes d'Archéduc le protègent de la froideur glaciale de Hisui grâce à l'air logé dans leur tige. Voici une preuve que l'environnement agit sur l'évolution des Pokémon.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Querelleur"
+      },
+      "weight": "37.0 kg",
+      "height": "1.6 m"
+    }
+  ]
+}

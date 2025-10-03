@@ -1,0 +1,1565 @@
+{
+  "region": "9 - PALDEA",
+  "pokemons": [
+    {
+      "id": "0906",
+      "name": "Poussacha",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0906.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Protéen"
+      },
+      "weight": "4.1 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0907",
+      "name": "Matourgeon",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0907.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Protéen"
+      },
+      "weight": "12.2 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0908",
+      "name": "Miascarade",
+      "types": ["Plante", "Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0908.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Protéen"
+      },
+      "weight": "31.2 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0909",
+      "name": "Chochodile",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0909.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Inconscient"
+      },
+      "weight": "9.8 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0910",
+      "name": "Crocogril",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0910.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Inconscient"
+      },
+      "weight": "30.7 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0911",
+      "name": "Flâmigator",
+      "types": ["Feu", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0911.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Inconscient"
+      },
+      "weight": "326.5 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0912",
+      "name": "Coiffeton",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0912.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Impudence"
+      },
+      "weight": "6.1 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0913",
+      "name": "Canarbello",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0913.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Impudence"
+      },
+      "weight": "21.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0914",
+      "name": "Palmaval",
+      "types": ["Eau", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0914.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Impudence"
+      },
+      "weight": "61.9 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0915",
+      "name": "Gourmelet",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0915.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Aroma-Voile", "Gloutonnerie"],
+        "hidden": "Isograisse"
+      },
+      "weight": "10.2 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0916",
+      "name": "Fragroin",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0916.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Odeur Tenace", "Gloutonnerie"],
+        "hidden": "Isograisse"
+      },
+      "weight": "120.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0917",
+      "name": "Tissenboule",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0917.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Insomnia"],
+        "hidden": "Filature"
+      },
+      "weight": "4.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0918",
+      "name": "Filentrappe",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0918.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Insomnia"],
+        "hidden": "Filature"
+      },
+      "weight": "16.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0919",
+      "name": "Lilliterelle",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0919.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Essaim"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "1.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0920",
+      "name": "Gambex",
+      "types": ["Insecte", "Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0920.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Essaim"],
+        "hidden": "Lentiteintée"
+      },
+      "weight": "17.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0921",
+      "name": "Pohm",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0921.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Statik", "Médic Nature"],
+        "hidden": "Poing de Fer"
+      },
+      "weight": "2.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0922",
+      "name": "Pohmotte",
+      "types": ["Électrik", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0922.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Médic Nature"],
+        "hidden": "Poing de Fer"
+      },
+      "weight": "6.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0923",
+      "name": "Pohmarmotte",
+      "types": ["Électrik", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0923.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Médic Nature"],
+        "hidden": "Poing de Fer"
+      },
+      "weight": "41.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0924",
+      "name": "Compagnol",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0924.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Fuite", "Ramassage"],
+        "hidden": "Tempo Perso"
+      },
+      "weight": "1.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0925",
+      "name": "Famignol",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0925.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Garde-Ami", "Bajoues"],
+        "hidden": "Technicien"
+      },
+      "weight": "2.3 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0926",
+      "name": "Pâtachiot",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0926.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Tempo Perso"],
+        "hidden": "Maladresse"
+      },
+      "weight": "10.9 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0927",
+      "name": "Briochien",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0927.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Well Baked Body"],
+        "hidden": "Aroma-Voile"
+      },
+      "weight": "14.9 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0928",
+      "name": "Olivini",
+      "types": ["Plante", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0928.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Matinal"],
+        "hidden": "Récolte"
+      },
+      "weight": "6.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0929",
+      "name": "Olivado",
+      "types": ["Plante", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0929.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Matinal"],
+        "hidden": "Récolte"
+      },
+      "weight": "11.9 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0930",
+      "name": "Arboliva",
+      "types": ["Plante", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0930.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Semencier"],
+        "hidden": "Récolte"
+      },
+      "weight": "48.2 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0931",
+      "name": "Tapatoès",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0931.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Intimidation", "Agitation"],
+        "hidden": "Cran"
+      },
+      "weight": "2.4 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0932",
+      "name": "Selutin",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0932.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Sel Purificateur", "Fermeté"],
+        "hidden": "Corps Sain"
+      },
+      "weight": "16.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0933",
+      "name": "Amassel",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0933.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Sel Purificateur", "Fermeté"],
+        "hidden": "Corps Sain"
+      },
+      "weight": "105.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0934",
+      "name": "Gigansel",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0934.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Sel Purificateur", "Fermeté"],
+        "hidden": "Corps Sain"
+      },
+      "weight": "240.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0935",
+      "name": "Charbambin",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0935.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "10.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0936",
+      "name": "Carmadura",
+      "types": ["Feu", "Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0936.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "85.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0937",
+      "name": "Malvalame",
+      "types": ["Feu", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0937.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Torche"],
+        "hidden": "Armurouillée"
+      },
+      "weight": "62.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0938",
+      "name": "Têtampoule",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0938.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Tempo Perso", "Statik"],
+        "hidden": "Moiteur"
+      },
+      "weight": "0.4 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0939",
+      "name": "Ampibidou",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0939.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Grecharge", "Statik"],
+        "hidden": "Moiteur"
+      },
+      "weight": "113.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0940",
+      "name": "Zapétrel",
+      "types": ["Électrik", "Vol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0940.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Turbine Éolienne", "Absorbe-Volt"],
+        "hidden": "Battant"
+      },
+      "weight": "3.6 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0941",
+      "name": "Fulgulairo",
+      "types": ["Électrik", "Vol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0941.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Turbine Éolienne", "Absorbe-Volt"],
+        "hidden": "Battant"
+      },
+      "weight": "38.6 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0942",
+      "name": "Grondogue",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0942.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Intimidation", "Fuite"],
+        "hidden": "Filature"
+      },
+      "weight": "16.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0943",
+      "name": "Dogrino",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0943.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Intimidation", "Chien de Garde"],
+        "hidden": "Filature"
+      },
+      "weight": "61.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0944",
+      "name": "Gribouraigne",
+      "types": ["Poison", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0944.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Délestage", "Pickpocket"],
+        "hidden": "Farceur"
+      },
+      "weight": "0.7 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0945",
+      "name": "Tag-Tag",
+      "types": ["Poison", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0945.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Délestage", "Toxitouche"],
+        "hidden": "Farceur"
+      },
+      "weight": "27.2 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0946",
+      "name": "Virovent",
+      "types": ["Plante", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0946.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Aéroporté"],
+        "hidden": "Infiltration"
+      },
+      "weight": "0.6 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0947",
+      "name": "Virevorreur",
+      "types": ["Plante", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0947.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Aéroporté"],
+        "hidden": "Infiltration"
+      },
+      "weight": "6.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0948",
+      "name": "Terracool",
+      "types": ["Sol", "Plante"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0948.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Force Fongique"],
+        "hidden": "Force Fongique"
+      },
+      "weight": "33.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0949",
+      "name": "Terracruel",
+      "types": ["Sol", "Plante"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0949.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Force Fongique"],
+        "hidden": "Force Fongique"
+      },
+      "weight": "58.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0950",
+      "name": "Craparoi",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0950.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Courroupace", "Coque Armure"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "79.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0951",
+      "name": "Pimito",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0951.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Chlorophylle", "Insomnia"],
+        "hidden": "Maladresse"
+      },
+      "weight": "3.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0952",
+      "name": "Scovilain",
+      "types": ["Plante", "Feu"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0952.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Chlorophylle", "Insomnia"],
+        "hidden": "Lunatique"
+      },
+      "weight": "15.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0953",
+      "name": "Léboulérou",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0953.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Œil Composé"],
+        "hidden": "Mue"
+      },
+      "weight": "1.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0954",
+      "name": "Bérasca",
+      "types": ["Insecte", "Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0954.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Synchro"],
+        "hidden": "Télépathe"
+      },
+      "weight": "3.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0955",
+      "name": "Flotillon",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0955.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Anticipation", "Fouille"],
+        "hidden": "Turbo"
+      },
+      "weight": "1.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0956",
+      "name": "Cléopsytra",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0956.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Opportuniste", "Fouille"],
+        "hidden": "Turbo"
+      },
+      "weight": "90.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0957",
+      "name": "Forgerette",
+      "types": ["Fée", "Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0957.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brise Moule", "Tempo Perso"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "8.9 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0958",
+      "name": "Forgella",
+      "types": ["Fée", "Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0958.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brise Moule", "Tempo Perso"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "59.1 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0959",
+      "name": "Forgelina",
+      "types": ["Fée", "Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0959.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brise Moule", "Tempo Perso"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "112.8 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0960",
+      "name": "Taupikeau",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0960.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Poisseux", "Phobique"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "1.8 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0961",
+      "name": "Triopikeau",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0961.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Poisseux", "Phobique"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "5.4 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0962",
+      "name": "Lestombaile",
+      "types": ["Vol", "Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0962.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Cœur de Coq", "Regard Vif"],
+        "hidden": "Porte-Roche"
+      },
+      "weight": "42.9 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0963",
+      "name": "Dofin",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0963.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Ignifu-Voile"],
+        "hidden": "Ignifu-Voile"
+      },
+      "weight": "60.2 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0964",
+      "name": "Superdofin",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0964.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Supermutation"],
+        "hidden": "Supermutation"
+      },
+      "weight": "60.2 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0965",
+      "name": "Vrombi",
+      "types": ["Acier", "Poison"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0965.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Envelocape"],
+        "hidden": "Début Calme"
+      },
+      "weight": "35.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0966",
+      "name": "Vrombotor",
+      "types": ["Acier", "Poison"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0966.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Envelocape"],
+        "hidden": "Filtre"
+      },
+      "weight": "120.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0967",
+      "name": "Motorizard",
+      "types": ["Dragon", "Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0967.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "63.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0968",
+      "name": "Ferdeter",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0968.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Absorbe-Terre"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "310.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0969",
+      "name": "Germéclat",
+      "types": ["Roche", "Poison"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0969.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Dépôt Toxique"],
+        "hidden": "Corrosion"
+      },
+      "weight": "8.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0970",
+      "name": "Floréclat",
+      "types": ["Roche", "Poison"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0970.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Dépôt Toxique"],
+        "hidden": "Corrosion"
+      },
+      "weight": "45.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0971",
+      "name": "Toutombe",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0971.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Ramassage"],
+        "hidden": "Boule de Poils"
+      },
+      "weight": "35.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0972",
+      "name": "Tomberro",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0972.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Baigne Sable"],
+        "hidden": "Boule de Poils"
+      },
+      "weight": "15.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0973",
+      "name": "Flamenroule",
+      "types": ["Vol", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0973.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Querelleur", "Pied Confus"],
+        "hidden": "Collab"
+      },
+      "weight": "37.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0974",
+      "name": "Piétacé",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0974.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Isograisse", "Rideau Neige"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "45.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0975",
+      "name": "Balbalèze",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0975.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Isograisse", "Chasse-Neige"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "700.0 kg",
+      "height": "4.5 m"
+    },
+    {
+      "id": "0976",
+      "name": "Délestin",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0976.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Brise Moule"],
+        "hidden": "Incisif"
+      },
+      "weight": "90.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0977",
+      "name": "Oyacata",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0977.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Inconscient", "Benêt"],
+        "hidden": "Ignifu-Voile"
+      },
+      "weight": "220.0 kg",
+      "height": "12.0 m"
+    },
+    {
+      "id": "0978",
+      "name": "Nigirigon",
+      "types": ["Dragon", "Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0978.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Commandant"],
+        "hidden": "Lavabo"
+      },
+      "weight": "8.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0979",
+      "name": "Courrousinge",
+      "types": ["Combat", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0979.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Esprit Vital", "Attention"],
+        "hidden": "Acharné"
+      },
+      "weight": "56.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0980",
+      "name": "Terraiste",
+      "types": ["Poison", "Sol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0980.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Point Poison", "Absorbe-Eau"],
+        "hidden": "Inconscient"
+      },
+      "weight": "223.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0981",
+      "name": "Farigiraf",
+      "types": ["Normal", "Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0981.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Ruminant", "Armure Caudale"],
+        "hidden": "Herbivore"
+      },
+      "weight": "160.0 kg",
+      "height": "3.2 m"
+    },
+    {
+      "id": "0982",
+      "name": "Deusolourdo",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0982.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Sérénité", "Fuite"],
+        "hidden": "Phobique"
+      },
+      "weight": "39.2 kg",
+      "height": "3.6 m"
+    },
+    {
+      "id": "0983",
+      "name": "Scalpereur",
+      "types": ["Ténèbres", "Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0983.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Acharné", "Général Suprême"],
+        "hidden": "Pression"
+      },
+      "weight": "120.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0984",
+      "name": "Fort-Ivoire",
+      "types": ["Sol", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0984.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "320.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0985",
+      "name": "Hurle-Queue",
+      "types": ["Fée", "Psy"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0985.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "8.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0986",
+      "name": "Fongus-Furie",
+      "types": ["Plante", "Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0986.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "21.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0987",
+      "name": "Flotte-Mèche",
+      "types": ["Spectre", "Fée"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0987.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "4.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0988",
+      "name": "Rampe-Ailes",
+      "types": ["Insecte", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0988.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "92.0 kg",
+      "height": "3.2 m"
+    },
+    {
+      "id": "0989",
+      "name": "Pelage-Sablé",
+      "types": ["Électrik", "Sol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0989.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "60.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0990",
+      "name": "Roue-de-Fer",
+      "types": ["Sol", "Acier"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0990.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "240.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0991",
+      "name": "Hotte-de-Fer",
+      "types": ["Glace", "Eau"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0991.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "11.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0992",
+      "name": "Paume-de-Fer",
+      "types": ["Combat", "Électrik"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0992.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "380.7 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0993",
+      "name": "Têtes-de-Fer",
+      "types": ["Ténèbres", "Vol"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0993.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "111.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0994",
+      "name": "Mite-de-Fer",
+      "types": ["Feu", "Poison"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0994.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "36.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0995",
+      "name": "Épine-de-Fer",
+      "types": ["Roche", "Électrik"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0995.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "303.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0996",
+      "name": "Frigodo",
+      "types": ["Dragon", "Glace"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0996.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Thermodynamique"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "17.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0997",
+      "name": "Cryodo",
+      "types": ["Dragon", "Glace"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0997.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Thermodynamique"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "30.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0998",
+      "name": "Glaivodo",
+      "types": ["Dragon", "Glace"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0998.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Thermodynamique"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "210.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0999",
+      "name": "Mordudor",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/0999.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Phobique"],
+        "hidden": null
+      },
+      "weight": "5.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "1000",
+      "name": "Gromago",
+      "types": ["Acier", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1000.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Corps en Or"],
+        "hidden": null
+      },
+      "weight": "30.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "1001",
+      "name": "Chongjian",
+      "types": ["Ténèbres", "Plante"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Bois du Fléau"],
+        "hidden": null
+      },
+      "weight": "74.2 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "1002",
+      "name": "Baojian",
+      "types": ["Ténèbres", "Glace"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Épée du Fléau"],
+        "hidden": null
+      },
+      "weight": "152.2 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "1003",
+      "name": "Dinglu",
+      "types": ["Ténèbres", "Sol"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Urne du Fléau"],
+        "hidden": null
+      },
+      "weight": "699.7 kg",
+      "height": "2.7 m"
+    },
+    {
+      "id": "1004",
+      "name": "Yuyu",
+      "types": ["Ténèbres", "Feu"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Perles du Fléau"],
+        "hidden": null
+      },
+      "weight": "4.9 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "1005",
+      "name": "Rugit-Lune",
+      "types": ["Dragon", "Ténèbres"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1005.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "380.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "1006",
+      "name": "Garde-de-Fer",
+      "types": ["Fée", "Combat"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1006.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "35.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "1007",
+      "name": "Koraidon",
+      "types": ["Combat", "Dragon"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Pouls Orichalque"],
+        "hidden": null
+      },
+      "weight": "303.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "1008",
+      "name": "Miraidon",
+      "types": ["Électrik", "Dragon"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Moteur à Hadrons"],
+        "hidden": null
+      },
+      "weight": "240.0 kg",
+      "height": "3.5 m"
+    },
+    {
+      "id": "1009",
+      "name": "Serpente-Eau",
+      "types": ["Eau", "Dragon"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "280.0 kg",
+      "height": "3.5 m"
+    },
+    {
+      "id": "1010",
+      "name": "Vert-de-Fer",
+      "types": ["Plante", "Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "125.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "1011",
+      "name": "Pomdramour",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1011.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Nectar Mielleux", "Gloutonnerie"],
+        "hidden": "Glu"
+      },
+      "weight": "9.7 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "1012",
+      "name": "Poltchageist",
+      "types": ["Plante", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1012.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Aux Petits Soins"],
+        "hidden": "Ignifugé"
+      },
+      "weight": "1.1 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "1013",
+      "name": "Théffroyable",
+      "types": ["Plante", "Spectre"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1013.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Aux Petits Soins"],
+        "hidden": "Ignifugé"
+      },
+      "weight": "2.2 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "1014",
+      "name": "Félicanis",
+      "types": ["Poison", "Combat"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Chaîne Toxique"],
+        "hidden": "Chien de Garde"
+      },
+      "weight": "92.2 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "1015",
+      "name": "Fortusimia",
+      "types": ["Poison", "Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Chaîne Toxique"],
+        "hidden": "Fouille"
+      },
+      "weight": "12.2 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "1016",
+      "name": "Favianos",
+      "types": ["Poison", "Fée"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Chaîne Toxique"],
+        "hidden": "Technicien"
+      },
+      "weight": "30.1 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "1017",
+      "name": "Ogerpon",
+      "types": ["Plante"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Acharné"],
+        "hidden": null
+      },
+      "weight": "39.8 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "1018",
+      "name": "Pondralugon",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1018.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Endurance", "Fermeté"],
+        "hidden": "Nerfs d'Acier"
+      },
+      "weight": "60.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "1019",
+      "name": "Pomdorochi",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/9 - PALDEA/1019.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Nectar Mielleux", "Régé-Force"],
+        "hidden": "Glu"
+      },
+      "weight": "93.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "1020",
+      "name": "Feu-Perçant",
+      "types": ["Feu", "Dragon"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "590.0 kg",
+      "height": "3.5 m"
+    },
+    {
+      "id": "1021",
+      "name": "Ire-Foudre",
+      "types": ["Électrik", "Dragon"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Paléosynthèse"],
+        "hidden": null
+      },
+      "weight": "480.0 kg",
+      "height": "5.2 m"
+    },
+    {
+      "id": "1022",
+      "name": "Roc-de-Fer",
+      "types": ["Roche", "Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "162.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "1023",
+      "name": "Chef-de-Fer",
+      "types": ["Acier", "Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Charge Quantique"],
+        "hidden": null
+      },
+      "weight": "156.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "1024",
+      "name": "Terapagos",
+      "types": ["Normal"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Téramorphose"],
+        "hidden": null
+      },
+      "weight": "6.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "1025",
+      "name": "Pêchaminus",
+      "types": ["Poison", "Spectre"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Emprise Toxique"],
+        "hidden": null
+      },
+      "weight": "0.3 kg",
+      "height": "0.3 m"
+    }
+  ]
+}

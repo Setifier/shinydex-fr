@@ -1,0 +1,31 @@
+{
+  "form": "PRIMO-RÉSURGENCE",
+  "pokemons": [
+    {
+      "id": "0382-primo",
+      "name": "Primo-Kyogre",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/PRIMO/0382_Primo.png",
+      "description": "Kyogre est un Pokémon légendaire qui a le pouvoir de contrôler les océans. Il est capable de provoquer des pluies torrentielles et des raz-de-marée.",
+      "abilities": {
+        "regular": ["Mer Primaire"],
+        "hidden": null
+      },
+      "weight": "430.0 kg",
+      "height": "9.8 m"
+    },
+    {
+      "id": "0383-primo",
+      "name": "Primo-Groudon",
+      "types": ["Sol", "Feu"],
+      "image": "public/pokemon/shiny/PRIMO/0383_Primo.png",
+      "description": "Kyogre est un Pokémon légendaire qui a le pouvoir de contrôler les océans. Il est capable de provoquer des pluies torrentielles et des raz-de-marée.",
+      "abilities": {
+        "regular": ["Terre Finale"],
+        "hidden": null
+      },
+      "weight": "999.7 kg",
+      "height": "5.0 m"
+    }
+  ]
+}

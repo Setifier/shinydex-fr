@@ -1,0 +1,239 @@
+{
+  "form": "ALOLA",
+  "pokemons": [
+    {
+      "id": "0019-alola",
+      "name": "Rattata (Alola)",
+      "types": ["Ténèbres", "Normal"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0019_alola.png",
+      "description": "Avec ses incisives, il peut ronger les portes des maisons pour s'y introduire. Ses moustaches vibrent pour détecter la nourriture à dérober.",
+      "abilities": {
+        "regular": ["Gloutonnerie", "Agitation"],
+        "hidden": "Isograisse"
+      },
+      "weight": "3.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0020-alola",
+      "name": "Rattatac (Alola)",
+      "types": ["Ténèbres", "Normal"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0020_alola.png",
+      "description": "Il rassemble des Rattata pour former un groupe. Les hordes ne s'entendent pas entre elles et se disputent violemment les sources de nourriture.",
+      "abilities": {
+        "regular": ["Gloutonnerie", "Agitation"],
+        "hidden": "Isograisse"
+      },
+      "weight": "25.5 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0026-alola",
+      "name": "Raichu (Alola)",
+      "types": ["Électrik", "Psy"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0026_alola.png",
+      "description": "Si vous pincez ses joues rondouillardes, une douce odeur sucrée se répand dans l'air. Mais attention à la petite décharge électrique !",
+      "abilities": {
+        "regular": ["Surf Caudal"],
+        "hidden": null
+      },
+      "weight": "21.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0027-alola",
+      "name": "Sabelette (Alola)",
+      "types": ["Glace", "Acier"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0027_alola.png",
+      "description": "Il vit dans les montagnes enneigées. Sa carapace d'acier est très solide, mais elle est trop rigide pour qu'il puisse se rouler en boule.",
+      "abilities": {
+        "regular": ["Rideau Neige"],
+        "hidden": "Chasse-Neige"
+      },
+      "weight": "40.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0028-alola",
+      "name": "Sablaireau (Alola)",
+      "types": ["Glace", "Acier"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0028_alola.png",
+      "description": "Ce Pokémon vivait jadis dans les déserts. Grâce à ses griffes acérées, il peut gravir des glaciers sans glisser.",
+      "abilities": {
+        "regular": ["Rideau Neige"],
+        "hidden": "Chasse-Neige"
+      },
+      "weight": "55.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0037-alola",
+      "name": "Goupix (Alola)",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0037_alola.png",
+      "description": "Quand il fait chaud, il crée des fragments de glace avec ses six queues et les disperse autour de lui pour se rafraîchir.",
+      "abilities": {
+        "regular": ["Rideau Neige"],
+        "hidden": "Alerte Neige"
+      },
+      "weight": "9.9 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0038-alola",
+      "name": "Feunard (Alola)",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0038_alola.png",
+      "description": "Il est de nature très calme. Jusqu'à ce qu'on l'identifie comme une forme régionale de Feunard, il était adoré comme un avatar divin.",
+      "abilities": {
+        "regular": ["Rideau Neige"],
+        "hidden": "Alerte Neige"
+      },
+      "weight": "19.9 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0050-alola",
+      "name": "Taupiqueur (Alola)",
+      "types": ["Sol", "Acier"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0050_alola.png",
+      "description": "Les trois vibrisses sur sa tête bougent en fonction de ses émotions. Il les utilise pour communiquer avec ses congénères.",
+      "abilities": {
+        "regular": ["Voile Sable", "Mèche Rebelle"],
+        "hidden": "Force Sable"
+      },
+      "weight": "1.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0051-alola",
+      "name": "Triopikeur (Alola)",
+      "types": ["Sol", "Acier"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0051_alola.png",
+      "description": "Ce trio s'entend à merveille. Leur synchronisation exceptionnelle leur permet de défier et même de vaincre des ennemis bien plus puissants qu'eux.",
+      "abilities": {
+        "regular": ["Voile Sable", "Mèche Rebelle"],
+        "hidden": "Force Sable"
+      },
+      "weight": "66.6 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0052-alola",
+      "name": "Miaouss (Alola)",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0052_alola.png",
+      "description": "Ce Pokémon égoïste et très fier a été introduit dans la région par une ancienne dynastie royale des plus prospères.",
+      "abilities": {
+        "regular": ["Ramassage", "Technicien"],
+        "hidden": "Phobique"
+      },
+      "weight": "4.2 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0053-alola",
+      "name": "Persian (Alola)",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0053_alola.png",
+      "description": "Sa tête ronde est un symbole de bonne fortune. La rondeur et la grosseur de celle-ci sont des critères de beauté chez les Persian.",
+      "abilities": {
+        "regular": ["Toison Épaisse", "Technicien"],
+        "hidden": "Phobique"
+      },
+      "weight": "33.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0074-alola",
+      "name": "Racaillou (Alola)",
+      "types": ["Roche", "Électrik"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0074_alola.png",
+      "description": "Ce Pokémon est composé de roche magnétique. De la poussière métallique recouvre les parties les plus magnétiques de son corps.",
+      "abilities": {
+        "regular": ["Magnépiège", "Fermeté"],
+        "hidden": "Peau Électrique"
+      },
+      "weight": "20.3 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0075-alola",
+      "name": "Gravalanch (Alola)",
+      "types": ["Roche", "Électrik"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0075_alola.png",
+      "description": "Ils se disputent les cailloux qu'ils mangent. Quand deux Gravalanch s'entrechoquent, cela provoque des bruits d'explosion et des flashs lumineux.",
+      "abilities": {
+        "regular": ["Magnépiège", "Fermeté"],
+        "hidden": "Peau Électrique"
+      },
+      "weight": "110.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0076-alola",
+      "name": "Grolem (Alola)",
+      "types": ["Roche", "Électrik"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0076_alola.png",
+      "description": "Ce Pokémon est buté et caractériel. Quand il s'énerve, tout son corps produit des décharges , et ses cris évoquent les roulements du tonnerre.",
+      "abilities": {
+        "regular": ["Magnépiège", "Fermeté"],
+        "hidden": "Peau Électrique"
+      },
+      "weight": "316.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0088-alola",
+      "name": "Tadmorv (Alola)",
+      "types": ["Poison", "Ténèbres"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0088_alola.png",
+      "description": "On apprécie son travail dans les décharges, car il se délecte de n'importe quel types d'ordures.",
+      "abilities": {
+        "regular": ["Toxitouche", "Gloutonnerie"],
+        "hidden": "Osmose"
+      },
+      "weight": "42.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0089-alola",
+      "name": "Grotadmorv (Alola)",
+      "types": ["Poison", "Ténèbres"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0089_alola.png",
+      "description": "Ses « crocs » et ses « griffes » sont des toxines cristallisées qui empoisonnent tout ce qu'elles touchent. Mieux vaut rester à distance.",
+      "abilities": {
+        "regular": ["Toxitouche", "Gloutonnerie"],
+        "hidden": "Osmose"
+      },
+      "weight": "52.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0103-alola",
+      "name": "Noadkoko (Alola)",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0103_alola.png",
+      "description": "Il utilise son grand cou comme un fouet et assène des coups de tête à son adversaire. Ces attaques l'étourdissent aussi un peu.",
+      "abilities": {
+        "regular": ["Fouille"],
+        "hidden": "Récolte"
+      },
+      "weight": "415.6 kg",
+      "height": "10.9 m"
+    },
+    {
+      "id": "0105-alola",
+      "name": "Ossatueur (Alola)",
+      "types": ["Feu", "Spectre"],
+      "image": "public/pokemon/shiny/FORMES ALOLA/0105_alola.png",
+      "description": "Quand il frappe avec son os, des flammes maudites enveloppent sa cible. Rien ne peut éteindre ce feu éternel.",
+      "abilities": {
+        "regular": ["Paratonnerre", "Corps Maudit"],
+        "hidden": "Tête de Roc"
+      },
+      "weight": "34.0 kg",
+      "height": "1.0 m"
+    }
+  ]
+}

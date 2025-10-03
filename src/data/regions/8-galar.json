@@ -1,0 +1,1163 @@
+{
+  "region": "8 - GALAR",
+  "pokemons": [
+    {
+      "id": "0810",
+      "name": "Ouistempo",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/8 - GALAR/0810.png",
+      "description": "Il attaque en frappant frénétiquement avec\nson bâton. Son enthousiasme grandit à mesure\nque le rythme s’accélère.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Créa-Herbe"
+      },
+      "weight": "5.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0811",
+      "name": "Badabouin",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/8 - GALAR/0811.png",
+      "description": "Il est tellement concentré à battre à un rythme\neffréné que même lorsque son adversaire\ntombe K.O., il ne s’en rend pas compte.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Créa-Herbe"
+      },
+      "weight": "14.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0812",
+      "name": "Gorythmic",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/8 - GALAR/0812.png",
+      "description": "Celui qui possède les meilleures techniques\nde percussion devient le chef. De nature calme,\nil privilégie l’harmonie du groupe.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Créa-Herbe"
+      },
+      "weight": "90.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0813",
+      "name": "Flambino",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/8 - GALAR/0813.png",
+      "description": "Quand il est prêt à se battre, la partie\nqui surmonte son museau ainsi que les coussinets\nde ses pattes postérieures émettent de la chaleur.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Libéro"
+      },
+      "weight": "4.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0814",
+      "name": "Lapyro",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/8 - GALAR/0814.png",
+      "description": "Pour parfaire son jeu de jambes,\nil cueille des Baies puis drible avec,\nle tout sans se servir de ses mains.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Libéro"
+      },
+      "weight": "9.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0815",
+      "name": "Pyrobut",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/8 - GALAR/0815.png",
+      "description": "Exceptionnel en attaque comme en défense,\nil s’exalte quand on l’encourage, mais il lui\narrive de se mettre en danger en jouant solo.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Libéro"
+      },
+      "weight": "33.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0816",
+      "name": "Larméléon",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0816.png",
+      "description": "Sa peau change de couleur et le rend invisible\nquand elle est mouillée, comme un camouflage.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sniper"
+      },
+      "weight": "4.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0817",
+      "name": "Arrozard",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0817.png",
+      "description": "Paresseux, mais malin, il parsème son territoire\nde pièges pour empêcher ses ennemis\nd’y pénétrer.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sniper"
+      },
+      "weight": "11.5 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0818",
+      "name": "Lézargus",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0818.png",
+      "description": "Il repère le point faible de l’ennemi grâce à sa\nmembrane nictitante, puis il transperce sa cible en\ntirant des jets d’eau à Mach 3 du bout des doigts.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Sniper"
+      },
+      "weight": "45.2 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0819",
+      "name": "Rongourmand",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0819.png",
+      "description": "Comme il mange tout le temps des Baies, il est\nplus costaud qu’il n’en a l’air. Il parcourt les\nchamps à la recherche de sa précieuse denrée.",
+      "abilities": {
+        "regular": ["Bajoues"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "2.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0820",
+      "name": "Rongrigou",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0820.png",
+      "description": "On rencontre souvent ce Pokémon à Galar.\nAucune coquille de Baie ne résiste à ses incisives,\ndont il est très fier.",
+      "abilities": {
+        "regular": ["Bajoues"],
+        "hidden": "Gloutonnerie"
+      },
+      "weight": "6.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0821",
+      "name": "Minisange",
+      "types": ["Vol"],
+      "image": "public/pokemon/shiny/8 - GALAR/0821.png",
+      "description": "Son petit corps lui permet de se jouer d’ennemis\nbien plus grands que lui en volant à toute vitesse\npour les piquer où ils sont vulnérables.",
+      "abilities": {
+        "regular": ["Regard Vif", "Tension"],
+        "hidden": "Cœur de Coq"
+      },
+      "weight": "1.8 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0822",
+      "name": "Bleuseille",
+      "types": ["Vol"],
+      "image": "public/pokemon/shiny/8 - GALAR/0822.png",
+      "description": "Après avoir surmonté tant de rudes combats,\nil a appris à déterminer avec précision\nla puissance de ses adversaires.",
+      "abilities": {
+        "regular": ["Regard Vif", "Tension"],
+        "hidden": "Cœur de Coq"
+      },
+      "weight": "16.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0823",
+      "name": "Corvaillus",
+      "types": ["Vol", "Acier"],
+      "image": "public/pokemon/shiny/8 - GALAR/0823.png",
+      "description": "Grâce à son adresse remarquable en vol\net sa grande intelligence, il travaille comme\ntaxi volant de Galar.",
+      "abilities": {
+        "regular": ["Pression", "Tension"],
+        "hidden": "Armure Miroir"
+      },
+      "weight": "75.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0824",
+      "name": "Larvadar",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/8 - GALAR/0824.png",
+      "description": "On le voit souvent dans les champs.\nLes poils de son corps lui servent à capter\nce qu’il se passe autour de lui.",
+      "abilities": {
+        "regular": ["Essaim", "Œil Composé"],
+        "hidden": "Télépathe"
+      },
+      "weight": "8.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0825",
+      "name": "Coléodôme",
+      "types": ["Insecte", "Psy"],
+      "image": "public/pokemon/shiny/8 - GALAR/0825.png",
+      "description": "Il se développe dans sa coquille et se prépare\nà évoluer en sondant les alentours grâce\nà ses pouvoirs psychiques.",
+      "abilities": {
+        "regular": ["Essaim", "Œil Composé"],
+        "hidden": "Télépathe"
+      },
+      "weight": "19.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0826",
+      "name": "Astronelle",
+      "types": ["Insecte", "Psy"],
+      "image": "public/pokemon/shiny/8 - GALAR/0826.png",
+      "description": "Il déploie ses pouvoirs psychiques pour sonder\nles alentours, sur un rayon pouvant atteindre\n10 km.",
+      "abilities": {
+        "regular": ["Essaim", "Fouille"],
+        "hidden": "Télépathe"
+      },
+      "weight": "40.8 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0827",
+      "name": "Goupilou",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/8 - GALAR/0827.png",
+      "description": "Rusé et vigilant, il prend la poudre d’escampette\naprès avoir volé de la nourriture en prenant soin\nd’effacer ses traces de pas avec sa queue.",
+      "abilities": {
+        "regular": ["Fuite", "Délestage"],
+        "hidden": "Filature"
+      },
+      "weight": "8.9 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0828",
+      "name": "Roublenard",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/8 - GALAR/0828.png",
+      "description": "Grâce à son corps leste et ses griffes acérées,\nil va et vient en dérobant Œufs et nourriture.\nSon ennemi juré est Fulgudog.",
+      "abilities": {
+        "regular": ["Fuite", "Délestage"],
+        "hidden": "Filature"
+      },
+      "weight": "19.9 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0829",
+      "name": "Tournicoton",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/8 - GALAR/0829.png",
+      "description": "Nombreux sont ceux qui ont décidé d’en élever\nun après avoir été charmés par sa manière\nde chanter en virevoltant au gré de la brise.",
+      "abilities": {
+        "regular": ["Effilochage", "Régé-Force"],
+        "hidden": "Pose Spore"
+      },
+      "weight": "2.2 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0830",
+      "name": "Blancoton",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/8 - GALAR/0830.png",
+      "description": "Les fils tissés à partir du duvet sur sa tête sont\nsatinés et absolument somptueux. Le textile ainsi\ncréé est typique de la région de Galar.",
+      "abilities": {
+        "regular": ["Effilochage", "Régé-Force"],
+        "hidden": "Pose Spore"
+      },
+      "weight": "2.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0831",
+      "name": "Moumouton",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0831.png",
+      "description": "Si ses poils poussent trop, il ne peut plus bouger.\nLes étoffes tissées avec son pelage\nsont étonnamment solides.",
+      "abilities": {
+        "regular": ["Boule de Poils", "Fuite"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "6.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0832",
+      "name": "Moumouflon",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0832.png",
+      "description": "Ses splendides cornes lui servent à attirer\nles membres de l’autre sexe.\nIl ne s’en sert jamais pour se battre.",
+      "abilities": {
+        "regular": ["Boule de Poils", "Impassible"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "43.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0833",
+      "name": "Khélocrok",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0833.png",
+      "description": "La corne sur sa tête est aussi dure que la roche.\nIl s’en sert pour se battre et lorsque l’ennemi\nflanche, il le mord et ne le lâche plus.",
+      "abilities": {
+        "regular": ["Prognathe", "Coque Armure"],
+        "hidden": "Glissade"
+      },
+      "weight": "8.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0834",
+      "name": "Torgamord",
+      "types": ["Eau", "Roche"],
+      "image": "public/pokemon/shiny/8 - GALAR/0834.png",
+      "description": "Son cou extensible lui permet d’atteindre\ndes ennemis éloignés en un instant pour leur\nporter un coup décisif avec ses crocs aiguisés.",
+      "abilities": {
+        "regular": ["Prognathe", "Coque Armure"],
+        "hidden": "Glissade"
+      },
+      "weight": "115.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0835",
+      "name": "Voltoutou",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/8 - GALAR/0835.png",
+      "description": "Ce glouton assiste les humains dans leur travail\nen échange de friandises. Il court sans arrêt,\nle corps enveloppé d’électricité.",
+      "abilities": {
+        "regular": ["Ramasse Ball"],
+        "hidden": "Phobique"
+      },
+      "weight": "13.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0836",
+      "name": "Fulgudog",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/8 - GALAR/0836.png",
+      "description": "Il se sert de l’énergie électrique pour augmenter\nla puissance de ses membres.\nSa vitesse maximale dépasse de peu les 90 km/h.",
+      "abilities": {
+        "regular": ["Prognathe"],
+        "hidden": "Battant"
+      },
+      "weight": "34.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0837",
+      "name": "Charbi",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/8 - GALAR/0837.png",
+      "description": "Il parcourt sans difficulté les sentiers rocheux\naccidentés à la manière d’un monocycle.\nIl a besoin de brûler du charbon pour vivre.",
+      "abilities": {
+        "regular": ["Turbine", "Ignifugé"],
+        "hidden": "Torche"
+      },
+      "weight": "12.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0838",
+      "name": "Wagomine",
+      "types": ["Roche", "Feu"],
+      "image": "public/pokemon/shiny/8 - GALAR/0838.png",
+      "description": "Il peut faire tourner ses pattes très vite\npour se déplacer à une vitesse de 30 km/h.\nIl peut aussi souffler des flammes à 1 000 °C.",
+      "abilities": {
+        "regular": ["Turbine", "Corps Ardent"],
+        "hidden": "Torche"
+      },
+      "weight": "78.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0839",
+      "name": "Monthracite",
+      "types": ["Roche", "Feu"],
+      "image": "public/pokemon/shiny/8 - GALAR/0839.png",
+      "description": "Lorsqu’il s’engage dans un combat, son tas\nde charbon brûle et vire au rouge, ce qui répand\nde petites étincelles qui calcinent ce qui l’entoure.",
+      "abilities": {
+        "regular": ["Turbine", "Corps Ardent"],
+        "hidden": "Torche"
+      },
+      "weight": "310.5 kg",
+      "height": "2.8 m"
+    },
+    {
+      "id": "0840",
+      "name": "Verpom",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0840.png",
+      "description": "À la naissance, il s’installe dans une pomme\net grandit en se nourrissant de sa chair.\nSon évolution dépend de la saveur du fruit.",
+      "abilities": {
+        "regular": ["Mûrissement", "Gloutonnerie"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "0.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0841",
+      "name": "Pomdrapi",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0841.png",
+      "description": "Il vole avec ses ailes faites de pelures de pomme\net crache une substance très acide.\nIl peut aussi prendre la forme de ce fruit.",
+      "abilities": {
+        "regular": ["Mûrissement", "Gloutonnerie"],
+        "hidden": "Agitation"
+      },
+      "weight": "1.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0842",
+      "name": "Dratatin",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0842.png",
+      "description": "Son corps est recouvert de nectar.\nLa peau de son dos, particulièrement sucrée,\nconstituait jadis le goûter des enfants.",
+      "abilities": {
+        "regular": ["Mûrissement", "Gloutonnerie"],
+        "hidden": "Isograisse"
+      },
+      "weight": "13.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0843",
+      "name": "Dunaja",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/8 - GALAR/0843.png",
+      "description": "En expulsant du sable par les narines, il aveugle\nson adversaire et en profite pour se cacher\nsous terre.",
+      "abilities": {
+        "regular": ["Expul'Sable", "Mue"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "7.6 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0844",
+      "name": "Dunaconda",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/8 - GALAR/0844.png",
+      "description": "S’il s’enroule d’une manière aussi particulière,\nc’est pour optimiser l’expulsion de sable\npar ses narines.",
+      "abilities": {
+        "regular": ["Expul'Sable", "Mue"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "65.5 kg",
+      "height": "3.8 m"
+    },
+    {
+      "id": "0845",
+      "name": "Nigosier",
+      "types": ["Vol", "Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0845.png",
+      "description": "Très glouton, il avale les Embrochet d’une seule\nbouchée, mais il lui arrive de se tromper\net de tenter de gober un autre Pokémon.",
+      "abilities": {
+        "regular": ["Dégobage"],
+        "hidden": null
+      },
+      "weight": "18.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0846",
+      "name": "Embrochet",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0846.png",
+      "description": "Lorsqu’il a le ventre plein, il a beaucoup\nplus de mal à se déplacer, et c’est à ce moment\nprécis qu’il se fait gober par les Nigosier.",
+      "abilities": {
+        "regular": ["Glissade"],
+        "hidden": "Propulseur"
+      },
+      "weight": "1.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0847",
+      "name": "Hastacuda",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/8 - GALAR/0847.png",
+      "description": "Il charge d’un coup en faisant tourner sa nageoire\ncaudale. Il peut transpercer ses proies\nà une vitesse dépassant les 100 nœuds.",
+      "abilities": {
+        "regular": ["Glissade"],
+        "hidden": "Propulseur"
+      },
+      "weight": "30.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0848",
+      "name": "Toxizap",
+      "types": ["Électrik", "Poison"],
+      "image": "public/pokemon/shiny/8 - GALAR/0848.png",
+      "description": "Par un procédé chimique, il change son poison\nen électricité. L’intensité du courant est faible,\nmais peut engourdir un ennemi.",
+      "abilities": {
+        "regular": ["Phobique", "Statik"],
+        "hidden": "Maladresse"
+      },
+      "weight": "11.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0849",
+      "name": "Salarsen",
+      "types": ["Électrik", "Poison"],
+      "image": "public/pokemon/shiny/8 - GALAR/0849.png",
+      "description": "Impatient et bagarreur, ce Pokémon avale\nde grandes gorgées d’eau croupie pour\nen absorber toute la toxicité.",
+      "abilities": {
+        "regular": ["Punk Rock", "Plus"],
+        "hidden": "Technicien"
+      },
+      "weight": "40.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0850",
+      "name": "Grillepattes",
+      "types": ["Feu", "Insecte"],
+      "image": "public/pokemon/shiny/8 - GALAR/0850.png",
+      "description": "Il enserre fermement ses proies avec son corps\nbrûlant et, quand elles sont bien grillées,\nil les dévore.",
+      "abilities": {
+        "regular": ["Torche", "Écran Fumée"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "1.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0851",
+      "name": "Scolocendre",
+      "types": ["Feu", "Insecte"],
+      "image": "public/pokemon/shiny/8 - GALAR/0851.png",
+      "description": "Il est de nature agressive. Non seulement\nson corps brûlant est dangereux, mais il possède\nen plus d’énormes crocs très pointus.",
+      "abilities": {
+        "regular": ["Torche", "Écran Fumée"],
+        "hidden": "Corps Ardent"
+      },
+      "weight": "120.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0852",
+      "name": "Poulpaf",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/8 - GALAR/0852.png",
+      "description": "Il a l’intelligence d’un enfant de trois ans.\nIl perd souvent ses tentacules, mais comme\nils repoussent, il ne s’en soucie guère.",
+      "abilities": {
+        "regular": ["Échauffement"],
+        "hidden": "Technicien"
+      },
+      "weight": "4.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0853",
+      "name": "Krakos",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/8 - GALAR/0853.png",
+      "description": "Mû par le besoin de tester la force de ses bras,\nil se rend sur la terre ferme pour trouver\nun adversaire. Il retourne à l’eau après le combat.",
+      "abilities": {
+        "regular": ["Échauffement"],
+        "hidden": "Technicien"
+      },
+      "weight": "39.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0854",
+      "name": "Théffroi",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0854.png",
+      "description": "Il élit domicile dans des tasses de thé anciennes\nde grand renom. Parmi celles-ci se trouvent\nde nombreuses contrefaçons.",
+      "abilities": {
+        "regular": ["Armurouillée"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "0.2 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "0855",
+      "name": "Polthégeist",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0855.png",
+      "description": "Dès qu’il voit un reste de thé noir, il se verse\ndedans pour donner naissance à un Polthégeist.",
+      "abilities": {
+        "regular": ["Armurouillée"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "0.4 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0856",
+      "name": "Bibichut",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/8 - GALAR/0856.png",
+      "description": "Il aime les lieux inhabités.\nS’il perçoit des émotions trop fortes,\nil s’enfuit aussi vite que possible.",
+      "abilities": {
+        "regular": ["Cœur Soin", "Anticipation"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "3.4 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0857",
+      "name": "Chapotus",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/8 - GALAR/0857.png",
+      "description": "Il frappe ses ennemis avec ses tresses pour les\nfaire taire. Sa puissance est telle qu’il peut mettre\nK.O. un boxeur professionnel d’un seul coup.",
+      "abilities": {
+        "regular": ["Cœur Soin", "Anticipation"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "4.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0858",
+      "name": "Sorcilence",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0858.png",
+      "description": "On l’appelle aussi la « sorcière de la forêt ».\nCe Pokémon lacère quiconque fait trop de bruit\navec les griffes de son tentacule.",
+      "abilities": {
+        "regular": ["Cœur Soin", "Anticipation"],
+        "hidden": "Miroir Magik"
+      },
+      "weight": "5.1 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0859",
+      "name": "Grimalin",
+      "types": ["Ténèbres", "Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0859.png",
+      "description": "Il se glisse dans les foyers pour commettre\nun larcin et en profite pour se nourrir de l’énergie\nnégative des habitants contrariés.",
+      "abilities": {
+        "regular": ["Farceur", "Fouille"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "5.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0860",
+      "name": "Fourbelin",
+      "types": ["Ténèbres", "Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0860.png",
+      "description": "La nuit, il ruse pour attirer ses proies dans la forêt.\nOn raconte qu’il a le pouvoir de faire pousser\nles cultures agricoles.",
+      "abilities": {
+        "regular": ["Farceur", "Fouille"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "12.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0861",
+      "name": "Angoliath",
+      "types": ["Ténèbres", "Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0861.png",
+      "description": "Ses cheveux sont comme des muscles filandreux\nqu’il peut détacher pour saisir ses adversaires,\ntels des tentacules.",
+      "abilities": {
+        "regular": ["Farceur", "Fouille"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "61.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0862",
+      "name": "Ixon",
+      "types": ["Ténèbres", "Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0862.png",
+      "description": "Il a évolué après avoir enchaîné de nombreux\ncombats. Le cri qu’il pousse lorsqu’il fait un « X »\navec ses bras ébranle n’importe quel ennemi.",
+      "abilities": {
+        "regular": ["Téméraire", "Cran"],
+        "hidden": "Acharné"
+      },
+      "weight": "46.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0863",
+      "name": "Berserkatt",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/8 - GALAR/0863.png",
+      "description": "Il s’est tant adonné au combat qu’il a évolué :\nil est désormais doté de griffes redoutables\nqui prennent la forme de dagues en s’allongeant.",
+      "abilities": {
+        "regular": ["Armurbaston", "Griffe Dure"],
+        "hidden": "Boost Acier"
+      },
+      "weight": "28.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0864",
+      "name": "Corayôme",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0864.png",
+      "description": "Ceux qui ont le malheur de toucher le corps\nspirituel qui protège son noyau se retrouveront\nimmobilisés, comme changés en pierre.",
+      "abilities": {
+        "regular": ["Armurouillée"],
+        "hidden": "Corps Condamné"
+      },
+      "weight": "0.4 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0865",
+      "name": "Palarticho",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/8 - GALAR/0865.png",
+      "description": "Il pare les attaques avec le tranchant de son\nsolide poireau, et contre-attaque avec la pointe\nde la tige. Son arme est également comestible.",
+      "abilities": {
+        "regular": ["Impassible"],
+        "hidden": "Querelleur"
+      },
+      "weight": "117.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0866",
+      "name": "M. Glaquette",
+      "types": ["Glace", "Psy"],
+      "image": "public/pokemon/shiny/8 - GALAR/0866.png",
+      "description": "Ses gestes hilarants le rendent très populaire.\nIl peut libérer ses pouvoirs psychiques depuis\nle motif sur son ventre.",
+      "abilities": {
+        "regular": ["Pied Confus", "Brise-Barrière"],
+        "hidden": "Corps Gel"
+      },
+      "weight": "58.2 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0867",
+      "name": "Tutétékri",
+      "types": ["Sol", "Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0867.png",
+      "description": "Quiconque touchera son corps semblable\nà une ombre devra endurer la vision des souvenirs\neffroyables gravés dans ses motifs.",
+      "abilities": {
+        "regular": ["Âme Vagabonde"],
+        "hidden": null
+      },
+      "weight": "66.6 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0868",
+      "name": "Crèmy",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0868.png",
+      "description": "Les pâtissiers connaissent tous ce vieil adage :\nQuand Crèmy apparaît, le succès est assuré.",
+      "abilities": {
+        "regular": ["Gluco-Voile"],
+        "hidden": "Aroma-Voile"
+      },
+      "weight": "0.3 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0869",
+      "name": "Charmilly",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0869.png",
+      "description": "Quand il est heureux, la crème qu’il produit\navec ses mains devient plus sucrée\net plus onctueuse.",
+      "abilities": {
+        "regular": ["Gluco-Voile"],
+        "hidden": "Aroma-Voile"
+      },
+      "weight": "0.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0870",
+      "name": "Hexadron",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/8 - GALAR/0870.png",
+      "description": "À six, ils représentent un Pokémon unique.\nIls peuvent changer de formation et comptent\nsur leur travail d’équipe en combat.",
+      "abilities": {
+        "regular": ["Armurbaston"],
+        "hidden": "Acharné"
+      },
+      "weight": "62.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0871",
+      "name": "Wattapik",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/8 - GALAR/0871.png",
+      "description": "Chacune de ses épines est chargée en électricité.\nS’il en perd une, celle-ci continue d’émettre\nun courant électrique pendant trois heures.",
+      "abilities": {
+        "regular": ["Paratonnerre"],
+        "hidden": "Créa-Élec"
+      },
+      "weight": "1.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0872",
+      "name": "Frissonille",
+      "types": ["Glace", "Insecte"],
+      "image": "public/pokemon/shiny/8 - GALAR/0872.png",
+      "description": "Il se nourrit de la neige entassée sur le sol.\nPlus il en mange, plus les épines sur son dos\ngrandissent.",
+      "abilities": {
+        "regular": ["Écran Poudre"],
+        "hidden": "Écailles Glacées"
+      },
+      "weight": "3.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0873",
+      "name": "Beldeneige",
+      "types": ["Glace", "Insecte"],
+      "image": "public/pokemon/shiny/8 - GALAR/0873.png",
+      "description": "Sans pitié pour les vandales, il bat ses ailes\ngelées pour provoquer des blizzards et punir\nquiconque ose souiller les champs et les collines.",
+      "abilities": {
+        "regular": ["Écran Poudre"],
+        "hidden": "Écailles Glacées"
+      },
+      "weight": "42.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0874",
+      "name": "Dolman",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/8 - GALAR/0874.png",
+      "description": "Tous les ans à la même date, ils arrivent\nde nulle part pour se réunir en cercle.\nC’est une de leurs coutumes.",
+      "abilities": {
+        "regular": ["Cercle d'Énergie"],
+        "hidden": null
+      },
+      "weight": "520.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0875",
+      "name": "Bekaglaçon",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/8 - GALAR/0875.png",
+      "description": "Ne supportant pas la chaleur, il se rafraîchit\ntoujours la tête avec de la glace.\nIl pêche de quoi se nourrir à l’aide de son cheveu.",
+      "abilities": {
+        "regular": ["Tête de Gel"],
+        "hidden": null
+      },
+      "weight": "89.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0876",
+      "name": "Wimessir",
+      "types": ["Psy", "Normal"],
+      "image": "public/pokemon/shiny/8 - GALAR/0876.png",
+      "description": "Avec ses cornes, il peut percevoir les émotions\ndes êtres vivants alentour. Celles qui sont\npositives lui servent de source d’énergie.",
+      "abilities": {
+        "regular": ["Attention", "Synchro"],
+        "hidden": "Créa-Psy"
+      },
+      "weight": "28.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0877",
+      "name": "Morpeko",
+      "types": ["Électrik", "Ténèbres"],
+      "image": "public/pokemon/shiny/8 - GALAR/0877.png",
+      "description": "Il a beau manger, il a tout le temps faim.\nIl a toujours des graines grillées à l’électricité\nsur lui.",
+      "abilities": {
+        "regular": ["Déclic Fringale"],
+        "hidden": null
+      },
+      "weight": "3.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0878",
+      "name": "Charibari",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/8 - GALAR/0878.png",
+      "description": "Les travaux physiques, c’est son affaire.\nSon corps de cuivre rouille sous la pluie\net prend une vive couleur verte.",
+      "abilities": {
+        "regular": ["Sans Limite"],
+        "hidden": "Heavy Metal"
+      },
+      "weight": "100.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0879",
+      "name": "Pachyradjah",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/8 - GALAR/0879.png",
+      "description": "Ces Pokémon vivent en troupeau.\nL’étreinte de leur trompe est si forte qu’elle suffit\nà réduire un rocher en poussière.",
+      "abilities": {
+        "regular": ["Sans Limite"],
+        "hidden": "Heavy Metal"
+      },
+      "weight": "650.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0880",
+      "name": "Galvagon",
+      "types": ["Électrik", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0880.png",
+      "description": "Il envoie des décharges avec les muscles puissants\nde sa queue. La partie supérieure de son corps\nest trop petite par rapport à la partie inférieure.",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Agitation"],
+        "hidden": "Baigne Sable"
+      },
+      "weight": "190.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0881",
+      "name": "Galvagla",
+      "types": ["Électrik", "Glace"],
+      "image": "public/pokemon/shiny/8 - GALAR/0881.png",
+      "description": "Autrefois, il vivait en bord de mer et conservait\nsa nourriture dans la glace de son corps,\nmais il s’est éteint, car il avait du mal à se déplacer.",
+      "abilities": {
+        "regular": ["Absorbe-Volt", "Statik"],
+        "hidden": "Chasse-Neige"
+      },
+      "weight": "150.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0882",
+      "name": "Hydragon",
+      "types": ["Eau", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0882.png",
+      "description": "Ses pattes robustes lui permettent de courir\nà plus de 60 km/h, mais en revanche, il ne peut\nrespirer que sous l’eau.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Prognathe"],
+        "hidden": "Baigne Sable"
+      },
+      "weight": "215.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0883",
+      "name": "Hydragla",
+      "types": ["Eau", "Glace"],
+      "image": "public/pokemon/shiny/8 - GALAR/0883.png",
+      "description": "Aucune attaque ne pouvait égratigner la peau\nde son visage, mais il s’est éteint, car il avait\ndu mal à respirer.",
+      "abilities": {
+        "regular": ["Absorbe-Eau", "Corps Gel"],
+        "hidden": "Chasse-Neige"
+      },
+      "weight": "175.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0884",
+      "name": "Duralugon",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0884.png",
+      "description": "Son corps, composé d’un métal spécial, est léger\net lui offre une excellente mobilité. Il est toutefois\nsensible à la pluie et vit donc dans les grottes.",
+      "abilities": {
+        "regular": ["Light Metal", "Heavy Metal"],
+        "hidden": "Nerfs d'Acier"
+      },
+      "weight": "40.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0885",
+      "name": "Fantyrm",
+      "types": ["Dragon", "Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0885.png",
+      "description": "Seul, il est si faible qu’il ne saurait rivaliser avec\nun enfant, mais en coopérant avec ses semblables,\nil peut devenir assez fort pour évoluer.",
+      "abilities": {
+        "regular": ["Corps Sain", "Infiltration"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "2.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0886",
+      "name": "Dispareptil",
+      "types": ["Dragon", "Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0886.png",
+      "description": "Il prend soin du Fantyrm sur sa tête.\nQuand ce dernier n’est plus là, il panique\net tente de le remplacer par un autre Pokémon.",
+      "abilities": {
+        "regular": ["Corps Sain", "Infiltration"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "11.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0887",
+      "name": "Lanssorien",
+      "types": ["Dragon", "Spectre"],
+      "image": "public/pokemon/shiny/8 - GALAR/0887.png",
+      "description": "Il paraît que les Fantyrm installés dans ses cornes\nattendent impatiemment le moment où ils seront\npropulsés à la vitesse du son.",
+      "abilities": {
+        "regular": ["Corps Sain", "Infiltration"],
+        "hidden": "Corps Maudit"
+      },
+      "weight": "50.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0888",
+      "name": "Zacian",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/8 - GALAR/0888.png",
+      "description": "On dit qu’il s’agit de la figure fraternelle\net du rival de Zamazenta, un Pokémon plongé\ndans un long sommeil.",
+      "abilities": {
+        "regular": ["Lame Indomptable"],
+        "hidden": null
+      },
+      "weight": "110.0 kg",
+      "height": "2.8 m"
+    },
+    {
+      "id": "0889",
+      "name": "Zamazenta",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/8 - GALAR/0889.png",
+      "description": "Ce Pokémon, changé en statue, est resté pétrifié\nsi longtemps qu’il a failli tomber dans l’oubli.",
+      "abilities": {
+        "regular": ["Égide Inflexible"],
+        "hidden": null
+      },
+      "weight": "210.0 kg",
+      "height": "2.9 m"
+    },
+    {
+      "id": "0890",
+      "name": "Éthernatos",
+      "types": ["Poison", "Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0890.png",
+      "description": "Il se trouvait dans une météorite qui s’est écrasée\nil y a 20 000 ans. Il semble y avoir un lien\nentre ce Pokémon et le phénomène Dynamax.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": null
+      },
+      "weight": "950.0 kg",
+      "height": "20.0 m",
+      "forms": ["infini"]
+    },
+    {
+      "id": "0891",
+      "name": "Wushours",
+      "types": ["Combat"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Lorsqu’il tire sur les longs poils blancs\nsur sa tête, il devient plus combatif et\nde l’énergie jaillit de sous son nombril.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": null
+      },
+      "weight": "12.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0892",
+      "name": "Shifours",
+      "types": ["Combat", "Ténèbres"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Il vit dans une lointaine région montagneuse où\nil peaufine ses techniques et muscle ses jambes\nen courant le long des falaises abruptes.",
+      "abilities": {
+        "regular": ["Poing Invisible"],
+        "hidden": null
+      },
+      "weight": "105.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0893",
+      "name": "Zarude",
+      "types": ["Ténèbres", "Plante"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Lorsque ses lianes se détachent de son corps,\nelles fertilisent le sol et favorisent la croissance\ndes plantes de la forêt.",
+      "abilities": {
+        "regular": ["Feuille Garde"],
+        "hidden": null
+      },
+      "weight": "70.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0894",
+      "name": "Regieleki",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/8 - GALAR/0894.png",
+      "description": "Son corps est entièrement composé d’organes\ngénérant de l’électricité. Il peut produire\nassez d’énergie pour alimenter tout Galar.",
+      "abilities": {
+        "regular": ["Transistor"],
+        "hidden": null
+      },
+      "weight": "145.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0895",
+      "name": "Regidrago",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/8 - GALAR/0895.png",
+      "description": "Son corps est entièrement composé de cristaux\nd’énergie draconique. Il possèderait les pouvoirs\nde tous les Pokémon Dragon.",
+      "abilities": {
+        "regular": ["Dragons Maw"],
+        "hidden": null
+      },
+      "weight": "200.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0896",
+      "name": "Blizzeval",
+      "types": ["Glace"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Ce Pokémon à la force hors du commun porte\nun masque composé de glace cent fois plus\nsolide que le diamant.",
+      "abilities": {
+        "regular": ["Blanche Ruade"],
+        "hidden": null
+      },
+      "weight": "800.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0897",
+      "name": "Spectreval",
+      "types": ["Spectre"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Ce Pokémon friand de silence et de solitude\ngalope à travers les ténèbres nocturnes\net aspire l’énergie vitale des êtres endormis.",
+      "abilities": {
+        "regular": ["Sombre Ruade"],
+        "hidden": null
+      },
+      "weight": "44.5 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0898",
+      "name": "Sylveroy",
+      "types": ["Psy", "Plante"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Ce roi légendaire qui a régné sur Galar il y a fort\nlongtemps possède le pouvoir d’apaiser les cœurs\net de faire germer les plantes.",
+      "abilities": {
+        "regular": ["Tension"],
+        "hidden": null
+      },
+      "weight": "7.7 kg",
+      "height": "1.1 m"
+    }
+  ]
+}

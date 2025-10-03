@@ -1,0 +1,97 @@
+{
+  "region": "8b - HISUI",
+  "pokemons": [
+    {
+      "id": "0899",
+      "name": "Cerbyllin",
+      "types": ["Normal", "Psy"],
+      "image": "public/pokemon/shiny/8b - HISUI/0899.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Intimidation", "Fouille"],
+        "hidden": "Herbivore"
+      },
+      "weight": "95.1 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0900",
+      "name": "Hachécateur",
+      "types": ["Insecte", "Roche"],
+      "image": "public/pokemon/shiny/8b - HISUI/0900.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Essaim", "Sans Limite"],
+        "hidden": "Incisif"
+      },
+      "weight": "89.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0901",
+      "name": "Ursaking",
+      "types": ["Sol", "Normal"],
+      "image": "public/pokemon/shiny/8b - HISUI/0901.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Cran", "Pare-Balles"],
+        "hidden": "Tension"
+      },
+      "weight": "290.0 kg",
+      "height": "2.4 m"
+    },
+    {
+      "id": "0902",
+      "name": "Paragruel",
+      "types": ["Eau", "Spectre"],
+      "image": "public/pokemon/shiny/8b - HISUI/0902.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Glissade", "Adaptabilité"],
+        "hidden": "Brise Moule"
+      },
+      "weight": "110.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0903",
+      "name": "Farfurex",
+      "types": ["Combat", "Poison"],
+      "image": "public/pokemon/shiny/8b - HISUI/0903.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Pression", "Délestage"],
+        "hidden": "Toxitouche"
+      },
+      "weight": "43.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0904",
+      "name": "Qwilpik",
+      "types": ["Ténèbres", "Poison"],
+      "image": "public/pokemon/shiny/8b - HISUI/0904.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Point Poison", "Glissade"],
+        "hidden": "Intimidation"
+      },
+      "weight": "60.5 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0905",
+      "name": "Amovénus",
+      "types": ["Fée", "Vol"],
+      "image": "public/pokemon/shiny/8b - HISUI/0905.png",
+      "description": "Description non disponible",
+      "abilities": {
+        "regular": ["Joli Sourire"],
+        "hidden": "Contestation"
+      },
+      "weight": "48.0 kg",
+      "height": "1.6 m",
+      "forms": ["alt-avatar, alt-totemique"]
+    }
+  ]
+}

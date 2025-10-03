@@ -1,0 +1,629 @@
+{
+  "form": "MÉGA-ÉVOLUTIONS",
+  "pokemons": [
+    {
+      "id": "0003-mega",
+      "name": "Méga-Florizarre",
+      "types": ["Plante", "Poison"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0003_mega.png",
+      "description": "Ses pattes se sont renforcées pour supporter le poids de sa fleur dorsale, qui s'est épanouie davantage grâce à la Méga-Évolution.",
+      "abilities": {
+        "regular": ["Isograisse"],
+        "hidden": null
+      },
+      "weight": "155.5 kg",
+      "height": "2.4 m"
+    },
+    {
+      "id": "0006-mega-x",
+      "name": "Méga-Dracaufeu X",
+      "types": ["Feu", "Dragon"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0006_mega_X.png",
+      "description": "La puissance incommensurable parcourant son corps est à l'origine des flammes bleues qu'il déploie et de la teinte sombre de sa peau.",
+      "abilities": {
+        "regular": ["Griffe Dure"],
+        "hidden": null
+      },
+      "weight": "110.5 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0006-mega-y",
+      "name": "Méga-Dracaufeu Y",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0006_mega_Y.png",
+      "description": "Il tire sa puissance du lien qui l'unit à son Dresseur. Sa capacité à voler plus rapidement qu'un avion à réaction fait toute sa fierté.",
+      "abilities": {
+        "regular": ["Sécheresse"],
+        "hidden": null
+      },
+      "weight": "100.5 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0009-mega",
+      "name": "Méga-Tortank",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0009_mega.png",
+      "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank.",
+      "abilities": {
+        "regular": ["Méga Blaster"],
+        "hidden": null
+      },
+      "weight": "101.1 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0015-mega",
+      "name": "Méga-Dardargnan",
+      "types": ["Insecte", "Poison"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0015_mega.png",
+      "description": "Désormais pourvu de dards sur les pattes arrière, il pique ses ennemis avec ses quatre membres, puis les achève avec son aiguillon empoisonné.",
+      "abilities": {
+        "regular": ["Adaptabilité"],
+        "hidden": null
+      },
+      "weight": "40.5 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0018-mega",
+      "name": "Méga-Roucarnage",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0018_mega.png",
+      "description": "Ses muscles se sont tant développés qu'il est désormais capable de voler pendant deux semaines sans se reposer.",
+      "abilities": {
+        "regular": ["Annule Garde"],
+        "hidden": null
+      },
+      "weight": "50.5 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0065-mega",
+      "name": "Méga-Alakazam",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0065_mega.png",
+      "description": "Si une attaque n'atteint pas ce Pokémon, c'est sûrement parce que ses pouvoirs de divination l'ont aidé à la prédire et à l'éviter.",
+      "abilities": {
+        "regular": ["Calque"],
+        "hidden": null
+      },
+      "weight": "48.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0080-mega",
+      "name": "Méga-Flagadoss",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0080_mega.png",
+      "description": "Les sucs digestifs de Kokiyas ont réveillé la force qui sommeillait en Flagadoss. Il a hérité d'une grande puissance et d'un soupçon de motivation.",
+      "abilities": {
+        "regular": ["Coque Armure"],
+        "hidden": null
+      },
+      "weight": "120.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0094-mega",
+      "name": "Méga-Ectoplasma",
+      "types": ["Spectre", "Poison"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0094_mega.png",
+      "description": "Il se déplace où bon lui semble à travers les dimensions. Il lui est arrivé de créer la panique parce que seuls ses pieds dépassaient d'un mur.",
+      "abilities": {
+        "regular": ["Marque Ombre"],
+        "hidden": null
+      },
+      "weight": "40.5 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0115-mega",
+      "name": "Méga-Kangourex",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0115_mega.png",
+      "description": "L'énergie de la Méga-Évolution a fait grandir le petit d'un seul coup. Il se coordonne avec sa mère pour agir de concert.",
+      "abilities": {
+        "regular": ["Amour Filial"],
+        "hidden": null
+      },
+      "weight": "100.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0127-mega",
+      "name": "Méga-Scarabrute",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0127_mega.png",
+      "description": "Il est très fier de ses cornes, qui lui permettent de soulever sans effort des adversaires pesant dix fois son poids, et ce même en volant.",
+      "abilities": {
+        "regular": ["Peau Céleste"],
+        "hidden": null
+      },
+      "weight": "59.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0130-mega",
+      "name": "Méga-Léviator",
+      "types": ["Eau", "Ténèbres"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0130_mega.png",
+      "description": "Il se livre entièrement à ses instincts les plus destructeurs. Il suivra toutefois les ordres d'un Dresseur s'il a entièrement confiance en lui.",
+      "abilities": {
+        "regular": ["Brise Moule"],
+        "hidden": null
+      },
+      "weight": "305.0 kg",
+      "height": "6.5 m"
+    },
+    {
+      "id": "0142-mega",
+      "name": "Méga-Ptéra",
+      "types": ["Roche", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0142_mega.png",
+      "description": "La puissance de la Méga-Évolution a pleinement restauré son ADN. Les rochers de son corps sont plus durs que le diamant.",
+      "abilities": {
+        "regular": ["Griffe Dure"],
+        "hidden": null
+      },
+      "weight": "79.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0150-mega-x",
+      "name": "Méga-Mewtwo X",
+      "types": ["Psy", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0150_mega_X.png",
+      "description": "Ses pouvoirs psychiques ont augmenté sa masse musculaire. Il peut exercer une pression d'une tonne et courir 100 m en deux secondes.",
+      "abilities": {
+        "regular": ["Impassible"],
+        "hidden": null
+      },
+      "weight": "127.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0150-mega-y",
+      "name": "Méga-Mewtwo Y",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0150_mega_Y.png",
+      "description": "Son corps a rétréci, mais sa puissance s'est démultipliée. Il peut réduire un gratte-ciel en miettes d'une simple pensée.",
+      "abilities": {
+        "regular": ["Insomnia"],
+        "hidden": null
+      },
+      "weight": "33.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0181-mega",
+      "name": "Méga-Pharamp",
+      "types": ["Électrik", "Dragon"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0181_mega.png",
+      "description": "L'afflux d'énergie de la Méga-Évolution a stimulé ses gènes et a entraîné une repousse de sa laine, perdue depuis des générations.",
+      "abilities": {
+        "regular": ["Brise Moule"],
+        "hidden": null
+      },
+      "weight": "61.5 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0208-mega",
+      "name": "Méga-Steelix",
+      "types": ["Acier", "Sol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0208_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Force Sable"],
+        "hidden": null
+      },
+      "weight": "740.0 kg",
+      "height": "10.5 m"
+    },
+    {
+      "id": "0212-mega",
+      "name": "Méga-Cizayox",
+      "types": ["Insecte", "Acier"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0212_mega.png",
+      "description": "Ses pinces lui servent davantage à frapper qu'à couper. Elles sont si lourdes qu'il lui est difficile de tenir quand le combat s'éternise.",
+      "abilities": {
+        "regular": ["Technicien"],
+        "hidden": null
+      },
+      "weight": "125.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0214-mega",
+      "name": "Méga-Scarhino",
+      "types": ["Insecte", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0214_mega.png",
+      "description": "Le flot d'énergie décuple ses muscles, mais lui donne de terribles courbatures après avoir retrouvé sa forme d'origine.",
+      "abilities": {
+        "regular": ["Multi-Coups"],
+        "hidden": null
+      },
+      "weight": "62.5 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0229-mega",
+      "name": "Méga-Démolosse",
+      "types": ["Ténèbres", "Feu"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0229_mega.png",
+      "description": "Son corps tout entier devient fiévreux lors de la Méga-Évolution. Il réduit ses adversaires en cendres avec son souffle enflammé.",
+      "abilities": {
+        "regular": ["Force Soleil"],
+        "hidden": null
+      },
+      "weight": "49.5 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0248-mega",
+      "name": "Méga-Tyranocif",
+      "types": ["Roche", "Ténèbres"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0248_mega.png",
+      "description": "Il est encore plus violent en méga-évoluant, à tel point que l'on se demande s'il entend toujours les ordres de son Dresseur.",
+      "abilities": {
+        "regular": ["Sable Volant"],
+        "hidden": null
+      },
+      "weight": "255.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0254-mega",
+      "name": "Méga-Jungko",
+      "types": ["Plante", "Dragon"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0254_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Paratonnerre"],
+        "hidden": null
+      },
+      "weight": "55.2 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0257-mega",
+      "name": "Méga-Braségali",
+      "types": ["Feu", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0257_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Turbo"],
+        "hidden": null
+      },
+      "weight": "52.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0260-mega",
+      "name": "Méga-Laggron",
+      "types": ["Feu", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0260_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Glissade"],
+        "hidden": null
+      },
+      "weight": "102.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0282-mega",
+      "name": "Méga-Gardevoir",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0282_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Peau Féérique"],
+        "hidden": null
+      },
+      "weight": "48.4 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0302-mega",
+      "name": "Méga-Ténéfix",
+      "types": ["Ténèbres", "Spectre"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0302_mega.png",
+      "description": "Le joyau sur sa poitrine a absorbé tant d'énergie suite à la Méga-Évolution qu'il a énormément grossi et s'est détaché en déchirant sa peau.",
+      "abilities": {
+        "regular": ["Miroir Magik"],
+        "hidden": null
+      },
+      "weight": "161.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0303-mega",
+      "name": "Méga-Mysdibule",
+      "types": ["Acier", "Fée"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0303_mega.png",
+      "description": "Ses deux gueules bougent violemment, comme mues par leur propre volonté. Elles peuvent pulvériser un rocher d'un seul claquement.",
+      "abilities": {
+        "regular": ["Coloforce"],
+        "hidden": null
+      },
+      "weight": "23.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0306-mega",
+      "name": "Méga-Galeking",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0306_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Filtre"],
+        "hidden": null
+      },
+      "weight": "395.0 kg",
+      "height": "2.2 m"
+    },
+    {
+      "id": "0308-mega",
+      "name": "Méga-Charmina",
+      "types": ["Combat", "Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0308_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Force Pur"],
+        "hidden": null
+      },
+      "weight": "31.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0310-mega",
+      "name": "Méga-Élecsprint",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0310_mega.png",
+      "description": "Grâce à la Méga-Évolution, son corps a accumulé une quantité astronomique d'électricité, mais il en gâche une partie car il ne peut tout utiliser.",
+      "abilities": {
+        "regular": ["Intimidation"],
+        "hidden": null
+      },
+      "weight": "44.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0319-mega",
+      "name": "Méga-Sharpedo",
+      "types": ["Eau", "Ténèbres"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0319_mega.png",
+      "description": "Quand il méga-évolue, sa combativité explose. Les marques jaunes sur son corps retracent l'historique de ses batailles passées.",
+      "abilities": {
+        "regular": ["Prognathe"],
+        "hidden": null
+      },
+      "weight": "130.3 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0323-mega",
+      "name": "Méga-Camérupt",
+      "types": ["Feu", "Sol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0323_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Sans Limite"],
+        "hidden": null
+      },
+      "weight": "320.5 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0334-mega",
+      "name": "Méga-Altaria",
+      "types": ["Dragon", "Fée"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0334_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Peau Féérique"],
+        "hidden": null
+      },
+      "weight": "20.6 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0354-mega",
+      "name": "Méga-Branette",
+      "types": ["Spectre"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0354_mega.png",
+      "description": "Le surplus d'énergie a amplifié sa malédiction et l'a rendue incontrôlable. Il en vient même à éprouver de la rancœur envers son Dresseur.",
+      "abilities": {
+        "regular": ["Farceur"],
+        "hidden": null
+      },
+      "weight": "13.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0359-mega",
+      "name": "Méga-Absol",
+      "types": ["Ténèbres"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0359_mega.png",
+      "description": "Il transforme l'énergie de la Méga-Évolution pour créer et projeter une aura menaçante. Les gens de faible constitution peuvent en mourir.",
+      "abilities": {
+        "regular": ["Miroir Magik"],
+        "hidden": null
+      },
+      "weight": "49.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0362-mega",
+      "name": "Méga-Oniglali",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0362_mega.png",
+      "description": "Le surplus d'énergie de la Méga-Évolution s'est déversé par sa bouche et a démis sa mâchoire. Il projette en continu un puissant blizzard.",
+      "abilities": {
+        "regular": ["Peau Gelée"],
+        "hidden": null
+      },
+      "weight": "350.2 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0373-mega",
+      "name": "Méga-Drattak",
+      "types": ["Dragon", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0373_mega.png",
+      "description": "Il se met en position de vol en rangeant ses pattes avant dans sa carapace, et fonce en rase-mottes au-dessus des terrains accidentés.",
+      "abilities": {
+        "regular": ["Peau Céleste"],
+        "hidden": null
+      },
+      "weight": "112.6 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0376-mega",
+      "name": "Méga-Métalosse",
+      "types": ["Acier", "Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0376_mega.png",
+      "description": "Ses cerveaux exceptionnels se sont encore améliorés, et son intelligence le pousse à faire preuve d'une cruauté insoutenable en combat.",
+      "abilities": {
+        "regular": ["Griffe Dure"],
+        "hidden": null
+      },
+      "weight": "942.9 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0380-mega",
+      "name": "Méga-Latias",
+      "types": ["Dragon", "Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0380_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "52.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0381-mega",
+      "name": "Méga-Latios",
+      "types": ["Dragon", "Psy"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0381_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "70.0 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0384-mega",
+      "name": "Méga-Rayquaza",
+      "types": ["Dragon", "Vol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0384_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Souffle Delta"],
+        "hidden": null
+      },
+      "weight": "392.0 kg",
+      "height": "10.8 m"
+    },
+    {
+      "id": "0428-mega",
+      "name": "Méga-Lockpin",
+      "types": ["Normal", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0428_mega.png",
+      "description": "La Méga-Évolution a réveillé en lui son esprit combatif. Il a perdu sa fourrure superflue, qui risquait de le gêner pour se battre.",
+      "abilities": {
+        "regular": ["Querelleur"],
+        "hidden": null
+      },
+      "weight": "28.3 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0445-mega",
+      "name": "Méga-Carchacrok",
+      "types": ["Dragon", "Sol"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0445_mega.png",
+      "description": "Il est fou de colère que ses ailerons, dont il était si fier, soient devenus des faux. Il les agite avec rage en lacérant la terre.",
+      "abilities": {
+        "regular": ["Force Sable"],
+        "hidden": null
+      },
+      "weight": "95.0 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0448-mega",
+      "name": "Méga-Lucario",
+      "types": ["Combat", "Acier"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0448_mega.png",
+      "description": "L'énergie de la Méga-Évolution s'est mélangée à son aura. Ensemble, elles ont coulé sur son corps et y ont laissé des traces noires.",
+      "abilities": {
+        "regular": ["Adaptabilité"],
+        "hidden": null
+      },
+      "weight": "57.5 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0460-mega",
+      "name": "Méga-Blizzaroi",
+      "types": ["Plante", "Glace"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0460_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Alerte Neige"],
+        "hidden": null
+      },
+      "weight": "185.0 kg",
+      "height": "2.7 m"
+    },
+    {
+      "id": "0475-mega",
+      "name": "Méga-Gallame",
+      "types": ["Psy", "Combat"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0475_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Attention"],
+        "hidden": null
+      },
+      "weight": "56.4 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0531-mega",
+      "name": "Méga-Nanméouïe",
+      "types": ["Normal", "Fée"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0531_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Cœur Soin"],
+        "hidden": null
+      },
+      "weight": "32.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0719-mega",
+      "name": "Méga-Diancie",
+      "types": ["Normal", "Fée"],
+      "image": "public/pokemon/shiny/MEGA-EVOLUTIONS/0719_mega.png",
+      "description": "Description non disponible.",
+      "abilities": {
+        "regular": ["Miroir Magik"],
+        "hidden": null
+      },
+      "weight": "27.8 kg",
+      "height": "1.1 m"
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "region": "7 - ALOLA",
+  "pokemons": [
+    {
+      "id": "0722",
+      "name": "Brindibou",
+      "types": ["Plante", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0722.png",
+      "description": "Pendant la journée, il emmagasine de l’énergie\npar photosynthèse. La nuit, il plane\nsilencieusement à la recherche de proies.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Longue Portée"
+      },
+      "weight": "1.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0723",
+      "name": "Efflèche",
+      "types": ["Plante", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0723.png",
+      "description": "Il prend grand soin de son plumage, s’assurant\nainsi d’avoir une apparence impeccable\net des plumes aiguisées à souhait.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Longue Portée"
+      },
+      "weight": "16.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0724",
+      "name": "Archéduc",
+      "types": ["Plante", "Spectre"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0724.png",
+      "description": "Il décoche ses plumes acérées en un dixième\nde seconde. Sa victime n’a pas le temps de\nle voir agir qu’elle est déjà grièvement touchée.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Longue Portée"
+      },
+      "weight": "36.6 kg",
+      "height": "1.6 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0725",
+      "name": "Flamiaou",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0725.png",
+      "description": "Quiconque essaie de le caresser avant d’avoir\ngagné sa confiance s’expose à de sérieuses\ngriffures.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Intimidation"
+      },
+      "weight": "4.3 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0726",
+      "name": "Matoufeu",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0726.png",
+      "description": "Quand il fait face à un adversaire redoutable,\nil redouble de combativité et la puissance\ncalorifère de sa clochette augmente.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Intimidation"
+      },
+      "weight": "25.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0727",
+      "name": "Félinferno",
+      "types": ["Feu", "Ténèbres"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0727.png",
+      "description": "Bien qu’il soit parfois brutal, il sait aussi\nse montrer attentionné en venant en aide\naux petits Pokémon.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Intimidation"
+      },
+      "weight": "83.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0728",
+      "name": "Otaquin",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0728.png",
+      "description": "Il s’entraîne sans relâche tous les jours pour\nréussir à créer de gros ballons de bonne qualité.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Hydrata-Son"
+      },
+      "weight": "7.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0729",
+      "name": "Otarlette",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0729.png",
+      "description": "Les soirs où la mer est calme, il danse\navec ses congénères au son des chants\nd’Oratoria, le chef du groupe.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Hydrata-Son"
+      },
+      "weight": "17.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0730",
+      "name": "Oratoria",
+      "types": ["Eau", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0730.png",
+      "description": "Les combats sont une véritable performance\nartistique, pour lui. Les spectateurs sont charmés\npar son chant et la danse de ses ballons.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Hydrata-Son"
+      },
+      "weight": "44.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0731",
+      "name": "Picassaut",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0731.png",
+      "description": "Son cou fin renferme des muscles étonnamment\npuissants. Il tape contre les arbres à raison\nde seize coups de bec par seconde.",
+      "abilities": {
+        "regular": ["Regard Vif", "Multi-Coups"],
+        "hidden": "Ramassage"
+      },
+      "weight": "1.2 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0732",
+      "name": "Piclairon",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0732.png",
+      "description": "Il crache violemment les noyaux des Baies\nqu’il a mangées. Ils s’éparpillent au sol\net donnent naissance à de nouvelles plantes.",
+      "abilities": {
+        "regular": ["Regard Vif", "Multi-Coups"],
+        "hidden": "Ramassage"
+      },
+      "weight": "14.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0733",
+      "name": "Bazoucan",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0733.png",
+      "description": "Les couples de Bazoucan sont réputés pour leur\nharmonie. On en amène souvent aux mariages\npour porter bonheur aux jeunes époux.",
+      "abilities": {
+        "regular": ["Regard Vif", "Multi-Coups"],
+        "hidden": "Sans Limite"
+      },
+      "weight": "26.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0734",
+      "name": "Manglouton",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0734.png",
+      "description": "Il mange de tout, mais aime particulièrement\nles proies fraîches, voire encore vives. Il erre\nsur les routes à leur recherche.",
+      "abilities": {
+        "regular": ["Filature", "Prognathe"],
+        "hidden": "Adaptabilité"
+      },
+      "weight": "6.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0735",
+      "name": "Argouste",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0735.png",
+      "description": "D’un naturel très patient, il ne peut toutefois\ns’empêcher de bondir sur son plat favori,\nRattata, s’il en voit un.",
+      "abilities": {
+        "regular": ["Filature", "Prognathe"],
+        "hidden": "Adaptabilité"
+      },
+      "weight": "14.2 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0736",
+      "name": "Larvibule",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0736.png",
+      "description": "Il creuse son terrier dans le sol de la forêt\navec ses grandes mandibules.\nIl raffole de la sève sucrée.",
+      "abilities": {
+        "regular": ["Essaim"],
+        "hidden": null
+      },
+      "weight": "4.4 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0737",
+      "name": "Chrysapile",
+      "types": ["Insecte", "Électrik"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0737.png",
+      "description": "Il possède une poche dans laquelle il emmagasine\nl’électricité qu’il produit en digérant des feuilles\nmortes.",
+      "abilities": {
+        "regular": ["Batterie"],
+        "hidden": null
+      },
+      "weight": "10.5 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0738",
+      "name": "Lucanon",
+      "types": ["Insecte", "Électrik"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0738.png",
+      "description": "S’il emporte un Chrysapile en tant que batterie\nde secours, il peut tirer une salve de rayons\nélectriques extrêmement puissants en plein vol.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "45.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0739",
+      "name": "Crabagarre",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0739.png",
+      "description": "Il grimpe parfois sur un Noadkoko qu’il a pris\npour un cocotier. Il se fait alors éjecter puis\npiétiner par le Noadkoko courroucé.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Poing de Fer"],
+        "hidden": "Colérique"
+      },
+      "weight": "7.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0740",
+      "name": "Crabominable",
+      "types": ["Combat", "Glace"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0740.png",
+      "description": "Agir ou réfléchir ? Crabominable choisit de\nfrapper ! On raconte qu’il serait déjà parvenu\nà repousser une avalanche à coups de pince.",
+      "abilities": {
+        "regular": ["Hyper Cutter", "Poing de Fer"],
+        "hidden": "Colérique"
+      },
+      "weight": "180.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0741",
+      "name": "Plumeline",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0741.png",
+      "description": "Un Plumeline ayant bu du Nectar Rouge.\nD’un naturel passionné, il brûle de rage\nquand son Dresseur se trompe d’ordre.",
+      "abilities": {
+        "regular": ["Danseuse"],
+        "hidden": null
+      },
+      "weight": "3.4 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0742",
+      "name": "Bombydou",
+      "types": ["Insecte", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0742.png",
+      "description": "Il perçoit l’aura de son ennemi et anticipe\nses mouvements. Il parvient ainsi à éviter\nles attaques et à riposter dans la foulée.",
+      "abilities": {
+        "regular": ["Cherche Miel", "Écran Poudre"],
+        "hidden": "Gluco-Voile"
+      },
+      "weight": "0.2 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "0743",
+      "name": "Rubombelle",
+      "types": ["Insecte", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0743.png",
+      "description": "Il a horreur d’être trempé par la pluie.\nOn ne le voit que très rarement à Galar,\nrégion connue pour son temps couvert.",
+      "abilities": {
+        "regular": ["Cherche Miel", "Écran Poudre"],
+        "hidden": "Gluco-Voile"
+      },
+      "weight": "0.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0744",
+      "name": "Rocabot",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0744.png",
+      "description": "Il intimide ses ennemis en cognant les rochers\nautour de son cou contre le sol. Au premier\nsigne de faiblesse, il passe à l’assaut.",
+      "abilities": {
+        "regular": ["Regard Vif", "Esprit Vital"],
+        "hidden": "Impassible"
+      },
+      "weight": "9.2 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0745",
+      "name": "Lougaroc",
+      "types": ["Roche"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0745.png",
+      "description": "Il poursuit ses proies avec rapidité et patience.\nUne fois la cible acculée, il attaque toujours\nson point faible avec ses crocs.",
+      "abilities": {
+        "regular": ["Regard Vif", "Baigne Sable"],
+        "hidden": "Impassible"
+      },
+      "weight": "25.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0746",
+      "name": "Froussardine",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0746.png",
+      "description": "Ses yeux se mouillent quand il sent le danger\napprocher. Le scintillement de ses larmes sert\nde signal pour que ses congénères se rassemblent.",
+      "abilities": {
+        "regular": ["Banc"],
+        "hidden": null
+      },
+      "weight": "0.3 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0747",
+      "name": "Vorastérie",
+      "types": ["Poison", "Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0747.png",
+      "description": "Contrairement aux Vorastérie d’Alola,\nceux de Galar ne font pas grand cas\ndes cornes de Corayon.",
+      "abilities": {
+        "regular": ["Cruauté", "Échauffement"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "8.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0748",
+      "name": "Prédastérie",
+      "types": ["Poison", "Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0748.png",
+      "description": "Sa poche à venin interne regorge d’un poison\nsi violent que même un Wailord en souffrirait\npendant trois jours entiers.",
+      "abilities": {
+        "regular": ["Cruauté", "Échauffement"],
+        "hidden": "Régé-Force"
+      },
+      "weight": "14.5 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0749",
+      "name": "Tiboudet",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0749.png",
+      "description": "Il mâche de la terre pour créer une boue dont\nil s’enduit les jambes. Celle-ci lui permet alors\nd’arpenter même les routes accidentées.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Endurance"],
+        "hidden": "Attention"
+      },
+      "weight": "110.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0750",
+      "name": "Bourrinos",
+      "types": ["Sol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0750.png",
+      "description": "Il a assez d’endurance pour arpenter tout Galar\nsans relâche en tirant des charges dépassant\nles dix tonnes.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Endurance"],
+        "hidden": "Attention"
+      },
+      "weight": "920.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0751",
+      "name": "Araqua",
+      "types": ["Eau", "Insecte"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0751.png",
+      "description": "Il vit principalement dans l’eau, mais s’il a besoin\nde s’aventurer sur la terre ferme pour chasser\nses proies, il protège sa tête avec une bulle d’eau.",
+      "abilities": {
+        "regular": ["Aquabulle"],
+        "hidden": "Absorbe-Eau"
+      },
+      "weight": "4.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0752",
+      "name": "Tarenbulle",
+      "types": ["Eau", "Insecte"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0752.png",
+      "description": "Il prend soin de petits Araqua en les abritant\ndans sa bulle et en les laissant grignoter\nles restes de ses repas.",
+      "abilities": {
+        "regular": ["Aquabulle"],
+        "hidden": "Absorbe-Eau"
+      },
+      "weight": "82.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0753",
+      "name": "Mimantis",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0753.png",
+      "description": "La journée, il dort tranquillement au soleil pour\nen absorber les rayons. La nuit, il se réveille et\nvaque à ses occupations.",
+      "abilities": {
+        "regular": ["Feuille Garde"],
+        "hidden": "Contestation"
+      },
+      "weight": "1.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0754",
+      "name": "Floramantis",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0754.png",
+      "description": "Les pétales sur ses deux bras sont fins, mais\ntrès tranchants. Ils peuvent également absorber\nla lumière pour la renvoyer sous forme de laser.",
+      "abilities": {
+        "regular": ["Feuille Garde"],
+        "hidden": "Contestation"
+      },
+      "weight": "18.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0755",
+      "name": "Spododo",
+      "types": ["Plante", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0755.png",
+      "description": "Il vit dans les forêts sombres même en plein jour.\nIl dissémine des spores clignotantes pour\nendormir ses ennemis.",
+      "abilities": {
+        "regular": ["Luminescence", "Pose Spore"],
+        "hidden": "Cuvette"
+      },
+      "weight": "1.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0756",
+      "name": "Lampignon",
+      "types": ["Plante", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0756.png",
+      "description": "Il ne faut pas s’approcher des lumières qui luisent\nla nuit au fond des bois, sous peine de se faire\nendormir par un Lampignon.",
+      "abilities": {
+        "regular": ["Luminescence", "Pose Spore"],
+        "hidden": "Cuvette"
+      },
+      "weight": "11.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0757",
+      "name": "Tritox",
+      "types": ["Poison", "Feu"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0757.png",
+      "description": "Il s’approche de ses proies par-derrière\net les asperge d’un gaz empoisonné avant qu’elles\nn’aient le temps de réagir, les clouant sur place.",
+      "abilities": {
+        "regular": ["Corrosion"],
+        "hidden": "Benêt"
+      },
+      "weight": "4.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0758",
+      "name": "Malamandre",
+      "types": ["Poison", "Feu"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0758.png",
+      "description": "Les conflits entre Malamandre seraient réglés\npar un simple calcul : le spécimen dont la suite\ncomporte le plus de Tritox l’emporte.",
+      "abilities": {
+        "regular": ["Corrosion"],
+        "hidden": "Benêt"
+      },
+      "weight": "22.2 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0759",
+      "name": "Nounourson",
+      "types": ["Normal", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0759.png",
+      "description": "Sa façon de remuer les pattes pour se défendre\nsemble adorable, mais ce Pokémon est si puissant\nqu’il pourrait fendre un tronc de la sorte.",
+      "abilities": {
+        "regular": ["Boule de Poils", "Maladresse"],
+        "hidden": "Joli Sourire"
+      },
+      "weight": "6.8 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0760",
+      "name": "Chelours",
+      "types": ["Normal", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0760.png",
+      "description": "Il abat ses proies à l’aide de techniques à faire\npâlir d’envie des combattants professionnels,\npuis les emporte sous les bras dans sa tanière.",
+      "abilities": {
+        "regular": ["Boule de Poils", "Maladresse"],
+        "hidden": "Tension"
+      },
+      "weight": "135.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0761",
+      "name": "Croquine",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0761.png",
+      "description": "La sueur sucrée qu’il produit lorsqu’on l’attaque\nest délicieuse. L’odeur de celle-ci lui attire encore\nplus d’ennemis.",
+      "abilities": {
+        "regular": ["Feuille Garde", "Benêt"],
+        "hidden": "Gluco-Voile"
+      },
+      "weight": "3.2 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0762",
+      "name": "Candine",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0762.png",
+      "description": "Lorsqu’un Bleuseille le picore, il commence\npar se défendre avec son calice, et lui assène\nensuite de violents coups de pied.",
+      "abilities": {
+        "regular": ["Feuille Garde", "Benêt"],
+        "hidden": "Gluco-Voile"
+      },
+      "weight": "8.2 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0763",
+      "name": "Sucreine",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0763.png",
+      "description": "Ce Pokémon frappe violemment ses ennemis\nde la pointe dure de ses jambes, ce qui leur inflige\ndes dégâts irréversibles au corps et à l’âme.",
+      "abilities": {
+        "regular": ["Feuille Garde", "Prestance Royale"],
+        "hidden": "Gluco-Voile"
+      },
+      "weight": "21.4 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0764",
+      "name": "Guérilande",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0764.png",
+      "description": "Ce Pokémon dégage un parfum agréable\nqui varie d’un spécimen à l’autre, car chaque\nGuérilande s’habille de fleurs différentes.",
+      "abilities": {
+        "regular": ["Flora-Voile", "Prioguérison"],
+        "hidden": "Médic Nature"
+      },
+      "weight": "0.3 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "0765",
+      "name": "Gouroutan",
+      "types": ["Normal", "Psy"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0765.png",
+      "description": "Il connaît la forêt sur le bout des doigts.\nLorsqu’il trouve un Pokémon blessé, il cherche\ndes plantes médicinales pour le soigner.",
+      "abilities": {
+        "regular": ["Attention", "Télépathe"],
+        "hidden": "Symbiose"
+      },
+      "weight": "76.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0766",
+      "name": "Quartermac",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0766.png",
+      "description": "Ils vivent en groupes de vingt individus où chacun\na un rôle précis, ce qui leur a permis de survivre\ndans un environnement impitoyable.",
+      "abilities": {
+        "regular": ["Receveur"],
+        "hidden": "Acharné"
+      },
+      "weight": "82.8 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0767",
+      "name": "Sovkipou",
+      "types": ["Insecte", "Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0767.png",
+      "description": "Ils se déplacent en groupe, toujours en alerte.\nDès qu’ils détectent une présence ennemie,\nils s’enfuient dans toutes les directions.",
+      "abilities": {
+        "regular": ["Escampette"],
+        "hidden": null
+      },
+      "weight": "12.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0768",
+      "name": "Sarmuraï",
+      "types": ["Insecte", "Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0768.png",
+      "description": "Il vit dans des trous ou des épaves au fond\nde l’océan. Il se bat souvent contre Krakos,\net le perdant sert de repas au gagnant.",
+      "abilities": {
+        "regular": ["Repli Tactique"],
+        "hidden": null
+      },
+      "weight": "108.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0769",
+      "name": "Bacabouh",
+      "types": ["Spectre", "Sol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0769.png",
+      "description": "Il vit principalement sur les plages de sable et\npeut agrandir son corps en prenant le contrôle\ndes gens qui mettent la main dans sa gueule.",
+      "abilities": {
+        "regular": ["Sable Humide"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "70.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0770",
+      "name": "Trépassable",
+      "types": ["Spectre", "Sol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0770.png",
+      "description": "Bien qu’il déteste l’eau, il vit sur les plages.\nQuand la pluie s’abat sur lui, il est incapable\nde conserver sa forme de château de sable.",
+      "abilities": {
+        "regular": ["Sable Humide"],
+        "hidden": "Voile Sable"
+      },
+      "weight": "250.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0771",
+      "name": "Concombaffe",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0771.png",
+      "description": "Le fluide visqueux qui le recouvre garde sa peau\nbien hydratée, ce qui lui permet de vivre plusieurs\njours sur la terre ferme sans se dessécher.",
+      "abilities": {
+        "regular": ["Expuls'Organes"],
+        "hidden": "Inconscient"
+      },
+      "weight": "1.2 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0772",
+      "name": "Type:0",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0772.png",
+      "description": "Il a été créé artificiellement d’après un Pokémon\nmythique. Il est muni d’un masque afin de contenir\nsa puissance.",
+      "abilities": {
+        "regular": ["Armurbaston"],
+        "hidden": null
+      },
+      "weight": "120.5 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0773",
+      "name": "Silvallié",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0773.png",
+      "description": "La relation de confiance qui le lie à son Dresseur\nest le facteur décisif qui lui permet de libérer\ntout son potentiel.",
+      "abilities": {
+        "regular": ["Système Alpha"],
+        "hidden": null
+      },
+      "weight": "100.5 kg",
+      "height": "2.3 m"
+    },
+    {
+      "id": "0774",
+      "name": "Météno",
+      "types": ["Roche", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0774.png",
+      "description": "Sa carapace, pourtant très solide, éclate\nen mille morceaux quand il s’écrase sur\nla terre en tombant du ciel.",
+      "abilities": {
+        "regular": ["Bouclier-Carcan"],
+        "hidden": null
+      },
+      "weight": "40.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0775",
+      "name": "Dodoala",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0775.png",
+      "description": "Ce Pokémon passe sa vie entière à dormir\nà cause des composants anesthésiants qui\nse trouvent dans les feuilles qu’il mange.",
+      "abilities": {
+        "regular": ["Hypersommeil"],
+        "hidden": null
+      },
+      "weight": "19.9 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0776",
+      "name": "Boumata",
+      "types": ["Feu", "Dragon"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0776.png",
+      "description": "Il vit dans les volcans. Le soufre dont il se nourrit\nrend sa carapace explosive. Même ses selles\nsont dangereuses, car elles sont instables.",
+      "abilities": {
+        "regular": ["Coque Armure"],
+        "hidden": null
+      },
+      "weight": "212.0 kg",
+      "height": "2.0 m"
+    },
+    {
+      "id": "0777",
+      "name": "Togedemaru",
+      "types": ["Électrik", "Acier"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0777.png",
+      "description": "En cas de danger, il se roule en boule,\ndresse ses épines dorsales et lance\ndes décharges électriques au hasard.",
+      "abilities": {
+        "regular": ["Épine de Fer", "Paratonnerre"],
+        "hidden": "Fermeté"
+      },
+      "weight": "3.3 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0778",
+      "name": "Mimiqui",
+      "types": ["Spectre", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0778.png",
+      "description": "Les malheureux chercheurs qui ont regardé\nsous son déguisement en lambeaux ont succombé\nà une mystérieuse maladie.",
+      "abilities": {
+        "regular": ["Fantômasque"],
+        "hidden": null
+      },
+      "weight": "0.7 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0779",
+      "name": "Denticrisse",
+      "types": ["Eau", "Psy"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0779.png",
+      "description": "Sa peau est si épaisse que même les épines\nde Vorastérie ne peuvent la percer. Il les croque\nbruyamment grâce à ses dents solides.",
+      "abilities": {
+        "regular": ["Corps Coloré", "Prognathe"],
+        "hidden": "Peau Miracle"
+      },
+      "weight": "19.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0780",
+      "name": "Draïeul",
+      "types": ["Normal", "Dragon"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0780.png",
+      "description": "Il est d’un naturel sociable et aimable, mais quand\nil se met en colère, il déchaîne des bourrasques\nqui emportent tout sur leur passage.",
+      "abilities": {
+        "regular": ["Folle Furie", "Herbivore"],
+        "hidden": "Ciel Gris"
+      },
+      "weight": "185.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0781",
+      "name": "Sinistrail",
+      "types": ["Spectre", "Plante"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0781.png",
+      "description": "Il tend des guets-apens à ses proies en larguant\nson ancre dans la mer. Il peut absorber l’énergie\nvitale de grosses proies comme Wailord.",
+      "abilities": {
+        "regular": ["Expert Acier"],
+        "hidden": null
+      },
+      "weight": "210.0 kg",
+      "height": "3.9 m"
+    },
+    {
+      "id": "0782",
+      "name": "Bébécaille",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0782.png",
+      "description": "Il communique avec ses congénères en faisant\ncliqueter ses écailles dures comme du métal.",
+      "abilities": {
+        "regular": ["Pare-Balles", "Anti-Bruit"],
+        "hidden": "Envelocape"
+      },
+      "weight": "29.7 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0783",
+      "name": "Écaïd",
+      "types": ["Dragon", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0783.png",
+      "description": "Après avoir fait tinter ses écailles et poussé\nun terrible cri de guerre, il charge ses ennemis\net les lacère de ses griffes acérées.",
+      "abilities": {
+        "regular": ["Pare-Balles", "Anti-Bruit"],
+        "hidden": "Envelocape"
+      },
+      "weight": "47.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0784",
+      "name": "Ékaïser",
+      "types": ["Dragon", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0784.png",
+      "description": "Dans les ruines, on trouve parfois des fresques\nreprésentant des guerriers antiques qui portent\ndes armures faites avec ses écailles.",
+      "abilities": {
+        "regular": ["Pare-Balles", "Anti-Bruit"],
+        "hidden": "Envelocape"
+      },
+      "weight": "78.2 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0785",
+      "name": "Tokorico",
+      "types": ["Électrik", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0785.png",
+      "description": "Il est le gardien de Mele-Mele et le maître\nde la foudre. D’un naturel curieux, il apparaît\ndevant les humains de temps à autre.",
+      "abilities": {
+        "regular": ["Créa-Élec"],
+        "hidden": "Télépathe"
+      },
+      "weight": "20.5 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0786",
+      "name": "Tokopiyon",
+      "types": ["Psy", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0786.png",
+      "description": "Bien qu’on le considère comme une divinité\nprotectrice, cette incarnation parfaite de\nla nature est aussi innocente que cruelle.",
+      "abilities": {
+        "regular": ["Créa-Psy"],
+        "hidden": "Télépathe"
+      },
+      "weight": "18.6 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0787",
+      "name": "Tokotoro",
+      "types": ["Plante", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0787.png",
+      "description": "Il est le gardien d’Ula-Ula et le maître\ndes plantes. Il évite les combats inutiles en\nfaisant tinter sa queue pour signaler son arrivée.",
+      "abilities": {
+        "regular": ["Créa-Herbe"],
+        "hidden": "Télépathe"
+      },
+      "weight": "45.5 kg",
+      "height": "1.9 m"
+    },
+    {
+      "id": "0788",
+      "name": "Tokopisco",
+      "types": ["Eau", "Fée"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0788.png",
+      "description": "Il ne faut pas se laisser berner par son statut\nde divinité protectrice : il lui arrive de mettre en\npièces ceux qui osent s’approcher de trop près.",
+      "abilities": {
+        "regular": ["Créa-Brume"],
+        "hidden": "Télépathe"
+      },
+      "weight": "21.2 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0789",
+      "name": "Cosmog",
+      "types": ["Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "De nature curieuse et peu méfiante, il se retrouve\nsouvent dans des situations dangereuses.\nIl peut se téléporter en cas de danger.",
+      "abilities": {
+        "regular": ["Inconscient"],
+        "hidden": null
+      },
+      "weight": "0.1 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0790",
+      "name": "Cosmovum",
+      "types": ["Psy"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Il aspire avec force la poussière de l’atmosphère\net travaille sans relâche pour produire dans\nson noyau l’énergie nécessaire à son évolution.",
+      "abilities": {
+        "regular": ["Fermeté"],
+        "hidden": null
+      },
+      "weight": "999.9 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "0791",
+      "name": "Solgaleo",
+      "types": ["Psy", "Acier"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0791.png",
+      "description": "Jadis, on le surnommait « celui qui dévore\nle soleil ». Une lumière inextinguible rayonne\nde son corps.",
+      "abilities": {
+        "regular": ["Métallo-Garde"],
+        "hidden": null
+      },
+      "weight": "230.0 kg",
+      "height": "3.4 m"
+    },
+    {
+      "id": "0792",
+      "name": "Lunala",
+      "types": ["Psy", "Spectre"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0792.png",
+      "description": "Il capture toute la lumière qui l’entoure pour\nprendre la forme de la pleine lune et éclairer\nles ténèbres nocturnes.",
+      "abilities": {
+        "regular": ["Spectro-Bouclier"],
+        "hidden": null
+      },
+      "weight": "120.0 kg",
+      "height": "4.0 m"
+    },
+    {
+      "id": "0793",
+      "name": "Zéroïd",
+      "types": ["Roche", "Poison"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0793.png",
+      "description": "Il est venu dans ce monde à travers une\nUltra-Brèche. Tel un parasite, il aurait besoin\nd’un hôte, Pokémon ou humain, pour survivre.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "55.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0794",
+      "name": "Mouscoto",
+      "types": ["Insecte", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0794.png",
+      "description": "Ce type d’Ultra-Chimère adore exhiber\nses muscles gonflés à l’extrême.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "333.6 kg",
+      "height": "2.4 m"
+    },
+    {
+      "id": "0795",
+      "name": "Cancrelove",
+      "types": ["Insecte", "Combat"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0795.png",
+      "description": "Cette créature venue d’ailleurs est dangereuse\ndans notre monde, mais il semblerait qu’elle soit\ntrès commune dans le sien.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "25.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0796",
+      "name": "Câblifère",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0796.png",
+      "description": "Certains spécimens de ce type d’Ultra-Chimère\nplantent leurs membres dans le sol à la manière\nd’un arbre et restent immobiles.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "100.0 kg",
+      "height": "3.8 m"
+    },
+    {
+      "id": "0797",
+      "name": "Bamboiselle",
+      "types": ["Acier", "Vol"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0797.png",
+      "description": "Cette créature venue d’ailleurs est dangereuse\ndans notre monde, mais il semblerait qu’elle soit\ntrès commune dans le sien.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "999.9 kg",
+      "height": "9.2 m"
+    },
+    {
+      "id": "0798",
+      "name": "Katagami",
+      "types": ["Plante", "Acier"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0798.png",
+      "description": "Cette créature venue d’ailleurs est dangereuse\ndans notre monde, mais il semblerait qu’elle soit\ntrès commune dans le sien.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "0.1 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0799",
+      "name": "Engloutyran",
+      "types": ["Ténèbres", "Dragon"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0799.png",
+      "description": "Cette créature inconnue appelée\n« Ultra-Chimère » semble constamment\naffamée : elle mange en permanence.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "888.0 kg",
+      "height": "5.5 m"
+    },
+    {
+      "id": "0800",
+      "name": "Necrozma",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0800.png",
+      "description": "Sa quête de lumière, sa source de vie, le rend\nviolent. Il détruit tout sur son passage avec\nses rayons laser.",
+      "abilities": {
+        "regular": ["Prisme-Armure"],
+        "hidden": null
+      },
+      "weight": "230.0 kg",
+      "height": "2.4 m"
+    },
+    {
+      "id": "0801",
+      "name": "Magearna",
+      "types": ["Acier", "Fée"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Il a été créé par un scientifique il y a environ\n500 ans de cela. Sa véritable essence est\nun organe nommé Animacœur.",
+      "abilities": {
+        "regular": ["Soul Heart"],
+        "hidden": null
+      },
+      "weight": "80.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0802",
+      "name": "Marshadow",
+      "types": ["Combat", "Spectre"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Ce Pokémon ayant la capacité de se dissimuler\ndans les ombres, il est resté très longtemps\ncaché aux yeux du monde.",
+      "abilities": {
+        "regular": ["Technicien"],
+        "hidden": null
+      },
+      "weight": "22.2 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0803",
+      "name": "Vémini",
+      "types": ["Poison"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0803.png",
+      "description": "Cette Ultra-Chimère venue d’un autre monde\nricane lorsqu’elle asperge ses proies de venin\ngrâce au dard qu’elle a sur la tête.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "1.8 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0804",
+      "name": "Mandrillon",
+      "types": ["Poison", "Dragon"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0804.png",
+      "description": "Cette Ultra-Chimère utilise son aiguillon pour\nsécréter un venin toxique, luisant et gluant.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "150.0 kg",
+      "height": "3.6 m"
+    },
+    {
+      "id": "0805",
+      "name": "Ama-Ama",
+      "types": ["Roche", "Acier"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0805.png",
+      "description": "On suppose que cette mystérieuse forme de vie\nest une Ultra-Chimère. Si un mur se met en\nbranle et vous attaque sans prévenir, c’est lui.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "820.0 kg",
+      "height": "5.5 m"
+    },
+    {
+      "id": "0806",
+      "name": "Pierroteknik",
+      "types": ["Feu", "Spectre"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0806.png",
+      "description": "Cette Ultra-Chimère sortie d’une Ultra-Brèche\nprovoque des explosions pour surprendre\nl’ennemi et en profite pour voler son énergie.",
+      "abilities": {
+        "regular": ["Boost Chimère"],
+        "hidden": null
+      },
+      "weight": "13.0 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0807",
+      "name": "Zeraora",
+      "types": ["Électrik"],
+      "image": "public/pokemon/shiny/7 - ALOLA/0807.png",
+      "description": "Il envoie des décharges électriques avec\nles coussinets de ses pattes. Quand il court,\non peut voir des éclairs et entendre la foudre.",
+      "abilities": {
+        "regular": ["Absorbe-Volt"],
+        "hidden": null
+      },
+      "weight": "44.5 kg",
+      "height": "1.5 m"
+    }
+  ]
+}

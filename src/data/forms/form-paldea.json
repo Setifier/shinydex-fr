@@ -1,0 +1,31 @@
+{
+  "form": "PALDEA",
+  "pokemons": [
+    {
+      "id": "0128-paldea",
+      "name": "Tauros (Paldea)",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/FORMES PALDEA/0128_paldea_combative.png",
+      "description": "Ce Pokémon aux muscles développés excelle en combat rapproché. Il vise le point faible de ses adversaires avec ses courtes cornes.",
+      "abilities": {
+        "regular": ["Intimidation", "Colérique"],
+        "hidden": "Ruminant"
+      },
+      "weight": "115.0 kg",
+      "height": "1.4 m"
+    },
+    {
+      "id": "0194-paldea",
+      "name": "Axoloto (Paldea)",
+      "types": ["Poison", "Sol"],
+      "image": "public/pokemon/shiny/FORMES PALDEA/0194_paldea.png",
+      "description": "Comme il est dangereux pour eux de se déplacer seuls, les Axoloto forment des groupes de trois ou quatre et parcourent les marais à la queue leu leu.",
+      "abilities": {
+        "regular": ["Point Poison", "Absorbe-Eau"],
+        "hidden": "Inconscient"
+      },
+      "weight": "11.0 kg",
+      "height": "0.4 m"
+    }
+  ]
+}

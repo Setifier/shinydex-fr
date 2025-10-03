@@ -1,0 +1,945 @@
+{
+  "region": "6 - KALOS",
+  "pokemons": [
+    {
+      "id": "0650",
+      "name": "Marisson",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0650.png",
+      "description": "Sa tête et son dos sont recouverts d’une carapace tellement\ndure que même une collision avec un camion ne lui ferait rien.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "9.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0651",
+      "name": "Boguérisse",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0651.png",
+      "description": "Il renforce ses membres inférieurs en se ruant violemment\nsur ses congénères. Naturellement paisible, il ne provoque\njamais un combat.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "29.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0652",
+      "name": "Blindépique",
+      "types": ["Plante", "Combat"],
+      "image": "public/pokemon/shiny/6 - KALOS/0652.png",
+      "description": "Il se défend en joignant ses poings devant son visage.\nDans cette posture, il peut même résister à l’onde de choc\nd’une explosion.",
+      "abilities": {
+        "regular": ["Engrais"],
+        "hidden": "Pare-Balles"
+      },
+      "weight": "90.0 kg",
+      "height": "1.6 m"
+    },
+    {
+      "id": "0653",
+      "name": "Feunnec",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/6 - KALOS/0653.png",
+      "description": "Il a toujours une brindille avec lui en cas de petit creux.\nIl projette de l’air chaud par ses oreilles pour intimider\nses ennemis.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Magicien"
+      },
+      "weight": "9.4 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0654",
+      "name": "Roussil",
+      "types": ["Feu"],
+      "image": "public/pokemon/shiny/6 - KALOS/0654.png",
+      "description": "Quand il saisit la branche plantée dans sa queue, elle prend\nfeu par friction. Il peut communiquer avec ses congénères\nen agitant ce bâton enflammé.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Magicien"
+      },
+      "weight": "14.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0655",
+      "name": "Goupelin",
+      "types": ["Feu", "Psy"],
+      "image": "public/pokemon/shiny/6 - KALOS/0655.png",
+      "description": "Ses pouvoirs psychiques lui permettent de créer\ndes tourbillons de flammes à 3 000 °C qui enveloppent\net consument ses ennemis.",
+      "abilities": {
+        "regular": ["Brasier"],
+        "hidden": "Magicien"
+      },
+      "weight": "39.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0656",
+      "name": "Grenousse",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0656.png",
+      "description": "Il protège son corps en l’entourant d’une mousse délicate.\nMalgré son apparence insouciante, ce Pokémon est en fait\nconstamment à l’affût.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Protéen"
+      },
+      "weight": "7.0 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0657",
+      "name": "Croâporal",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0657.png",
+      "description": "Son agilité est incomparable. Il peut gravir une tour de 600 m\nde haut en moins d’une minute.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Protéen"
+      },
+      "weight": "10.9 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0658",
+      "name": "Amphinobi",
+      "types": ["Eau", "Ténèbres"],
+      "image": "public/pokemon/shiny/6 - KALOS/0658.png",
+      "description": "Aussi insaisissable qu’un ninja, il se joue de ses ennemis\ngrâce à sa célérité, et les tranche de ses Sheauriken.",
+      "abilities": {
+        "regular": ["Torrent"],
+        "hidden": "Protéen"
+      },
+      "weight": "40.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0659",
+      "name": "Sapereau",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0659.png",
+      "description": "Il est sensible au danger. Lorsqu’il entend\nle battement d’ailes de Corvaillus, il creuse\nprestement un terrier et s’y cache.",
+      "abilities": {
+        "regular": ["Ramassage", "Bajoues"],
+        "hidden": "Coloforce"
+      },
+      "weight": "5.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0660",
+      "name": "Excavarenne",
+      "types": ["Normal", "Sol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0660.png",
+      "description": "La fourrure de son ventre est un excellent isolant\nthermique. Jadis, on fabriquait des vêtements\nchauds en se servant de sa mue.",
+      "abilities": {
+        "regular": ["Ramassage", "Bajoues"],
+        "hidden": "Coloforce"
+      },
+      "weight": "42.4 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0661",
+      "name": "Passerouge",
+      "types": ["Normal", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0661.png",
+      "description": "Quand il est surexcité, sa température corporelle\naugmente d’un coup, à tel point qu’il est possible\nde se brûler en le touchant à mains nues.",
+      "abilities": {
+        "regular": ["Cœur de Coq"],
+        "hidden": "Ailes Bourrasque"
+      },
+      "weight": "1.7 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0662",
+      "name": "Braisillon",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0662.png",
+      "description": "De nature belliqueuse, il dispose d’un fort\ninstinct territorial. Quand il chasse, il se dispute\nrégulièrement les proies avec ses congénères.",
+      "abilities": {
+        "regular": ["Corps Ardent"],
+        "hidden": "Ailes Bourrasque"
+      },
+      "weight": "16.0 kg",
+      "height": "0.7 m"
+    },
+    {
+      "id": "0663",
+      "name": "Flambusard",
+      "types": ["Feu", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0663.png",
+      "description": "Flambusard attaque à une vitesse de 500 km/h.\nIl achève ses proies d’un puissant coup de patte\nsans leur laisser la moindre chance de fuir.",
+      "abilities": {
+        "regular": ["Corps Ardent"],
+        "hidden": "Ailes Bourrasque"
+      },
+      "weight": "24.5 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0664",
+      "name": "Lépidonille",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/6 - KALOS/0664.png",
+      "description": "La poudre qui recouvre son corps l’aide à réguler\nsa température. Il peut s’adapter à tous les climats.",
+      "abilities": {
+        "regular": ["Écran Poudre", "Œil Composé"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "2.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0665",
+      "name": "Pérégrain",
+      "types": ["Insecte"],
+      "image": "public/pokemon/shiny/6 - KALOS/0665.png",
+      "description": "Même les becs acérés des Pokémon Oiseaux ne parviennent\npas à meurtrir son corps très dur. Il se défend en crachant\nde la poudre.",
+      "abilities": {
+        "regular": ["Mue"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "8.4 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0666",
+      "name": "Prismillon",
+      "types": ["Insecte", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0666.png",
+      "description": "Selon le climat de sa région d’origine, les motifs de ses ailes\nsont différents. Il sème des écailles aux couleurs vives.",
+      "abilities": {
+        "regular": ["Écran Poudre", "Œil Composé"],
+        "hidden": "Garde-Ami"
+      },
+      "weight": "17.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0667",
+      "name": "Hélionceau",
+      "types": ["Feu", "Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0667.png",
+      "description": "Il déborde d’énergie et de curiosité. Quand\nil se fâche ou qu’il s’apprête à se battre,\nsa courte crinière s’échauffe.",
+      "abilities": {
+        "regular": ["Rivalité", "Tension"],
+        "hidden": "Impudence"
+      },
+      "weight": "13.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0668",
+      "name": "Némélios",
+      "types": ["Feu", "Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0668.png",
+      "description": "Son souffle enflammé atteint les 6 000 °C,\nmais il ne l’utilise jamais contre ses proies.\nIl préfère en effet la viande crue.",
+      "abilities": {
+        "regular": ["Rivalité", "Tension"],
+        "hidden": "Impudence"
+      },
+      "weight": "81.5 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0669",
+      "name": "Flabébé",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0669.png",
+      "description": "Bien qu’il soit vulnérable sans le pouvoir\nde sa fleur, il voyagera jusqu’à en trouver\nune de la couleur et de la forme qu’il préfère.",
+      "abilities": {
+        "regular": ["Flora-Voile"],
+        "hidden": "Symbiose"
+      },
+      "weight": "0.1 kg",
+      "height": "0.1 m"
+    },
+    {
+      "id": "0670",
+      "name": "Floette",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0670.png",
+      "description": "Il fait profiter ses fleurs de ses pouvoirs et met\ntout son cœur à leur entretien. Gare à ceux qui\nravagent ses plates-bandes !",
+      "abilities": {
+        "regular": ["Flora-Voile"],
+        "hidden": "Symbiose"
+      },
+      "weight": "0.9 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0671",
+      "name": "Florges",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0671.png",
+      "description": "Il peut vivre des centaines d’années, et\nconsacre sa longue existence à l’entretien\ndes jardins.",
+      "abilities": {
+        "regular": ["Flora-Voile"],
+        "hidden": "Symbiose"
+      },
+      "weight": "10.0 kg",
+      "height": "1.1 m"
+    },
+    {
+      "id": "0672",
+      "name": "Cabriolaine",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0672.png",
+      "description": "Tant qu’il a de l’eau et du soleil en abondance,\nce Pokémon n’a pas besoin de nourriture. Les feuilles\nsur son dos produisent son énergie par photosynthèse.",
+      "abilities": {
+        "regular": ["Herbivore"],
+        "hidden": "Toison Herbue"
+      },
+      "weight": "31.0 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0673",
+      "name": "Chevroum",
+      "types": ["Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0673.png",
+      "description": "Ce Pokémon vit dans les régions montagneuses. Le chef\ndu troupeau s’impose à l’issue d’un combat de cornes.",
+      "abilities": {
+        "regular": ["Herbivore"],
+        "hidden": "Toison Herbue"
+      },
+      "weight": "91.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0674",
+      "name": "Pandespiègle",
+      "types": ["Combat"],
+      "image": "public/pokemon/shiny/6 - KALOS/0674.png",
+      "description": "Il dévisage toujours ses adversaires d’un air\nrenfrogné pour être pris au sérieux, mais dès que\nla tension retombe, son sourire reprend le dessus.",
+      "abilities": {
+        "regular": ["Poing de Fer", "Brise Moule"],
+        "hidden": "Querelleur"
+      },
+      "weight": "8.0 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0675",
+      "name": "Pandarbare",
+      "types": ["Combat", "Ténèbres"],
+      "image": "public/pokemon/shiny/6 - KALOS/0675.png",
+      "description": "Il anticipe les mouvements de son adversaire\ngrâce à sa feuille. Ses coups de poing peuvent\nréduire un camion-benne en un tas de ferraille.",
+      "abilities": {
+        "regular": ["Poing de Fer", "Brise Moule"],
+        "hidden": "Querelleur"
+      },
+      "weight": "136.0 kg",
+      "height": "2.1 m"
+    },
+    {
+      "id": "0676",
+      "name": "Couafarel",
+      "types": ["Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0676.png",
+      "description": "Sa fourrure pousse indéfiniment, mais il refuse\nde se faire couper la toison par une personne\nen qui il n’a pas confiance.",
+      "abilities": {
+        "regular": ["Toison Épaisse"],
+        "hidden": null
+      },
+      "weight": "28.0 kg",
+      "height": "1.2 m"
+    },
+    {
+      "id": "0677",
+      "name": "Psystigri",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/6 - KALOS/0677.png",
+      "description": "Il possède des pouvoirs psychiques si puissants\nqu’il peut faire valser un catcheur.\nMalheureusement, il a du mal à les contrôler.",
+      "abilities": {
+        "regular": ["Regard Vif", "Infiltration"],
+        "hidden": "Tempo Perso"
+      },
+      "weight": "3.5 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0678",
+      "name": "Mistigrix",
+      "types": ["Psy"],
+      "image": "public/pokemon/shiny/6 - KALOS/0678.png",
+      "description": "Le mâle a un instinct de défense très développé.\nIl n’hésite pas à lancer une attaque à pleine\npuissance pour protéger ses partenaires et lui.",
+      "abilities": {
+        "regular": ["Regard Vif", "Infiltration"],
+        "hidden": "Farceur"
+      },
+      "weight": "8.5 kg",
+      "height": "0.6 m"
+    },
+    {
+      "id": "0679",
+      "name": "Monorpale",
+      "types": ["Acier", "Spectre"],
+      "image": "public/pokemon/shiny/6 - KALOS/0679.png",
+      "description": "L’œil bleu sur la garde de la lame est le véritable\ncorps de Monorpale. Il aspire l’énergie vitale\ndes gens avec son étoffe usée par le temps.",
+      "abilities": {
+        "regular": ["Annule Garde"],
+        "hidden": null
+      },
+      "weight": "2.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0680",
+      "name": "Dimoclès",
+      "types": ["Acier", "Spectre"],
+      "image": "public/pokemon/shiny/6 - KALOS/0680.png",
+      "description": "Ses deux lames abattent leurs proies\nen enchaînant les attaques et les parades\nà un rythme effréné.",
+      "abilities": {
+        "regular": ["Annule Garde"],
+        "hidden": null
+      },
+      "weight": "4.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0681",
+      "name": "Exagide",
+      "types": ["Acier", "Spectre"],
+      "image": "public/pokemon/shiny/6 - KALOS/0681.png",
+      "description": "Grâce à ses puissants pouvoirs spirituels,\nil a contrôlé des humains et des Pokémon\npour créer un pays conforme à ses idéaux.",
+      "abilities": {
+        "regular": ["Déclic Tactique"],
+        "hidden": null
+      },
+      "weight": "53.0 kg",
+      "height": "1.7 m"
+    },
+    {
+      "id": "0682",
+      "name": "Fluvetin",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0682.png",
+      "description": "Une douce odeur qui charme les gens émane\nde son corps. Les dames nobles raffolaient de lui.",
+      "abilities": {
+        "regular": ["Cœur Soin"],
+        "hidden": "Aroma-Voile"
+      },
+      "weight": "0.5 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0683",
+      "name": "Cocotine",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0683.png",
+      "description": "Il peut émettre une puanteur si infâme qu’elle\nprive ses ennemis de leur combativité, ou un\nparfum si réconfortant qu’il encourage ses alliés.",
+      "abilities": {
+        "regular": ["Cœur Soin"],
+        "hidden": "Aroma-Voile"
+      },
+      "weight": "15.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0684",
+      "name": "Sucroquin",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0684.png",
+      "description": "Sa douce fourrure possède une odeur sucrée\ncomme la barbe à papa. Il produit des filaments\ngluants pour empêtrer ses adversaires.",
+      "abilities": {
+        "regular": ["Gluco-Voile"],
+        "hidden": "Délestage"
+      },
+      "weight": "3.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0685",
+      "name": "Cupcanaille",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0685.png",
+      "description": "Sa fourrure est si aérée qu’elle le rend très doux\net très agréable au toucher, et bien plus léger\nqu’il en a l’air.",
+      "abilities": {
+        "regular": ["Gluco-Voile"],
+        "hidden": "Délestage"
+      },
+      "weight": "5.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0686",
+      "name": "Sepiatop",
+      "types": ["Ténèbres", "Psy"],
+      "image": "public/pokemon/shiny/6 - KALOS/0686.png",
+      "description": "Il sape la combativité de son adversaire en faisant\nclignoter son corps lumineux, puis profite\nde cet instant de répit pour s’enfuir.",
+      "abilities": {
+        "regular": ["Contestation", "Ventouse"],
+        "hidden": "Infiltration"
+      },
+      "weight": "3.5 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0687",
+      "name": "Sepiatroce",
+      "types": ["Ténèbres", "Psy"],
+      "image": "public/pokemon/shiny/6 - KALOS/0687.png",
+      "description": "On raconte que ses pouvoirs hypnotiques\nseraient à l’origine d’évènements qui ont\nbouleversé le cours de l’Histoire.",
+      "abilities": {
+        "regular": ["Contestation", "Ventouse"],
+        "hidden": "Infiltration"
+      },
+      "weight": "47.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0688",
+      "name": "Opermine",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0688.png",
+      "description": "Il faut que les deux bras travaillent bien ensemble\ns’ils souhaitent survivre, sinon leur défense\net leur attaque en souffrent grandement.",
+      "abilities": {
+        "regular": ["Griffe Dure", "Sniper"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "31.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0689",
+      "name": "Golgopathe",
+      "types": ["Roche", "Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0689.png",
+      "description": "Il scrute les environs avec les yeux de ses paumes.\nEn cas d’urgence, ses membres peuvent prendre\ndes initiatives pour triompher de l’ennemi.",
+      "abilities": {
+        "regular": ["Griffe Dure", "Sniper"],
+        "hidden": "Pickpocket"
+      },
+      "weight": "96.0 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0690",
+      "name": "Venalgue",
+      "types": ["Poison", "Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0690.png",
+      "description": "Ressembler à une algue en décomposition lui\npermet d’échapper à ses ennemis en se cachant\nau milieu des résidus de plantes aquatiques.",
+      "abilities": {
+        "regular": ["Point Poison", "Toxitouche"],
+        "hidden": "Adaptabilité"
+      },
+      "weight": "7.3 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0691",
+      "name": "Kravarech",
+      "types": ["Poison", "Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0691.png",
+      "description": "Il sort la crête sur sa tête à la surface de l’eau\net l’expose à la lumière du soleil pour produire\nde l’énergie draconique.",
+      "abilities": {
+        "regular": ["Point Poison", "Toxitouche"],
+        "hidden": "Adaptabilité"
+      },
+      "weight": "81.5 kg",
+      "height": "1.8 m"
+    },
+    {
+      "id": "0692",
+      "name": "Flingouste",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0692.png",
+      "description": "Il concentre du gaz dans sa pince droite et\nle fait exploser pour tirer une rafale d’eau\nsur ses ennemis, comme une balle de pistolet.",
+      "abilities": {
+        "regular": ["Méga Blaster"],
+        "hidden": null
+      },
+      "weight": "8.3 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0693",
+      "name": "Gamblast",
+      "types": ["Eau"],
+      "image": "public/pokemon/shiny/6 - KALOS/0693.png",
+      "description": "Sa pince droite est un canon pouvant projeter\ndes obus d’eau assez puissants pour couler\nun navire-citerne.",
+      "abilities": {
+        "regular": ["Méga Blaster"],
+        "hidden": null
+      },
+      "weight": "35.3 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0694",
+      "name": "Galvaran",
+      "types": ["Électrik", "Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0694.png",
+      "description": "Il peut générer de l’électricité grâce au soleil.\nSi on le dérange en pleine production d’énergie,\ncela le stresse et l’affaiblit.",
+      "abilities": {
+        "regular": ["Peau Sèche", "Voile Sable"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "6.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0695",
+      "name": "Iguolta",
+      "types": ["Électrik", "Normal"],
+      "image": "public/pokemon/shiny/6 - KALOS/0695.png",
+      "description": "Lorsqu’il déploie sa collerette pour emmagasiner\nla lumière du soleil, il génère à lui seul assez\nd’électricité pour alimenter une grande ville.",
+      "abilities": {
+        "regular": ["Peau Sèche", "Voile Sable"],
+        "hidden": "Force Soleil"
+      },
+      "weight": "21.0 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0696",
+      "name": "Ptyranidur",
+      "types": ["Roche", "Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0696.png",
+      "description": "Capricieux, il veut toujours être le centre\nde l’attention. Il peut gravement blesser\nson Dresseur en essayant de jouer avec lui.",
+      "abilities": {
+        "regular": ["Prognathe"],
+        "hidden": "Fermeté"
+      },
+      "weight": "26.0 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0697",
+      "name": "Rexillius",
+      "types": ["Roche", "Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0697.png",
+      "description": "Ce Pokémon peut réduire une voiture en miettes\nd’un seul coup de mâchoire. Il était considéré\ncomme le roi du monde préhistorique.",
+      "abilities": {
+        "regular": ["Prognathe"],
+        "hidden": "Tête de Roc"
+      },
+      "weight": "270.0 kg",
+      "height": "2.5 m"
+    },
+    {
+      "id": "0698",
+      "name": "Amagara",
+      "types": ["Roche", "Glace"],
+      "image": "public/pokemon/shiny/6 - KALOS/0698.png",
+      "description": "Un Pokémon ancien qui s’est éteint. On trouve\nparfois des spécimens conservés dans la glace.",
+      "abilities": {
+        "regular": ["Peau Gelée"],
+        "hidden": "Alerte Neige"
+      },
+      "weight": "25.2 kg",
+      "height": "1.3 m"
+    },
+    {
+      "id": "0699",
+      "name": "Dragmara",
+      "types": ["Roche", "Glace"],
+      "image": "public/pokemon/shiny/6 - KALOS/0699.png",
+      "description": "Lorsqu’il se laisse emporter par sa rage,\nil relâche des bourrasques glacées\nqui gèlent tout ce qui l’entoure.",
+      "abilities": {
+        "regular": ["Peau Gelée"],
+        "hidden": "Alerte Neige"
+      },
+      "weight": "225.0 kg",
+      "height": "2.7 m"
+    },
+    {
+      "id": "0700",
+      "name": "Nymphali",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0700.png",
+      "description": "Un conte de Galar relate la victoire d’un beau\nNymphali sur un terrible Pokémon Dragon.",
+      "abilities": {
+        "regular": ["Joli Sourire"],
+        "hidden": "Peau Féérique"
+      },
+      "weight": "23.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0701",
+      "name": "Brutalibré",
+      "types": ["Combat", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0701.png",
+      "description": "Il prend toujours la pose avant de donner le coup\nde grâce à son adversaire. Certains en profitent\npour contre-attaquer.",
+      "abilities": {
+        "regular": ["Échauffement", "Délestage"],
+        "hidden": "Brise Moule"
+      },
+      "weight": "21.5 kg",
+      "height": "0.8 m"
+    },
+    {
+      "id": "0702",
+      "name": "Dedenne",
+      "types": ["Électrik", "Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0702.png",
+      "description": "Puisqu’il a du mal à générer sa propre électricité,\nil en vole aux autres Pokémon Électrik ou via\nles prises de courant.",
+      "abilities": {
+        "regular": ["Bajoues", "Ramassage"],
+        "hidden": "Plus"
+      },
+      "weight": "2.2 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0703",
+      "name": "Strassie",
+      "types": ["Roche", "Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0703.png",
+      "description": "On raconte qu’il existerait quelque part dans\nle monde un filon regorgeant de Strassie,\nqui abriterait également leur reine.",
+      "abilities": {
+        "regular": ["Corps Sain"],
+        "hidden": "Fermeté"
+      },
+      "weight": "5.7 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0704",
+      "name": "Mucuscule",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0704.png",
+      "description": "Ses cornes sont des organes sensoriels qui lui\npermettent de se cacher quand il détecte des\nennemis. C’est grâce à cela qu’il vit toujours.",
+      "abilities": {
+        "regular": ["Herbivore", "Hydratation"],
+        "hidden": "Poisseux"
+      },
+      "weight": "2.8 kg",
+      "height": "0.3 m"
+    },
+    {
+      "id": "0705",
+      "name": "Colimucus",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0705.png",
+      "description": "Son petit cerveau est caché dans la bosse qui\nest sur son dos. Il ne pense pas à grand-chose,\nsi ce n’est à se nourrir et à fuir devant ses ennemis.",
+      "abilities": {
+        "regular": ["Herbivore", "Hydratation"],
+        "hidden": "Poisseux"
+      },
+      "weight": "17.5 kg",
+      "height": "0.8 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0706",
+      "name": "Muplodocus",
+      "types": ["Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0706.png",
+      "description": "Il attaque à l’aide de ses longues cornes.\nSes coups sont cent fois plus puissants\nque ceux d’un champion poids lourds de boxe.",
+      "abilities": {
+        "regular": ["Herbivore", "Hydratation"],
+        "hidden": "Poisseux"
+      },
+      "weight": "150.5 kg",
+      "height": "2.0 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0707",
+      "name": "Trousselin",
+      "types": ["Acier", "Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0707.png",
+      "description": "Il absorbe les ions métalliques avec l’appendice\nsur sa tête. Il paraît qu’il ressemble à une clé\ncar il tient à imiter cet objet qu’il aime tant.",
+      "abilities": {
+        "regular": ["Farceur"],
+        "hidden": "Magicien"
+      },
+      "weight": "3.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0708",
+      "name": "Brocélôme",
+      "types": ["Spectre", "Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0708.png",
+      "description": "Il imite des cris d’enfants pour pousser les adultes\nà venir se perdre au plus profond de la forêt.",
+      "abilities": {
+        "regular": ["Médic Nature", "Fouille"],
+        "hidden": "Récolte"
+      },
+      "weight": "7.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0709",
+      "name": "Desséliande",
+      "types": ["Spectre", "Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0709.png",
+      "description": "Il étire les fines racines de ses pieds pour établir\nune connexion avec les autres arbres de la forêt\net ainsi les contrôler.",
+      "abilities": {
+        "regular": ["Médic Nature", "Fouille"],
+        "hidden": "Récolte"
+      },
+      "weight": "71.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0710",
+      "name": "Pitrouille",
+      "types": ["Spectre", "Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0710.png",
+      "description": "Il peut manipuler les humains et les Pokémon\nen les hypnotisant grâce à la lumière qui filtre\npar les trous de son ventre en forme de citrouille.",
+      "abilities": {
+        "regular": ["Ramassage", "Fouille"],
+        "hidden": "Insomnia"
+      },
+      "weight": "5.0 kg",
+      "height": "0.4 m"
+    },
+    {
+      "id": "0711",
+      "name": "Banshitrouye",
+      "types": ["Spectre", "Plante"],
+      "image": "public/pokemon/shiny/6 - KALOS/0711.png",
+      "description": "Les soirs de nouvelle lune, il frappe aux portes\ndes maisons. Si quelqu’un a le malheur de lui\nouvrir, il l’emporte aussitôt dans l’au-delà.",
+      "abilities": {
+        "regular": ["Ramassage", "Fouille"],
+        "hidden": "Insomnia"
+      },
+      "weight": "12.5 kg",
+      "height": "0.9 m"
+    },
+    {
+      "id": "0712",
+      "name": "Grelaçon",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/6 - KALOS/0712.png",
+      "description": "Il vit dans les régions les plus froides, agrippé\naux Séracrawl. Il gèle ses pattes sur leur dos\npour se maintenir en place.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Corps Gel"],
+        "hidden": "Fermeté"
+      },
+      "weight": "99.5 kg",
+      "height": "1.0 m"
+    },
+    {
+      "id": "0713",
+      "name": "Séracrawl",
+      "types": ["Glace"],
+      "image": "public/pokemon/shiny/6 - KALOS/0713.png",
+      "description": "Les crevasses sur son dos s’approfondissent\nau cours de la journée, mais se comblent\nde nouveau pendant la nuit.",
+      "abilities": {
+        "regular": ["Tempo Perso", "Corps Gel"],
+        "hidden": "Fermeté"
+      },
+      "weight": "505.0 kg",
+      "height": "2.0 m",
+      "forms": ["hisui"]
+    },
+    {
+      "id": "0714",
+      "name": "Sonistrelle",
+      "types": ["Vol", "Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0714.png",
+      "description": "Il peut contrôler des ondes à n’importe quelle\nfréquence du spectre. Même les plus grands\nPokémon ne peuvent supporter ses ultrasons.",
+      "abilities": {
+        "regular": ["Fouille", "Infiltration"],
+        "hidden": "Télépathe"
+      },
+      "weight": "8.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0715",
+      "name": "Bruyverne",
+      "types": ["Vol", "Dragon"],
+      "image": "public/pokemon/shiny/6 - KALOS/0715.png",
+      "description": "Il plane dans les ténèbres, blessant ses ennemis\nà coups d’ultrasons pouvant briser des rochers\navant de les achever de ses crocs acérés.",
+      "abilities": {
+        "regular": ["Fouille", "Infiltration"],
+        "hidden": "Télépathe"
+      },
+      "weight": "85.0 kg",
+      "height": "1.5 m"
+    },
+    {
+      "id": "0716",
+      "name": "Xerneas",
+      "types": ["Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0716.png",
+      "description": "D’après la légende, quand ses bois brillent de sept couleurs,\ncela signifie qu’il prodigue la vie éternelle.",
+      "abilities": {
+        "regular": ["Aura Féérique"],
+        "hidden": null
+      },
+      "weight": "215.0 kg",
+      "height": "3.0 m"
+    },
+    {
+      "id": "0717",
+      "name": "Yveltal",
+      "types": ["Ténèbres", "Vol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0717.png",
+      "description": "Quand il sent que la fin de sa vie est proche, il aspire la force\nvitale des êtres vivants et retourne à l’état de cocon.",
+      "abilities": {
+        "regular": ["Aura Ténébreuse"],
+        "hidden": null
+      },
+      "weight": "203.0 kg",
+      "height": "5.8 m"
+    },
+    {
+      "id": "0718",
+      "name": "Zygarde",
+      "types": ["Dragon", "Sol"],
+      "image": "public/pokemon/shiny/6 - KALOS/0718.png",
+      "description": "Ce Pokémon serait capable de prendre\nune forme encore plus puissante quand il se bat\ncontre un ennemi qui menace l’écosystème.",
+      "abilities": {
+        "regular": ["Aura Inversée"],
+        "hidden": null
+      },
+      "weight": "305.0 kg",
+      "height": "5.0 m"
+    },
+    {
+      "id": "0719",
+      "name": "Diancie",
+      "types": ["Roche", "Fée"],
+      "image": "public/pokemon/shiny/6 - KALOS/0719.png",
+      "description": "Il peut créer une multitude de diamants en un instant\nen serrant ses mains, simplement en compressant\nles molécules de carbone contenues dans l’air.",
+      "abilities": {
+        "regular": ["Corps Sain"],
+        "hidden": null
+      },
+      "weight": "8.8 kg",
+      "height": "0.7 m",
+      "forms": ["mega"]
+    },
+    {
+      "id": "0720",
+      "name": "Hoopa",
+      "types": ["Psy", "Spectre"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "On raconte que grâce à ses six anneaux et ses six énormes\nbras, il est capable de dérober tout ce qui lui plaît.\nMais son pouvoir a été scellé, et il a été réduit à l’état\nd’un être minuscule.",
+      "abilities": {
+        "regular": ["Magicien"],
+        "hidden": null
+      },
+      "weight": "9.0 kg",
+      "height": "0.5 m"
+    },
+    {
+      "id": "0721",
+      "name": "Volcanion",
+      "types": ["Feu", "Eau"],
+      "image": "public/assets/shiny-lock.png",
+      "description": "Il évacue la vapeur qui s’accumule à l’intérieur de son corps\npar les bras situés sur son dos. Ce jet est assez puissant\npour raser des montagnes.",
+      "abilities": {
+        "regular": ["Absorbe-Eau"],
+        "hidden": null
+      },
+      "weight": "195.0 kg",
+      "height": "1.7 m"
+    }
+  ]
+}

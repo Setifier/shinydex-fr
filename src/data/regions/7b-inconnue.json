@@ -1,0 +1,32 @@
+{
+  "region": "7b - INCONNUE",
+  "pokemons": [
+    {
+      "id": "0808",
+      "name": "Meltan",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/7b - INCONNUE/0808.png",
+      "description": "Les Meltan vivent en groupe. Quand l’heure\nde l’évolution a sonné, le plus fort d’entre eux\nabsorbe ses camarades pour changer de forme.",
+      "abilities": {
+        "regular": ["Magnépiège"],
+        "hidden": null
+      },
+      "weight": "8.0 kg",
+      "height": "0.2 m"
+    },
+    {
+      "id": "0809",
+      "name": "Melmetal",
+      "types": ["Acier"],
+      "image": "public/pokemon/shiny/7b - INCONNUE/0809.png",
+      "description": "On dit que, grâce à la force centrifuge, les coups\nde poing qu’il assène avec ses lourds écrous\nseraient les plus dévastateurs parmi les Pokémon.",
+      "abilities": {
+        "regular": ["Poing de Fer"],
+        "hidden": null
+      },
+      "weight": "800.0 kg",
+      "height": "2.5 m",
+      "forms": ["giga"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "form": "ORIGINELLES",
+  "pokemons": [
+    {
+      "id": "0483-origin",
+      "name": "Dialga (Forme Originelle)",
+      "types": ["Acier", "Dragon"],
+      "image": "public/pokemon/shiny/ORIGINELLES/0483_Originelle.png",
+      "description": "La lumière lui a donné cette forme semblable à celle du créateur de toutes choses. La force qu'il déploie est telle que je ne peux m'empêcher de penser qu'il est sous sa forme véritable.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Télépathe"
+      },
+      "weight": "850.0 kg",
+      "height": "7.0 m"
+    },
+    {
+      "id": "0484-origin",
+      "name": "Palkia (Forme Originelle)",
+      "types": ["Eau", "Dragon"],
+      "image": "public/pokemon/shiny/ORIGINELLES/0484_Originelle.png",
+      "description": "Cette forme qui sillonne les cieux me fait penser au créateur de toutes choses. Je pense qu'épouser cette apparence prodigue à Palkia les pouvoirs du créateur.",
+      "abilities": {
+        "regular": ["Pression"],
+        "hidden": "Télépathe"
+      },
+      "weight": "660.0 kg",
+      "height": "6.3 m"
+    },
+    {
+      "id": "0487-origin",
+      "name": "Giratina (Forme Originelle)",
+      "types": ["Spectre", "Dragon"],
+      "image": "public/pokemon/shiny/ORIGINELLES/0487_Originelle.png",
+      "description": "Il perd ses pattes lorsqu'il adopte cette forme. Je pense qu'il gîte dans un monde où le ciel et terre ne font qu'un, mais je ne dispose d'aucun moyen de le prouver.",
+      "abilities": {
+        "regular": ["Lévitation"],
+        "hidden": null
+      },
+      "weight": "650.0 kg",
+      "height": "6.9 m"
+    }
+  ]
+}
