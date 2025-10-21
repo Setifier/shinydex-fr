@@ -1,13 +1,19 @@
 import { SignOutButton } from "@/components/sign-out-button";
+import { Button } from "@/components/ui/button";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
+import { redirect } from "next/navigation";
+import Link from "next/link";
+import { Shield } from "lucide-react";
 
 export default async function ProfilePage() {
   const session = await auth.api.getSession({
     headers: await headers(),
   });
 
-  if (!session) return <p className="text-destructive">Non autorisé</p>;
+  if (!session) redirect("/auth/login");
+
+  const isAdmin = session.user.role === "ADMIN";
 
   return (
     <div className="px-8 py-16 container mx-auto max-w-screen-lg space-y-8">
@@ -15,7 +21,17 @@ export default async function ProfilePage() {
         <h1>Profile</h1>
       </div>
 
-      <SignOutButton />
+      <div className="flex items-center gap-4">
+        {isAdmin && (
+          <Button asChild variant="destructive" size="lg">
+            <Link href="/admin/dashboard">
+              <Shield className="mr-2 h-5 w-5" />
+              Dashboard Admin
+            </Link>
+          </Button>
+        )}
+        <SignOutButton />
+      </div>
 
       <pre className="text-sm overflow-clip">
         {JSON.stringify(session, null, 2)}

@@ -1,6 +1,8 @@
 "use server";
 
 import { auth } from "@/lib/auth";
+import { APIError } from "better-auth/api";
+import { ErrorCode } from "@/lib/auth";
 
 export async function signUpEmailAction(formData: FormData) {
   const name = String(formData.get("name"));
@@ -21,9 +23,14 @@ export async function signUpEmailAction(formData: FormData) {
       },
     });
     return { error: null };
-  } catch (er) {
-    if (er instanceof Error) {
-      return { error: "Oups, une erreur est survenue" };
+  } catch (err) {
+    if (err instanceof APIError) {
+      const errCode = err.body ? (err.body.code as ErrorCode) : "UNKNOWN_ERROR";
+
+      switch (errCode) {
+        default:
+          return { error: err.message };
+      }
     }
     return { error: "Internal Server Error" };
   }
