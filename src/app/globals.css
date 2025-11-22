@@ -107,6 +107,24 @@
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
   --form-bg: oklch(0.97 0.002 240); /* Gris très clair pour formulaires */
+
+  /* Variables Pokédex - Thème Clair */
+  --pokedex-border: #94a3b8;
+  --pokedex-border-accent: rgba(57, 154, 180, 0.4);
+  --pokedex-shadow: rgba(0, 0, 0, 0.15);
+  --pokedex-content-bg-start: rgba(248, 250, 252, 0.98);
+  --pokedex-content-bg-mid: rgba(241, 245, 249, 0.95);
+  --pokedex-content-bg-end: rgba(248, 250, 252, 0.98);
+  --pokedex-gradient-top: rgba(57, 154, 180, 0.06);
+  --pokedex-gradient-bottom: rgba(53, 190, 124, 0.04);
+  --pokedex-grid-line: rgba(57, 154, 180, 0.08);
+  --pokedex-card-bg-start: #e2e8f0;
+  --pokedex-card-bg-end: #cbd5e1;
+  --pokedex-card-border: rgba(57, 154, 180, 0.3);
+  --pokedex-separator: rgba(57, 154, 180, 0.6);
+  --pokedex-page-bg-start: #cbd5e1;
+  --pokedex-page-bg-end: #94a3b8;
+  --pokedex-navbar-bg: rgba(241, 245, 249, 0.95);
 }
 
 .dark {
@@ -157,6 +175,24 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
   --form-bg: var(--muted); /* Même couleur que muted en dark */
+
+  /* Variables Pokédex - Thème Sombre */
+  --pokedex-border: #475569;
+  --pokedex-border-accent: rgba(57, 154, 180, 0.3);
+  --pokedex-shadow: rgba(0, 0, 0, 0.9);
+  --pokedex-content-bg-start: rgba(15, 23, 42, 0.98);
+  --pokedex-content-bg-mid: rgba(30, 41, 59, 0.95);
+  --pokedex-content-bg-end: rgba(15, 23, 42, 0.98);
+  --pokedex-gradient-top: rgba(57, 154, 180, 0.08);
+  --pokedex-gradient-bottom: rgba(53, 190, 124, 0.05);
+  --pokedex-grid-line: rgba(57, 154, 180, 0.03);
+  --pokedex-card-bg-start: #334155;
+  --pokedex-card-bg-end: #1e293b;
+  --pokedex-card-border: rgba(57, 154, 180, 0.3);
+  --pokedex-separator: rgba(57, 154, 180, 0.6);
+  --pokedex-page-bg-start: #1e293b;
+  --pokedex-page-bg-end: #0f172a;
+  --pokedex-navbar-bg: rgba(15, 23, 42, 0.95);
 }
 
 @layer base {
@@ -345,4 +381,748 @@
   to {
     opacity: 0;
   }
+}
+
+/* Animation scintillement shiny */
+@keyframes shiny-sparkle {
+  0% {
+    transform: translateX(-150%) skewX(-12deg);
+  }
+  100% {
+    transform: translateX(150%) skewX(-12deg);
+  }
+}
+
+/* Animation squeeze/bounce au clic */
+@keyframes squeeze {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(0.85);
+  }
+  30% {
+    transform: scale(1.2, 0.7);
+  }
+  45% {
+    transform: scale(0.9, 1.3);
+  }
+  60% {
+    transform: scale(1.15, 0.85);
+  }
+  75% {
+    transform: scale(0.95, 1.1);
+  }
+  90% {
+    transform: scale(1.05, 0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animation de la bande lumineuse - durée 2s */
+@keyframes shiny-sparkle {
+  0% {
+    transform: translateX(-150%) skewX(-12deg);
+  }
+  100% {
+    transform: translateX(150%) skewX(-12deg);
+  }
+}
+
+/* Animations de scintillement - apparition/disparition avec long délai */
+@keyframes sparkle-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  3% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  9% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  12% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkle-2 {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  3% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  9% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  12% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkle-3 {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  3% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  9% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  12% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkle-4 {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  3% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  9% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  12% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.animate-shiny-sparkle {
+  animation: shiny-sparkle 2s ease-in-out infinite;
+}
+
+.animate-squeeze {
+  animation: squeeze 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.animate-sparkle-1 {
+  animation: sparkle-1 3s ease-in-out infinite;
+}
+
+.animate-sparkle-2 {
+  animation: sparkle-2 3.5s ease-in-out infinite 0.5s;
+}
+
+.animate-sparkle-3 {
+  animation: sparkle-3 4s ease-in-out infinite 1s;
+}
+
+.animate-sparkle-4 {
+  animation: sparkle-4 3.2s ease-in-out infinite 1.5s;
+}
+
+/* Styles Pokédex */
+.pokedex-screen {
+  @apply relative rounded-2xl overflow-hidden;
+  border: 6px solid var(--pokedex-border);
+  box-shadow: 0 0 0 2px var(--pokedex-border-accent),
+    0 0 30px rgba(57, 154, 180, 0.4), 0 0 60px rgba(57, 154, 180, 0.3),
+    0 0 90px rgba(57, 154, 180, 0.2), 0 20px 60px var(--pokedex-shadow),
+    inset 0 0 40px var(--pokedex-shadow);
+}
+
+/* Effet de lumière brillante animée sur le contour */
+.pokedex-screen::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 1.25rem;
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: 0 0 20px rgba(57, 154, 180, 0.6), 0 0 40px rgba(57, 154, 180, 0.4),
+    inset 0 0 20px rgba(57, 154, 180, 0.2);
+  pointer-events: none;
+  z-index: 10;
+  animation: pokedex-glow 3s ease-in-out infinite;
+}
+
+@keyframes pokedex-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(57, 154, 180, 0.6),
+      0 0 40px rgba(57, 154, 180, 0.4), inset 0 0 20px rgba(57, 154, 180, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(57, 154, 180, 0.8),
+      0 0 60px rgba(57, 154, 180, 0.6), inset 0 0 30px rgba(57, 154, 180, 0.3);
+  }
+}
+
+.pokedex-content {
+  @apply relative;
+  background: radial-gradient(
+      ellipse at top,
+      var(--pokedex-gradient-top) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      var(--pokedex-gradient-bottom) 0%,
+      transparent 50%
+    ),
+    linear-gradient(
+      135deg,
+      var(--pokedex-content-bg-start) 0%,
+      var(--pokedex-content-bg-mid) 50%,
+      var(--pokedex-content-bg-end) 100%
+    );
+  box-shadow: inset 0 2px 20px var(--pokedex-shadow);
+  position: relative;
+  z-index: 2;
+}
+
+/* Pattern technologique subtil pour le background */
+.pokedex-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      var(--pokedex-grid-line) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, var(--pokedex-grid-line) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Séparateur entre régions - amélioré */
+.region-separator {
+  @apply relative my-12;
+  height: 1px;
+}
+
+.region-separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in srgb, var(--pokedex-separator) 10%, transparent) 20%,
+    color-mix(in srgb, var(--pokedex-separator) 40%, transparent) 40%,
+    var(--pokedex-separator) 50%,
+    color-mix(in srgb, var(--pokedex-separator) 40%, transparent) 60%,
+    color-mix(in srgb, var(--pokedex-separator) 10%, transparent) 80%,
+    transparent 100%
+  );
+  box-shadow: 0 0 10px
+      color-mix(in srgb, var(--pokedex-separator) 30%, transparent),
+    0 0 20px color-mix(in srgb, var(--pokedex-separator) 10%, transparent);
+}
+
+/* Background de la page Shinydex */
+.pokedex-page-bg {
+  background: linear-gradient(
+    to bottom,
+    var(--pokedex-page-bg-start) 0%,
+    var(--pokedex-page-bg-end) 100%
+  );
+}
+
+/* Navbar sticky du Shinydex */
+.pokedex-navbar {
+  background-color: var(--pokedex-navbar-bg);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+/* Ligne de séparation avec gradient */
+.forms-separator-line {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in srgb, var(--primary) 20%, transparent) 30%,
+    var(--primary) 50%,
+    color-mix(in srgb, var(--primary) 20%, transparent) 70%,
+    transparent 100%
+  );
+  opacity: 0.4;
+}
+
+/* Boutons style console */
+.console-button {
+  @apply px-4 py-2 font-semibold text-white;
+  border-radius: 0.75rem;
+  position: relative;
+  transition: all 0.15s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Boutons Primary (Régions) */
+.console-button-primary {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--primary-light) 100%, white 10%) 0%,
+    var(--primary) 50%,
+    var(--primary-dark) 100%
+  );
+  border-top-color: color-mix(in srgb, var(--primary-light) 80%, white 20%);
+  border-bottom-color: var(--primary-darker);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.console-button-primary:hover {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--primary-lighter) 100%, white 15%) 0%,
+    var(--primary-light) 50%,
+    var(--primary) 100%
+  );
+  transform: translateY(-1px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(57, 154, 180, 0.3);
+}
+
+.console-button-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Bouton Primary actif (région visible) */
+.console-button-primary-active {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--primary-lighter) 100%, white 20%) 0%,
+    var(--primary-light) 50%,
+    var(--primary) 100%
+  );
+  border-top-color: color-mix(in srgb, var(--primary-lighter) 90%, white 30%);
+  border-bottom-color: var(--primary-dark);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 3px 8px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 12px rgba(57, 154, 180, 0.8), 0 0 20px rgba(57, 154, 180, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Boutons Secondary (Formes régionales) */
+.console-button-secondary {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--secondary-light) 100%, white 10%) 0%,
+    color-mix(in srgb, var(--secondary) 100%, black 10%) 50%,
+    var(--secondary-dark) 100%
+  );
+  border-top-color: color-mix(in srgb, var(--secondary-light) 80%, white 20%);
+  border-bottom-color: var(--secondary-darker);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.console-button-secondary:hover {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--secondary-lighter) 100%, white 15%) 0%,
+    var(--secondary-light) 50%,
+    var(--secondary) 100%
+  );
+  opacity: 1;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(53, 190, 124, 0.3);
+}
+
+.console-button-secondary-active {
+  background: linear-gradient(
+    180deg,
+    var(--secondary-light) 0%,
+    var(--secondary) 50%,
+    var(--secondary-dark) 100%
+  );
+  border-top-color: var(--secondary-lighter);
+  border-bottom-color: var(--secondary-darker);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(53, 190, 124, 1), 0 0 25px rgba(53, 190, 124, 0.9);
+  transform: translateY(-2px);
+}
+
+/* Boutons Accent (Autres formes) */
+.console-button-accent {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent) 100%, white 15%) 0%,
+    var(--accent) 50%,
+    color-mix(in srgb, var(--accent) 100%, black 15%) 100%
+  );
+  color: var(--accent-foreground);
+  border-top-color: color-mix(in srgb, var(--accent) 80%, white 20%);
+  border-bottom-color: color-mix(in srgb, var(--accent) 100%, black 30%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.console-button-accent:hover {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent) 100%, white 20%) 0%,
+    color-mix(in srgb, var(--accent) 100%, white 5%) 50%,
+    color-mix(in srgb, var(--accent) 100%, black 10%) 100%
+  );
+  opacity: 1;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.console-button-accent-active {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent) 100%, white 10%) 0%,
+    var(--accent) 50%,
+    color-mix(in srgb, var(--accent) 100%, black 20%) 100%
+  );
+  color: var(--accent-foreground);
+  border-top-color: color-mix(in srgb, var(--accent) 80%, white 20%);
+  border-bottom-color: color-mix(in srgb, var(--accent) 100%, black 30%);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px color-mix(in srgb, var(--accent) 100%, transparent),
+    0 0 25px color-mix(in srgb, var(--accent) 90%, transparent);
+  transform: translateY(-2px);
+}
+
+/* Boutons disabled (grisés pour la recherche) */
+.console-button-disabled {
+  opacity: 0.25;
+  filter: grayscale(100%) brightness(0.7);
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+.console-button-disabled:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Animations pour la flèche de collapse/expand de la navbar */
+@keyframes arrow-bounce-up {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  50% {
+    transform: rotate(0deg) translateY(-8px);
+  }
+}
+
+@keyframes arrow-bounce-down {
+  0%, 100% {
+    transform: rotate(180deg) translateY(0);
+  }
+  50% {
+    transform: rotate(180deg) translateY(8px);
+  }
+}
+
+/* Animation de rotation avec wind-up */
+@keyframes arrow-rotate-to-down {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes arrow-rotate-to-up {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* État par défaut des flèches (rotation statique) */
+.navbar-arrow-up {
+  transform: rotate(0deg);
+}
+
+.navbar-arrow-down {
+  transform: rotate(180deg);
+}
+
+/* Animation bounce au hover - continue tant qu'on survole */
+.group:hover .navbar-arrow-up {
+  animation: arrow-bounce-up 0.8s ease-in-out infinite;
+}
+
+.group:hover .navbar-arrow-down {
+  animation: arrow-bounce-down 0.8s ease-in-out infinite;
+}
+
+.navbar-arrow-rotating-down {
+  animation: arrow-rotate-to-down 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar-arrow-rotating-up {
+  animation: arrow-rotate-to-up 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Barre de recherche */
+.search-bar {
+  background: linear-gradient(
+    135deg,
+    var(--pokedex-content-bg-start) 0%,
+    var(--pokedex-content-bg-mid) 50%,
+    var(--pokedex-content-bg-end) 100%
+  );
+  border: 2px solid var(--pokedex-border);
+  color: var(--foreground);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 2px 8px var(--pokedex-shadow), 0 0 0 1px var(--pokedex-border-accent);
+  transition: all 0.2s ease;
+}
+
+.search-bar:focus {
+  border-color: var(--primary);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15),
+    0 4px 12px rgba(57, 154, 180, 0.3), 0 0 0 2px rgba(57, 154, 180, 0.2),
+    0 0 20px rgba(57, 154, 180, 0.15);
+}
+
+.search-bar::placeholder {
+  color: var(--muted-foreground);
+  opacity: 0.7;
+}
+
+/* Slider pour ajuster les colonnes */
+.pokemon-slider {
+  @apply appearance-none h-2 rounded-full outline-none cursor-pointer;
+  background: linear-gradient(
+    90deg,
+    var(--primary-dark) 0%,
+    var(--primary) 50%,
+    var(--primary-light) 100%
+  );
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-slider::-webkit-slider-thumb {
+  @apply appearance-none w-5 h-5 rounded-full cursor-grab;
+  background: linear-gradient(
+    135deg,
+    var(--primary-lighter) 0%,
+    var(--primary-light) 50%,
+    var(--primary) 100%
+  );
+  border: 2px solid var(--primary-dark);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 8px rgba(57, 154, 180, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease;
+}
+
+.pokemon-slider::-webkit-slider-thumb:hover {
+  @apply w-6 h-6;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), 0 0 12px rgba(57, 154, 180, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.pokemon-slider::-webkit-slider-thumb:active {
+  @apply cursor-grabbing w-5 h-5;
+  background: linear-gradient(
+    135deg,
+    var(--primary-light) 0%,
+    var(--primary) 100%
+  );
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 15px rgba(57, 154, 180, 0.8),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-slider::-moz-range-thumb {
+  @apply w-5 h-5 rounded-full cursor-grab border-0;
+  background: linear-gradient(
+    135deg,
+    var(--primary-lighter) 0%,
+    var(--primary-light) 50%,
+    var(--primary) 100%
+  );
+  border: 2px solid var(--primary-dark);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 8px rgba(57, 154, 180, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease;
+}
+
+.pokemon-slider::-moz-range-thumb:hover {
+  @apply w-6 h-6;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), 0 0 12px rgba(57, 154, 180, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.pokemon-slider::-moz-range-thumb:active {
+  @apply cursor-grabbing w-5 h-5;
+  background: linear-gradient(
+    135deg,
+    var(--primary-light) 0%,
+    var(--primary) 100%
+  );
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 15px rgba(57, 154, 180, 0.8),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Carte Pokémon */
+.pokemon-card {
+  @apply relative;
+}
+
+.pokemon-card-bg {
+  background: linear-gradient(
+    135deg,
+    var(--pokedex-card-bg-start) 0%,
+    var(--pokedex-card-bg-end) 100%
+  );
+}
+
+.pokemon-card-border {
+  border-color: var(--pokedex-card-border);
+}
+
+.pokemon-card-border:hover {
+  border-color: var(--primary);
+}
+
+.pokemon-card::before {
+  content: "";
+  @apply absolute inset-0 rounded-lg;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+    color-mix(in srgb, var(--secondary) 10%, transparent) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.pokemon-card:hover::before {
+  opacity: 1;
+}
+
+/* Styles pour la modale Pokémon */
+.pokemon-info-section {
+  background: linear-gradient(
+    135deg,
+    var(--pokedex-content-bg-start) 0%,
+    var(--pokedex-content-bg-mid) 50%,
+    var(--pokedex-content-bg-end) 100%
+  );
+  border: 2px solid var(--pokedex-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 2px 8px var(--pokedex-shadow);
+}
+
+.pokemon-info-label {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary)/30;
+}
+
+.pokemon-info-value {
+  color: var(--foreground);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Select personnalisé pour les formes de Pokémon */
+.pokemon-form-select {
+  background-image: linear-gradient(
+    to bottom,
+    var(--pokedex-content-bg-start),
+    var(--pokedex-content-bg-end)
+  );
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 4px 12px var(--pokedex-shadow),
+    0 0 0 1px var(--pokedex-border-accent);
+}
+
+.pokemon-form-select option {
+  background: var(--pokedex-content-bg-mid);
+  color: var(--foreground);
+  padding: 0.75rem;
+}
+
+.pokemon-form-select:hover {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 6px 16px var(--pokedex-shadow),
+    0 0 0 2px var(--primary)/50;
 }

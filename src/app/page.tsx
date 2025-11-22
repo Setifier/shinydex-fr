@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
+import { GetStartedButton } from "@/components/get-started-button";
 
 export default async function HomePage() {
   const session = await auth.api.getSession({
@@ -26,7 +27,10 @@ export default async function HomePage() {
       <div className="mt-8 flex w-full flex-grow flex-col items-center">
         {/* Section Introduction */}
         <section className="introduction-section">
-          <h1>Bienvenue sur Shinydex</h1>
+          <div className="text-center">
+            <h1 className="mb-2">Bienvenue sur</h1>
+            <h1 className="text-5xl text-secondary">Shinydex</h1>
+          </div>
           <div className="mb-[50px] mt-4 grid w-full max-w-4xl grid-cols-12 items-center">
             <div className="col-span-2" />
             <p className="col-span-8 text-center text-xl">
@@ -38,11 +42,14 @@ export default async function HomePage() {
             <Image
               src="/ui/artworks/goupix_shiny.png"
               alt="Goupix chromatique"
-              width={128}
-              height={128}
-              className="col-span-2 justify-self-center w-32"
+              width={358}
+              height={316}
+              className="col-span-2 justify-self-center w-32 h-auto"
               priority
             />
+          </div>
+          <div className="mt-8 flex justify-center">
+            <GetStartedButton />
           </div>
         </section>
 
@@ -51,25 +58,26 @@ export default async function HomePage() {
           <>
             {/* Section Navigation/CTA */}
             <section>
-              <hr className="border-t-2 border-black w-full" />
               <div className="relative my-12 flex w-full flex-col items-center justify-center">
                 <span className="text-block">
                   Pour bien démarrer, nous vous conseillons de suivre notre{" "}
                   <Link href="/guide" className="link-underline-animate">
                     guide d&apos;utilisation
                   </Link>{" "}
-                  et de suivre toutes les étapes pour la création de votre compte.
+                  et de suivre toutes les étapes pour la création de votre
+                  compte.
                 </span>
                 <span className="text-block">
-                  Si ce n&apos;est pas votre première visite, vous pouvez simplement{" "}
+                  Si ce n&apos;est pas votre première visite, vous pouvez
+                  simplement{" "}
                   <Link href="/auth/login" className="link-underline-animate">
                     vous connecter
                   </Link>
                   .
                 </span>
                 <span className="text-block">
-                  Si vous préférez simplement explorer sans créer de compte, vous
-                  pouvez librement parcourir les Shinydex de la{" "}
+                  Si vous préférez simplement explorer sans créer de compte,
+                  vous pouvez librement parcourir les Shinydex de la{" "}
                   <Link href="/community" className="link-underline-animate">
                     communauté
                   </Link>{" "}

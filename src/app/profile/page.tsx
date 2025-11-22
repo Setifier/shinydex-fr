@@ -5,6 +5,7 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { Shield } from "lucide-react";
+import { ReturnButton } from "@/components/return-button";
 
 export default async function ProfilePage() {
   const session = await auth.api.getSession({
@@ -17,6 +18,10 @@ export default async function ProfilePage() {
 
   return (
     <div className="px-8 py-16 container mx-auto max-w-screen-lg space-y-8">
+      <div>
+        <ReturnButton href="/" />
+      </div>
+
       <div className="space-y-8">
         <h1>Profile</h1>
       </div>

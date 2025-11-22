@@ -60,7 +60,7 @@ export function Navigation() {
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Link href="/" className="nav-link text-[1.15rem]">
+              <Link href="/shinydex" className="nav-link text-[1.15rem]">
                 Shinydex
               </Link>
             </NavigationMenuLink>

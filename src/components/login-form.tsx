@@ -27,8 +27,11 @@ export const LoginForm = () => {
       toast.error(error);
       setIsPending(false);
     } else {
-      toast.success("connexion réussie !");
+      toast.success("Connexion réussie !");
+      router.refresh();
       router.push("/profile");
+
+      setTimeout(() => window.location.reload(), 100);
     }
   }
 

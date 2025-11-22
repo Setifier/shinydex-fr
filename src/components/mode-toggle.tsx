@@ -53,6 +53,7 @@ export function ModeToggle() {
           alt={isDark ? "Moon" : "Sun"}
           width={20}
           height={20}
+          className="w-5 h-5"
         />
       </div>
 

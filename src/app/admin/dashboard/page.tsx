@@ -15,6 +15,7 @@ import {
   User,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ReturnButton } from "@/components/return-button";
 
 export default async function AdminDashboardPage() {
   const session = await auth.api.getSession({
@@ -56,6 +57,11 @@ export default async function AdminDashboardPage() {
 
   return (
     <div className="px-8 py-12 container mx-auto max-w-screen-xl space-y-8">
+      {/* Bouton retour */}
+      <div>
+        <ReturnButton href="/" />
+      </div>
+
       {/* En-tête du dashboard */}
       <div className="space-y-2">
         <h1 className="text-left">Dashboard Admin</h1>
