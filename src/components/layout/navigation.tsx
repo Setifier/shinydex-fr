@@ -10,10 +10,14 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+import { useSession } from "@/lib/auth-client";
+import { UserMenu } from "./user-menu";
 
 export function Navigation() {
+  const { data: session, isPending } = useSession();
+
   return (
-    <div className="flex h-full">
+    <div className="flex h-full items-center gap-2">
       <NavigationMenu viewport={false}>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -65,37 +69,43 @@ export function Navigation() {
               </Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="nav-link text-lg">
-              Connexion
-            </NavigationMenuTrigger>
-            <NavigationMenuContent className="right-0 left-auto">
-              <ul className="grid w-[200px] gap-3 p-2 grid-cols-1">
-                <li>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="/auth/login"
-                      className="nav-link text-[1.15rem] text-center"
-                    >
-                      Se connecter
-                    </Link>
-                  </NavigationMenuLink>
-                </li>
-                <li>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="/auth/register"
-                      className="nav-link text-[1.15rem] text-center"
-                    >
-                      S&apos;inscrire
-                    </Link>
-                  </NavigationMenuLink>
-                </li>
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+
+          {/* Auth section: login/register or user menu */}
+          {!isPending && !session && (
+            <NavigationMenuItem>
+              <NavigationMenuTrigger className="nav-link text-lg">
+                Connexion
+              </NavigationMenuTrigger>
+              <NavigationMenuContent className="right-0 left-auto">
+                <ul className="grid w-[200px] gap-3 p-2 grid-cols-1">
+                  <li>
+                    <NavigationMenuLink asChild>
+                      <Link
+                        href="/auth/login"
+                        className="nav-link text-[1.15rem] text-center"
+                      >
+                        Se connecter
+                      </Link>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink asChild>
+                      <Link
+                        href="/auth/register"
+                        className="nav-link text-[1.15rem] text-center"
+                      >
+                        S&apos;inscrire
+                      </Link>
+                    </NavigationMenuLink>
+                  </li>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+          )}
         </NavigationMenuList>
       </NavigationMenu>
+
+      {!isPending && session && <UserMenu />}
     </div>
   );
 }

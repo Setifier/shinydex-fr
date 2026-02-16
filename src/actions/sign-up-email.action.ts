@@ -1,10 +1,13 @@
 "use server";
 
-import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { auth, ErrorCode } from "@/lib/auth";
 import { APIError } from "better-auth/api";
-import { ErrorCode } from "@/lib/auth";
+import { validatePassword } from "@/lib/password-validation";
+import { getSocialProviders } from "@/lib/account-providers";
+import type { AuthActionResult } from "@/types/auth-action-result";
 
-export async function signUpEmailAction(formData: FormData) {
+export async function signUpEmailAction(formData: FormData): Promise<AuthActionResult> {
   const name = String(formData.get("name"));
   if (!name) return { error: "Veuillez renseigner un nom de dresseur" };
 
@@ -14,6 +17,9 @@ export async function signUpEmailAction(formData: FormData) {
   const password = String(formData.get("password"));
   if (!password) return { error: "Veuillez renseigner un mot de passe" };
 
+  const passwordError = validatePassword(password);
+  if (passwordError) return { error: passwordError };
+
   try {
     await auth.api.signUpEmail({
       body: {
@@ -21,17 +27,32 @@ export async function signUpEmailAction(formData: FormData) {
         email,
         password,
       },
+      headers: await headers(),
     });
     return { error: null };
   } catch (err) {
     if (err instanceof APIError) {
       const errCode = err.body ? (err.body.code as ErrorCode) : "UNKNOWN_ERROR";
 
-      switch (errCode) {
-        default:
-          return { error: err.message };
+      if (errCode === "USER_ALREADY_EXISTS") {
+        const socialProviders = await getSocialProviders(email);
+
+        if (socialProviders.length > 0) {
+          const providerNames = socialProviders.map((p) => p.displayName).join(" / ");
+          return {
+            error: `Un compte existe déjà avec cette adresse via ${providerNames}.`,
+            accountConflict: {
+              providers: socialProviders,
+              type: "signup_account_exists",
+            },
+          };
+        }
+
+        return { error: "Un compte existe déjà avec cette adresse. Connectez-vous ou utilisez le mot de passe oublié." };
       }
+
+      return { error: err.message };
     }
-    return { error: "Internal Server Error" };
+    return { error: "Une erreur est survenue. Veuillez réessayer." };
   }
 }

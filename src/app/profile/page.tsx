@@ -23,7 +23,7 @@ export default async function ProfilePage() {
       </div>
 
       <div className="space-y-8">
-        <h1>Profile</h1>
+        <h1>Profil</h1>
       </div>
 
       <div className="flex items-center gap-4">
@@ -31,7 +31,7 @@ export default async function ProfilePage() {
           <Button asChild variant="destructive" size="lg">
             <Link href="/admin/dashboard">
               <Shield className="mr-2 h-5 w-5" />
-              Dashboard Admin
+              Tableau de bord Admin
             </Link>
           </Button>
         )}

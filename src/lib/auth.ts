@@ -9,6 +9,7 @@ import { hashPassword, verifyPassword } from "./argon2";
 import { getValidDomains, normalizeName } from "@/lib/utils";
 import { UserRole } from "@/generated/prisma";
 import { ac, roles } from "@/lib/permissions";
+import transporter from "@/lib/nodemailer";
 
 export const auth = betterAuth({
   database: prismaAdapter(prisma, {
@@ -18,19 +19,71 @@ export const auth = betterAuth({
     google: {
       clientId: String(process.env.GOOGLE_CLIENT_ID),
       clientSecret: String(process.env.GOOGLE_CLIENT_SECRET),
+      prompt: "select_account",
     },
     discord: {
       clientId: String(process.env.DISCORD_CLIENT_ID),
       clientSecret: String(process.env.DISCORD_CLIENT_SECRET),
+      prompt: "consent",
+    },
+  },
+  account: {
+    accountLinking: {
+      enabled: true,
+      trustedProviders: ["google", "discord"],
     },
   },
   emailAndPassword: {
     enabled: true,
-    minPasswordLength: 6,
+    minPasswordLength: 8,
     autoSignIn: false,
     password: {
       hash: hashPassword,
       verify: verifyPassword,
+    },
+    requireEmailVerification: true,
+    sendResetPassword: async ({ user, url }) => {
+      await transporter.sendMail({
+        from: `"Shinydex" <${process.env.NODEMAILER_USER}>`,
+        to: user.email,
+        subject: "Réinitialiser votre mot de passe — Shinydex",
+        html: `
+          <div style="font-family: sans-serif; max-width: 480px; margin: 0 auto;">
+            <h2>Réinitialisation de mot de passe</h2>
+            <p>Bonjour ${user.name},</p>
+            <p>Vous avez demandé à réinitialiser votre mot de passe. Cliquez sur le bouton ci-dessous :</p>
+            <a href="${url}" style="display: inline-block; padding: 12px 24px; background-color: #6366f1; color: #fff; text-decoration: none; border-radius: 8px;">
+              Réinitialiser mon mot de passe
+            </a>
+            <p style="margin-top: 24px; font-size: 14px; color: #666;">
+              Si vous n'avez pas fait cette demande, ignorez cet email.
+            </p>
+          </div>
+        `,
+      });
+    },
+  },
+  emailVerification: {
+    sendOnSignUp: true,
+    autoSignInAfterVerification: true,
+    sendVerificationEmail: async ({ user, url }) => {
+      await transporter.sendMail({
+        from: `"Shinydex" <${process.env.NODEMAILER_USER}>`,
+        to: user.email,
+        subject: "Vérifiez votre adresse email — Shinydex",
+        html: `
+          <div style="font-family: sans-serif; max-width: 480px; margin: 0 auto;">
+            <h2>Bienvenue sur Shinydex, ${user.name} !</h2>
+            <p>Cliquez sur le bouton ci-dessous pour vérifier votre adresse email :</p>
+            <a href="${url}" style="display: inline-block; padding: 12px 24px; background-color: #6366f1; color: #fff; text-decoration: none; border-radius: 8px;">
+              Vérifier mon email
+            </a>
+            <p style="margin-top: 24px; font-size: 14px; color: #666;">
+              Si vous n'avez pas créé de compte, ignorez cet email.
+            </p>
+          </div>
+        `,
+      });
     },
   },
   hooks: {
@@ -83,6 +136,12 @@ export const auth = betterAuth({
         type: "string",
         required: false,
         defaultValue: "USER",
+        input: false,
+      },
+      onboardingCompleted: {
+        type: "boolean",
+        required: false,
+        defaultValue: false,
         input: false,
       },
     },

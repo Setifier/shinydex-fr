@@ -62,6 +62,18 @@ export function getAllForms(): PokemonFormCollection[] {
 }
 
 /**
+ * Récupère uniquement les formes régionales (Alola, Galar, Hisui, Paldea)
+ */
+export function getRegionalForms(): PokemonFormCollection[] {
+  return [
+    formAlola as PokemonFormCollection,
+    formGalar as PokemonFormCollection,
+    formHisui as PokemonFormCollection,
+    formPaldea as PokemonFormCollection,
+  ];
+}
+
+/**
  * Récupère une région spécifique par son nom
  */
 export function getRegionByName(regionName: string): PokemonRegion | undefined {

@@ -45,10 +45,19 @@ model User {
   banReason     String?
   banExpires    DateTime?
 
+  hunterName          String?
+  birthDay            Int?
+  birthMonth          Int?
+  favoritePokemonId   String?
+  favoriteRegion      String?
+  avatar              String?    @default("/avatars/default.png")
+  shinydexDesign      String?    @default("classic")
+  onboardingCompleted Boolean    @default(false)
+
   sessions      Session[]
   accounts      Account[]
   posts         Post[]
-
+  caughtPokemon CaughtPokemon[]
 
   @@map("users")
 }
@@ -102,4 +111,16 @@ model Verification {
   expiresAt  DateTime
 
   @@map("verifications")
+}
+
+model CaughtPokemon {
+  id        String   @id @default(uuid())
+  userId    String
+  pokemonId String
+  caughtAt  DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, pokemonId])
+  @@index([userId])
+  @@map("caught_pokemon")
 }
