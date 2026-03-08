@@ -50,7 +50,8 @@ model User {
   birthMonth          Int?
   favoritePokemonId   String?
   favoriteRegion      String?
-  avatar              String?    @default("/avatars/default.png")
+  avatar              String?    @default("/avatars/serena.png")
+  avatarBackground    String?    @default("#1e293b")
   shinydexDesign      String?    @default("classic")
   onboardingCompleted Boolean    @default(false)
 

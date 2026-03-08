@@ -6,7 +6,7 @@ import { prisma } from "@/lib/prisma";
 import { AVATARS } from "@/lib/avatars";
 import { AVATAR_BACKGROUNDS } from "@/lib/avatar-backgrounds";
 
-export async function onboardingStep3Action(data: {
+export async function updateAvatarAction(data: {
   avatar: string;
   avatarBackground: string;
 }) {

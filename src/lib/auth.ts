@@ -144,6 +144,23 @@ export const auth = betterAuth({
         defaultValue: false,
         input: false,
       },
+      hunterName: {
+        type: "string",
+        required: false,
+        input: false,
+      },
+      avatar: {
+        type: "string",
+        required: false,
+        defaultValue: "/avatars/serena.png",
+        input: false,
+      },
+      avatarBackground: {
+        type: "string",
+        required: false,
+        defaultValue: "#1e293b",
+        input: false,
+      },
     },
   },
 

@@ -7,8 +7,8 @@ import { SocialAuthButtons } from "@/components/social-auth-buttons";
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen bg-background">
-      <div className="content-container min-h-screen p-8">
+    <div className="min-h-screen">
+      <div className="mx-auto max-w-7xl min-h-screen p-8">
         <div className="mb-6">
           <ReturnButton href="/" label="Accueil" />
         </div>

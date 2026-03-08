@@ -38,49 +38,21 @@ export function PokemonNavigationButton({
       `}
       aria-label={`${isPrevious ? "Précédent" : "Suivant"}: ${pokemon.name}`}
     >
-      {/* Flèche directionnelle */}
       <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/20 group-hover:bg-primary/30 transition-colors">
-        <svg
-          className="w-7 h-7 text-primary"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           {isPrevious ? (
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           ) : (
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           )}
         </svg>
       </div>
-
-      {/* Image du Pokémon */}
       <div className="relative w-20 h-20 pokemon-card-bg rounded-lg border border-primary/30 overflow-hidden">
-        <Image
-          src={imagePath}
-          alt={pokemon.name}
-          fill
-          className="object-contain p-1"
-          sizes="80px"
-        />
+        <Image src={imagePath} alt={pokemon.name} fill className="object-contain p-1" sizes="80px" />
       </div>
-
-      {/* Info Pokémon */}
       <div className={`flex flex-col ${isPrevious ? "items-start" : "items-end"}`}>
         <span className="text-base text-primary font-bold">#{baseNumber}</span>
-        <span className="text-lg text-foreground font-semibold truncate max-w-[160px]">
-          {pokemon.name}
-        </span>
+        <span className="text-lg text-foreground font-semibold truncate max-w-[160px]">{pokemon.name}</span>
       </div>
     </button>
   );

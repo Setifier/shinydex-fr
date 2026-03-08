@@ -2,19 +2,27 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import { OnboardingLayout } from "./onboarding-layout";
 import { AvatarGrid } from "./avatar-grid";
+import { AvatarBackgroundPicker } from "@/components/avatar/avatar-background-picker";
+import { UserAvatar } from "@/components/avatar/user-avatar";
 import { onboardingStep3Action } from "@/actions/onboarding-step3.action";
+import { DEFAULT_AVATAR } from "@/lib/avatars";
+import { DEFAULT_AVATAR_BACKGROUND } from "@/lib/avatar-backgrounds";
 
 interface Step3AvatarProps {
-  onNext: (data: { avatar: string }) => void;
+  onNext: (data: { avatar: string; avatarBackground: string }) => void;
   onBack: () => void;
-  initialData?: { avatar: string };
+  initialData?: { avatar: string; avatarBackground: string };
 }
 
 export function Step3Avatar({ onNext, onBack, initialData }: Step3AvatarProps) {
-  const [avatar, setAvatar] = useState(initialData?.avatar ?? "/avatars/default.png");
+  const [avatar, setAvatar] = useState(
+    initialData?.avatar ?? DEFAULT_AVATAR
+  );
+  const [background, setBackground] = useState(
+    initialData?.avatarBackground ?? DEFAULT_AVATAR_BACKGROUND
+  );
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -22,24 +30,23 @@ export function Step3Avatar({ onNext, onBack, initialData }: Step3AvatarProps) {
     setLoading(true);
     setError(null);
 
-    const formData = new FormData();
-    formData.set("avatar", avatar);
-
-    const result = await onboardingStep3Action(formData);
+    const result = await onboardingStep3Action({ avatar, avatarBackground: background });
     if (result.error) {
       setError(result.error);
       setLoading(false);
       return;
     }
 
-    onNext({ avatar });
+    onNext({ avatar, avatarBackground: background });
   };
 
   const handleSkip = async () => {
-    const formData = new FormData();
-    formData.set("avatar", "/avatars/default.png");
-    await onboardingStep3Action(formData);
-    onNext({ avatar: "/avatars/default.png" });
+    setLoading(true);
+    await onboardingStep3Action({
+      avatar: DEFAULT_AVATAR,
+      avatarBackground: DEFAULT_AVATAR_BACKGROUND,
+    });
+    onNext({ avatar: DEFAULT_AVATAR, avatarBackground: DEFAULT_AVATAR_BACKGROUND });
   };
 
   return (
@@ -47,26 +54,35 @@ export function Step3Avatar({ onNext, onBack, initialData }: Step3AvatarProps) {
       step={3}
       totalSteps={4}
       title="Votre avatar"
-      description="Choisissez un avatar pour votre profil."
+      description="Choisissez un avatar et une couleur de fond pour votre profil."
       onBack={onBack}
     >
       <div className="space-y-6">
-        <div className="space-y-2">
-          <Label>Sélectionnez un avatar</Label>
-          <p className="text-xs text-muted-foreground mb-2">
-            Vous pourrez le changer plus tard dans vos paramètres.
-          </p>
-          <AvatarGrid value={avatar} onChange={setAvatar} />
+
+        {/* Aperçu */}
+        <div className="flex justify-center">
+          <UserAvatar avatar={avatar} background={background} size="2xl" />
         </div>
 
-        {error && (
-          <p className="text-sm text-destructive">{error}</p>
-        )}
+        {/* Choix de l'avatar */}
+        <div className="space-y-3">
+          <p className="text-sm font-medium">Avatar</p>
+          <AvatarGrid value={avatar} background={background} onChange={setAvatar} />
+        </div>
+
+        {/* Couleur de fond */}
+        <div className="space-y-3">
+          <p className="text-sm font-medium">Couleur de fond</p>
+          <AvatarBackgroundPicker value={background} onChange={setBackground} />
+        </div>
+
+        {error && <p className="text-sm text-destructive">{error}</p>}
 
         <div className="flex gap-3">
           <Button
             variant="outline"
             onClick={handleSkip}
+            disabled={loading}
             className="flex-1"
             size="lg"
           >

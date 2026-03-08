@@ -5,17 +5,19 @@ import { Step1Identity } from "@/components/onboarding/step1-identity";
 import { Step2Preferences } from "@/components/onboarding/step2-preferences";
 import { Step3Avatar } from "@/components/onboarding/step3-avatar";
 import { Step4Shinydex } from "@/components/onboarding/step4-shinydex";
+import { DEFAULT_AVATAR } from "@/lib/avatars";
+import { DEFAULT_AVATAR_BACKGROUND } from "@/lib/avatar-backgrounds";
 
 interface OnboardingData {
   step1: { hunterName: string; birthDay: string; birthMonth: string };
   step2: { favoritePokemonId: string | null; favoriteRegion: string | null };
-  step3: { avatar: string };
+  step3: { avatar: string; avatarBackground: string };
 }
 
 const DEFAULT_DATA: OnboardingData = {
   step1: { hunterName: "", birthDay: "", birthMonth: "" },
   step2: { favoritePokemonId: null, favoriteRegion: null },
-  step3: { avatar: "/avatars/default.png" },
+  step3: { avatar: DEFAULT_AVATAR, avatarBackground: DEFAULT_AVATAR_BACKGROUND },
 };
 
 export default function OnboardingPage() {
@@ -40,10 +42,7 @@ export default function OnboardingPage() {
   switch (step) {
     case 1:
       return (
-        <Step1Identity
-          onNext={updateStep1}
-          initialData={data.step1}
-        />
+        <Step1Identity onNext={updateStep1} initialData={data.step1} />
       );
     case 2:
       return (
@@ -65,10 +64,7 @@ export default function OnboardingPage() {
       return <Step4Shinydex onBack={() => setStep(3)} />;
     default:
       return (
-        <Step1Identity
-          onNext={updateStep1}
-          initialData={data.step1}
-        />
+        <Step1Identity onNext={updateStep1} initialData={data.step1} />
       );
   }
 }

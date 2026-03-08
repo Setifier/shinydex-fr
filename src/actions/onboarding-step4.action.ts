@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { getPokemonById } from "@/lib/pokemon-data";
+import { VALID_SHINYDEX_DESIGNS } from "@/lib/shinydex-designs";
 
 export async function onboardingStep4Action(data: {
   shinydexDesign: string;
@@ -13,6 +14,10 @@ export async function onboardingStep4Action(data: {
   if (!session) return { error: "Non authentifié" };
 
   const { shinydexDesign, pokemonIds } = data;
+
+  if (!(VALID_SHINYDEX_DESIGNS as string[]).includes(shinydexDesign)) {
+    return { error: "Design invalide" };
+  }
 
   // Valider chaque pokemonId
   for (const id of pokemonIds) {

@@ -7,32 +7,28 @@ import {
 } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/layout/navigation";
-import Sidebar from "@/components/layout/sidebar";
 import "./globals.css";
 import { Footer } from "@/components/layout/footer";
+import { BackgroundBlobs } from "@/components/layout/background-blobs";
 import { Toaster } from "@/components/ui/sonner";
 
-// Main font for general text
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
 
-// Font for headings (manga/pokemon style)
 const mochiyPopOne = Mochiy_Pop_One({
   variable: "--font-mochiy-pop-one",
   subsets: ["latin"],
   weight: "400",
 });
 
-// Font for links
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
 });
 
-// Font for footer
 const itim = Itim({
   variable: "--font-itim",
   subsets: ["latin"],
@@ -61,26 +57,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="relative flex min-h-screen justify-center">
-            <div className="content-container relative flex w-full">
-              <div className="fixed top-0 z-20 h-full w-60 bg-sidebar">
-                <Sidebar />
-              </div>
+          <BackgroundBlobs />
+          <div className="relative flex min-h-screen flex-col">
+            <header className="sticky top-0 z-30 w-full px-4 pt-3">
+              <Navigation />
+            </header>
 
-              <div className="ml-60 flex flex-1 flex-col">
-                <div className="bg-navfoot z-10 mx-auto h-16 w-full max-w-7xl px-4 text-lg flex items-center justify-end">
-                  <Navigation />
-                </div>
+            <main className="flex-1">{children}</main>
 
-                <main className="flex-1">{children}</main>
-
-                <div className="bg-navfoot">
-                  <div className="bg-navfoot mx-auto w-full max-w-7xl p-4 text-center text-lg">
-                    <Footer />
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Footer />
           </div>
           <Toaster position="top-center" richColors />
         </ThemeProvider>

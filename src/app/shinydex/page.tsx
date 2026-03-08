@@ -20,7 +20,12 @@ export default function ShinydexPage() {
     null
   );
   const [activeRegion, setActiveRegion] = useState<string>("1 - KANTO");
-  const [columnsPerRow, setColumnsPerRow] = useState<number>(6);
+  const [columnsPerRow, setColumnsPerRow] = useState<number>(12);
+
+  // Défaut responsive : 12 desktop, 9 mobile
+  useEffect(() => {
+    if (window.innerWidth < 768) setColumnsPerRow(9);
+  }, []);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [isSticky, setIsSticky] = useState<boolean>(false);
   const [isNavbarCollapsed, setIsNavbarCollapsed] = useState<boolean>(false);
@@ -33,25 +38,19 @@ export default function ShinydexPage() {
   // Configuration dynamique selon le nombre de colonnes
   const getGridConfig = (cols: number) => {
     switch (cols) {
-      case 3:
-        return { gap: "gap-8", fontSize: "text-lg", padding: "p-4" };
-      case 6:
-        return { gap: "gap-4", fontSize: "text-sm", padding: "p-2" };
-      case 9:
-        return { gap: "gap-2.5", fontSize: "text-xs", padding: "p-1.5" };
-      case 12:
-        return { gap: "gap-1.5", fontSize: "text-[0.65rem]", padding: "p-1" };
-      case 15:
-        return { gap: "gap-1", fontSize: "text-[0.6rem]", padding: "p-1" };
-      default:
-        return { gap: "gap-4", fontSize: "text-sm", padding: "p-2" };
+      case 6:  return { gap: "gap-4",   fontSize: "text-sm",        padding: "p-4"   };
+      case 9:  return { gap: "gap-2.5", fontSize: "text-xs",        padding: "p-3"   };
+      case 12: return { gap: "gap-1.5", fontSize: "text-[0.65rem]", padding: "p-2"   };
+      case 15: return { gap: "gap-1",   fontSize: "text-[0.6rem]",  padding: "p-1.5" };
+      case 18: return { gap: "gap-0.5", fontSize: "text-[0.55rem]", padding: "p-1"   };
+      default: return { gap: "gap-4",   fontSize: "text-sm",        padding: "p-4"   };
     }
   };
 
   const gridConfig = getGridConfig(columnsPerRow);
 
-  // Gestion du slider avec valeurs discrètes
-  const sliderValues = [3, 6, 9, 12, 15];
+  // Gestion du slider avec valeurs discrètes (6 → 18)
+  const sliderValues = [6, 9, 12, 15, 18];
   const handleSliderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const index = parseInt(e.target.value);
     setColumnsPerRow(sliderValues[index]);

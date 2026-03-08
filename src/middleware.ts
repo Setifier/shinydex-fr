@@ -1,7 +1,7 @@
 import { getSessionCookie } from "better-auth/cookies";
 import { NextRequest, NextResponse } from "next/server";
 
-const protectedRoutes = ["/profile"];
+const protectedRoutes = ["/profile", "/settings", "/shinydex/perso"];
 const adminRoutes = ["/admin"];
 
 async function fetchSession(req: NextRequest) {

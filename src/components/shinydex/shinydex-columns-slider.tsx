@@ -20,12 +20,12 @@ export function ShinydexColumnsSlider({
       </span>
       <div className="flex flex-col gap-1 w-full max-w-xs">
         <div className="flex items-center gap-3">
-          <span className="text-xs text-muted-foreground font-bold">3</span>
+          <span className="text-xs text-muted-foreground font-bold">{sliderValues[0]}</span>
           <div className="relative flex-1">
             <input
               type="range"
               min="0"
-              max="4"
+              max={sliderValues.length - 1}
               step="1"
               value={sliderIndex}
               onChange={handleSliderChange}
@@ -41,7 +41,7 @@ export function ShinydexColumnsSlider({
               ))}
             </div>
           </div>
-          <span className="text-xs text-muted-foreground font-bold">15</span>
+          <span className="text-xs text-muted-foreground font-bold">{sliderValues[sliderValues.length - 1]}</span>
           <span className="text-sm text-primary font-bold min-w-[2rem] text-center">
             {columnsPerRow}
           </span>

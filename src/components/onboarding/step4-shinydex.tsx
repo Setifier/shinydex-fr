@@ -9,13 +9,8 @@ import { PokemonSelectionGrid } from "./pokemon-selection-grid";
 import { onboardingStep4Action } from "@/actions/onboarding-step4.action";
 import { completeOnboardingAction } from "@/actions/complete-onboarding.action";
 import { getAllRegions, getRegionalForms } from "@/lib/pokemon-data";
+import { ShinydexDesignPicker } from "@/components/shinydex/shinydex-design-picker";
 import { toast } from "sonner";
-
-const DESIGNS = [
-  { value: "classic", label: "Classique" },
-  { value: "moderne", label: "Moderne" },
-  { value: "compact", label: "Compact" },
-];
 
 interface Step4ShinydexProps {
   onBack: () => void;
@@ -113,62 +108,63 @@ export function Step4Shinydex({ onBack }: Step4ShinydexProps) {
       onBack={onBack}
     >
       <div className="space-y-6">
-        {/* View toggle */}
-        <div className="flex gap-2">
-          <button
-            type="button"
-            onClick={() => setView("regions")}
-            className={`flex-1 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-              view === "regions"
-                ? "bg-primary text-primary-foreground"
-                : "bg-muted text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            Formes de base
-          </button>
-          <button
-            type="button"
-            onClick={() => setView("forms")}
-            className={`flex-1 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-              view === "forms"
-                ? "bg-primary text-primary-foreground"
-                : "bg-muted text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            Formes régionales
-          </button>
-        </div>
 
-        {/* Shinydex design */}
-        <div className="space-y-2">
+        {/* Design du Shinydex */}
+        <div className="space-y-3">
           <Label>Design du Shinydex</Label>
-          <select
-            value={shinydexDesign}
-            onChange={(e) => setShinydexDesign(e.target.value)}
-            className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-xs transition-colors focus-visible:outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] [&>option]:bg-card [&>option]:text-foreground"
-          >
-            {DESIGNS.map((d) => (
-              <option key={d.value} value={d.value}>
-                {d.label}
-              </option>
-            ))}
-          </select>
+          <ShinydexDesignPicker value={shinydexDesign} onChange={setShinydexDesign} />
         </div>
 
-        {/* Counter */}
-        <div className="text-sm text-muted-foreground">
-          <span className="font-medium text-primary">{selectedIds.size}</span>{" "}
-          Pokémon sélectionnés
-        </div>
+        <div className="forms-separator-line" />
 
-        {/* Pokemon selection */}
-        <div className="max-h-[60vh] overflow-y-auto rounded-lg border">
-          <PokemonSelectionGrid
-            sections={sections}
-            selectedIds={selectedIds}
-            onToggle={handleToggle}
-            onToggleSection={handleToggleSection}
-          />
+        {/* Import collection existante */}
+        <div className="space-y-3">
+          <Label>Importer votre collection existante</Label>
+          <p className="text-xs text-muted-foreground">
+            Sélectionnez les Pokémon chromatiques que vous possédez déjà. Vous pourrez en ajouter d&apos;autres plus tard.
+          </p>
+
+          {/* View toggle */}
+          <div className="flex gap-2">
+            <button
+              type="button"
+              onClick={() => setView("regions")}
+              className={`flex-1 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                view === "regions"
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-muted text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Formes de base
+            </button>
+            <button
+              type="button"
+              onClick={() => setView("forms")}
+              className={`flex-1 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                view === "forms"
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-muted text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Formes régionales
+            </button>
+          </div>
+
+          {/* Counter */}
+          <div className="text-sm text-muted-foreground">
+            <span className="font-medium text-primary">{selectedIds.size}</span>{" "}
+            Pokémon sélectionnés
+          </div>
+
+          {/* Pokemon selection */}
+          <div className="max-h-[40vh] overflow-y-auto rounded-lg border">
+            <PokemonSelectionGrid
+              sections={sections}
+              selectedIds={selectedIds}
+              onToggle={handleToggle}
+              onToggleSection={handleToggleSection}
+            />
+          </div>
         </div>
 
         {error && (
