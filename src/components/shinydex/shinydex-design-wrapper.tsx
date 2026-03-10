@@ -4,17 +4,19 @@ import { useEffect } from "react";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { ArrowLeft, Settings } from "lucide-react";
+import { DesignSwitcherBtn } from "@/components/shinydex/design-switcher-btn";
 
 interface ShinydexDesignWrapperProps {
   design: string;
   children: ReactNode;
+  onDesignChange?: (design: string) => void;
 }
 
 /**
  * Encapsule le contenu du Shinydex personnel dans le design choisi.
  * Ajouter un design = ajouter un case ici + les classes CSS correspondantes.
  */
-export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrapperProps) {
+export function ShinydexDesignWrapper({ design, children, onDesignChange }: ShinydexDesignWrapperProps) {
 
   // Verrouille le scroll du body — tous les designs sont plein-écran
   useEffect(() => {
@@ -36,6 +38,14 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
               <span className="classic-dex-label">SHINYDEX</span>
               <div className="flex items-center gap-2">
                 <div className="classic-dex-indicator" />
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="classic-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="right"
+                  />
+                )}
                 <Link href="/settings" className="classic-dex-back-btn" title="Paramètres">
                   <Settings className="h-5 w-5" />
                 </Link>
@@ -80,6 +90,14 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
                 <div className="personal-dex-vents hidden sm:flex">
                   {Array.from({ length: 7 }, (_, i) => <div key={i} className="personal-dex-vent" />)}
                 </div>
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="personal-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="right"
+                  />
+                )}
                 <Link href="/settings" className="personal-dex-back-btn" title="Paramètres">
                   <Settings className="h-5 w-5" />
                 </Link>
@@ -137,6 +155,14 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
                 <Link href="/profile" className="neon-dex-back-btn" title="Retour au profil">
                   <ArrowLeft className="h-5 w-5" />
                 </Link>
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="neon-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="left"
+                  />
+                )}
                 <Link href="/settings" className="neon-dex-back-btn" title="Paramètres">
                   <Settings className="h-5 w-5" />
                 </Link>
@@ -177,6 +203,14 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
               <span className="rose-dex-label">SHINYDEX</span>
               <div className="flex items-center gap-2">
                 <div className="rose-dex-indicator" />
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="rose-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="right"
+                  />
+                )}
                 <Link href="/settings" className="rose-dex-back-btn" title="Paramètres">
                   <Settings className="h-5 w-5" />
                 </Link>
@@ -206,9 +240,19 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
                 <div className="cobalt-dex-led" />
                 <span className="cobalt-dex-label">SHINYDEX</span>
               </div>
-              <Link href="/settings" className="cobalt-dex-back-btn" title="Paramètres">
-                <Settings className="h-5 w-5" />
-              </Link>
+              <div className="flex items-center gap-2">
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="cobalt-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="right"
+                  />
+                )}
+                <Link href="/settings" className="cobalt-dex-back-btn" title="Paramètres">
+                  <Settings className="h-5 w-5" />
+                </Link>
+              </div>
             </div>
             <div className="cobalt-dex-screen-area">{children}</div>
             <div className="cobalt-dex-bottom-bar">
@@ -236,6 +280,14 @@ export function ShinydexDesignWrapper({ design, children }: ShinydexDesignWrappe
                   <div className="manga-dex-dot" />
                   <div className="manga-dex-dot manga-dex-dot-accent" />
                 </div>
+                {onDesignChange && (
+                  <DesignSwitcherBtn
+                    currentDesign={design}
+                    btnClassName="manga-dex-back-btn"
+                    onDesignChange={onDesignChange}
+                    dropdownSide="right"
+                  />
+                )}
                 <Link href="/settings" className="manga-dex-back-btn" title="Paramètres">
                   <Settings className="h-5 w-5" />
                 </Link>

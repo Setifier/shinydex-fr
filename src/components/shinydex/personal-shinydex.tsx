@@ -8,6 +8,7 @@ import { PersonalPokemonCard } from "@/components/shinydex/personal-pokemon-card
 import { PersonalPokemonModal } from "@/components/shinydex/personal-pokemon-modal";
 import { ShinydexColumnsSlider } from "@/components/shinydex/shinydex-columns-slider";
 import { ShinydexDesignWrapper } from "@/components/shinydex/shinydex-design-wrapper";
+import { updateShinydexDesignAction } from "@/actions/update-shinydex-design.action";
 
 // Labels d'affichage (uppercase) pour les formes régionales
 const FORM_LABELS: Record<string, string> = {
@@ -69,6 +70,12 @@ const FORM_SECTIONS   = ALL_SECTIONS.filter((s) => s.type === "form");
 
 export function PersonalShinydex({ caughtIds: initialCaughtIds, shinydexDesign }: PersonalShinydexProps) {
   const [caughtIds, setCaughtIds] = useState(initialCaughtIds);
+  const [currentDesign, setCurrentDesign] = useState(shinydexDesign);
+
+  const handleDesignChange = async (design: string) => {
+    setCurrentDesign(design);
+    await updateShinydexDesignAction({ shinydexDesign: design });
+  };
   const caughtSet = useMemo(() => new Set(caughtIds), [caughtIds]);
 
   const [searchQuery, setSearchQuery]             = useState("");
@@ -161,7 +168,7 @@ export function PersonalShinydex({ caughtIds: initialCaughtIds, shinydexDesign }
 
   return (
     <>
-      <ShinydexDesignWrapper design={shinydexDesign}>
+      <ShinydexDesignWrapper design={currentDesign} onDesignChange={handleDesignChange}>
         <div className={isLockedScroll ? "flex-1 min-h-0 flex flex-col" : ""}>
 
           {/* Stats par région */}
@@ -317,7 +324,7 @@ export function PersonalShinydex({ caughtIds: initialCaughtIds, shinydexDesign }
         onNavigate={(p) => setSelectedPokemon(p)}
         onCatch={handleCatch}
         onUncatch={handleUncatch}
-        design={shinydexDesign}
+        design={currentDesign}
       />
     </>
   );

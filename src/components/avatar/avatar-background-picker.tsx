@@ -5,10 +5,10 @@ import { cn } from "@/lib/utils";
 
 // Chaque groupe occupe sa propre ligne
 const GROUPS = [
-  AVATAR_BACKGROUNDS.slice(0, 5),   // Neutrals (5)
-  AVATAR_BACKGROUNDS.slice(5, 18),  // Flash (13)
-  AVATAR_BACKGROUNDS.slice(18, 31), // Claires (13)
-  AVATAR_BACKGROUNDS.slice(31, 40), // Foncées (9)
+  AVATAR_BACKGROUNDS.slice(0, 15),  // Neutrals (15)
+  AVATAR_BACKGROUNDS.slice(15, 30), // Basiques (15)
+  AVATAR_BACKGROUNDS.slice(30, 45), // Claires (15)
+  AVATAR_BACKGROUNDS.slice(45, 60), // Foncées (15)
 ] as const;
 
 interface AvatarBackgroundPickerProps {
