@@ -6,9 +6,11 @@ import Image from "next/image";
 import { X, Search, Star } from "lucide-react";
 import { updateProfilePrefsAction } from "@/actions/update-profile-prefs.action";
 import { updateShinydexDesignAction } from "@/actions/update-shinydex-design.action";
+import { updatePublicProfileAction } from "@/actions/update-public-profile.action";
 import { searchPokemonAction, type PokemonSearchResult } from "@/actions/search-pokemon.action";
 import { ShinydexDesignPicker } from "@/components/shinydex/shinydex-design-picker";
 import { SHINYDEX_DESIGNS } from "@/lib/shinydex-designs";
+import { POKEMON_GAMES, SERIES_LABELS, SERIES_COLORS, type GameSeries } from "@/lib/pokemon-games";
 
 const TYPE_COLORS: Record<string, { bg: string; text: string }> = {
   Acier:    { bg: "#B7B7CE", text: "#2a2a3a" },
@@ -71,8 +73,13 @@ interface ProfileInteractiveProps {
   regionStats: RegionStat[];
   favoritePokemon: FavPokemonData | null;
   favoriteRegion: string | null;
+  favoriteGame: string | null;
+  showFavoritePokemon: boolean;
+  showFavoriteRegion: boolean;
+  showFavoriteGame: boolean;
   shinydexDesign: string;
   popularPokemon: PokemonSearchResult[];
+  birthday: string | null;
 }
 
 function TypeBadge({ type }: { type: string }) {
@@ -94,13 +101,19 @@ export function ProfileInteractive({
   regionStats,
   favoritePokemon: initialFavPokemon,
   favoriteRegion: initialRegion,
+  favoriteGame: initialGame,
+  showFavoritePokemon,
+  showFavoriteRegion,
+  showFavoriteGame,
   shinydexDesign: initialDesign,
   popularPokemon,
+  birthday,
 }: ProfileInteractiveProps) {
   const [mounted, setMounted]   = useState(false);
-  const [modal, setModal]       = useState<"stats" | "pokemon" | "region" | "design" | null>(null);
+  const [modal, setModal]       = useState<"stats" | "pokemon" | "region" | "game" | "design" | null>(null);
   const [favPokemon, setFavPokemon] = useState(initialFavPokemon);
   const [region, setRegion]     = useState(initialRegion);
+  const [game, setGame]         = useState(initialGame);
   const [design, setDesign]     = useState(initialDesign);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<PokemonSearchResult[]>(popularPokemon);
@@ -135,6 +148,7 @@ export function ProfileInteractive({
 
   const designLabel = SHINYDEX_DESIGNS.find(d => d.value === design)?.label ?? "Classique";
   const regionLabel = region ? (REGION_LABELS[region.toLowerCase()] ?? region) : null;
+  const gameLabel   = game   ? (POKEMON_GAMES.find(g => g.id === game)?.name ?? null) : null;
 
   const handlePokemonSelect = async (pokemon: PokemonSearchResult) => {
     setFavPokemon({ id: pokemon.id, name: pokemon.name, imagePath: pokemon.imagePath, types: pokemon.types });
@@ -146,6 +160,13 @@ export function ProfileInteractive({
     setRegion(value);
     closeModal();
     await updateProfilePrefsAction({ favoriteRegion: value });
+  };
+
+  const handleGameSelect = async (id: string) => {
+    const next = game === id ? null : id;
+    setGame(next);
+    closeModal();
+    await updatePublicProfileAction({ favoriteGame: next });
   };
 
   const handleDesignChange = async (value: string) => {
@@ -185,57 +206,92 @@ export function ProfileInteractive({
 
       <div className="h-px bg-border/40 mx-6" />
 
+      {/* Anniversaire */}
+      {birthday && (
+        <div className="px-6 py-4">
+          <div className="relative flex items-center gap-4 px-5 py-4 rounded-2xl border border-border/40 bg-muted/10 overflow-hidden">
+            {/* Barre accent gauche dégradé */}
+            <div className="absolute left-0 top-0 bottom-0 w-1 rounded-l-2xl" style={{ background: "linear-gradient(180deg, #399ab4, #35be7c)" }} />
+            <span className="text-3xl select-none">🎂</span>
+            <div>
+              <p className="text-[10px] uppercase tracking-widest font-semibold text-muted-foreground mb-0.5">Anniversaire</p>
+              <p className="text-lg font-bold text-foreground">{birthday}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {birthday && <div className="h-px bg-border/40 mx-6" />}
+
       {/* Info grid */}
       <div className="px-8 py-6 grid sm:grid-cols-2 gap-4">
         {/* Pokémon favori */}
-        <button
-          type="button"
-          onClick={() => setModal("pokemon")}
-          className="group cursor-pointer flex items-center gap-4 p-4 rounded-xl bg-muted/20 border border-border/30 hover:border-border/60 hover:bg-muted/30 transition-all text-left w-full"
-        >
-          {favPokemon ? (
-            <>
-              <div
-                className="relative w-16 h-16 shrink-0 rounded-xl overflow-hidden"
-                style={{ background: "linear-gradient(135deg, rgba(57,154,180,0.15), rgba(53,190,124,0.10))" }}
-              >
-                <Image src={favPokemon.imagePath} alt={favPokemon.name} fill className="object-contain p-1.5" sizes="64px" />
-              </div>
-              <div className="min-w-0">
-                <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium mb-0.5">Pokémon favori</p>
-                <p className="text-base font-semibold text-foreground leading-tight">{favPokemon.name}</p>
-                <p className="text-xs text-muted-foreground mb-1.5">#{favPokemon.id.split("-")[0].padStart(4, "0")}</p>
-                <div className="flex gap-1 flex-wrap">
-                  {favPokemon.types.map(t => <TypeBadge key={t} type={t} />)}
-                </div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="w-16 h-16 shrink-0 rounded-xl bg-muted/20 flex items-center justify-center">
-                <span className="text-2xl">?</span>
-              </div>
-              <div>
-                <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium mb-0.5">Pokémon favori</p>
-                <p className="text-sm text-muted-foreground italic">Cliquer pour choisir</p>
-              </div>
-            </>
-          )}
-        </button>
-
-        {/* Région + Design */}
-        <div className="space-y-3">
+        {showFavoritePokemon && (
           <button
             type="button"
-            onClick={() => setModal("region")}
-            className="w-full cursor-pointer p-3 rounded-xl bg-muted/20 border border-border/30 hover:border-border/60 hover:bg-muted/30 transition-all text-left"
+            onClick={() => setModal("pokemon")}
+            className="group cursor-pointer flex items-center gap-4 p-4 rounded-xl bg-muted/20 border border-border/30 hover:border-border/60 hover:bg-muted/30 transition-all text-left w-full"
           >
-            <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Région favorite</p>
-            {regionLabel
-              ? <p className="text-sm font-semibold text-foreground mt-0.5">{regionLabel}</p>
-              : <p className="text-xs italic text-muted-foreground mt-0.5">Cliquer pour choisir</p>
-            }
+            {favPokemon ? (
+              <>
+                <div
+                  className="relative w-24 h-24 shrink-0 rounded-xl overflow-hidden"
+                  style={{ background: "linear-gradient(135deg, rgba(57,154,180,0.15), rgba(53,190,124,0.10))" }}
+                >
+                  <Image src={favPokemon.imagePath} alt={favPokemon.name} fill className="object-contain p-1" sizes="96px" />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium mb-0.5">Pokémon favori</p>
+                  <p className="text-base font-semibold text-foreground leading-tight">{favPokemon.name}</p>
+                  <p className="text-xs text-muted-foreground mb-1.5">#{favPokemon.id.split("-")[0].padStart(4, "0")}</p>
+                  <div className="flex gap-1 flex-wrap">
+                    {favPokemon.types.map(t => <TypeBadge key={t} type={t} />)}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="w-16 h-16 shrink-0 rounded-xl bg-muted/20 flex items-center justify-center">
+                  <span className="text-2xl">?</span>
+                </div>
+                <div>
+                  <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium mb-0.5">Pokémon favori</p>
+                  <p className="text-sm text-muted-foreground italic">Cliquer pour choisir</p>
+                </div>
+              </>
+            )}
           </button>
+        )}
+
+        {/* Région + Design + Jeu */}
+        <div className="space-y-3">
+          {showFavoriteRegion && (
+            <button
+              type="button"
+              onClick={() => setModal("region")}
+              className="w-full cursor-pointer p-3 rounded-xl bg-muted/20 border border-border/30 hover:border-border/60 hover:bg-muted/30 transition-all text-left"
+            >
+              <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Région favorite</p>
+              {regionLabel
+                ? <p className="text-sm font-semibold text-foreground mt-0.5">{regionLabel}</p>
+                : <p className="text-xs italic text-muted-foreground mt-0.5">Cliquer pour choisir</p>
+              }
+            </button>
+          )}
+
+          {showFavoriteGame && (
+            <button
+              type="button"
+              onClick={() => setModal("game")}
+              className="w-full cursor-pointer p-3 rounded-xl bg-muted/20 border border-border/30 hover:border-border/60 hover:bg-muted/30 transition-all text-left"
+            >
+              <p className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Jeu favori</p>
+              {gameLabel
+                ? <p className="text-sm font-semibold text-foreground mt-0.5">{gameLabel}</p>
+                : <p className="text-xs italic text-muted-foreground mt-0.5">Cliquer pour choisir</p>
+              }
+            </button>
+          )}
 
           <button
             type="button"
@@ -391,6 +447,50 @@ export function ProfileInteractive({
                         </span>
                         <span className="text-xs text-muted-foreground">{opt.gen}</span>
                       </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Jeu Modal */}
+            {modal === "game" && (
+              <div>
+                <div className="px-6 pt-6 pb-4 border-b border-border/30">
+                  <h2 className="text-lg font-heading text-foreground">Jeu Pokémon favori</h2>
+                </div>
+                <div className="p-4 max-h-[65vh] overflow-y-auto space-y-4">
+                  {(["main","remake","legends","lets-go","mystery-dungeon","ranger","stadium","snap","mobile","other"] as GameSeries[]).map((series) => {
+                    const games = POKEMON_GAMES.filter(g => g.series === series);
+                    if (!games.length) return null;
+                    return (
+                      <div key={series}>
+                        <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">
+                          {SERIES_LABELS[series]}
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {games.map(g => {
+                            const isSelected = game === g.id;
+                            return (
+                              <button
+                                key={g.id}
+                                type="button"
+                                onClick={() => handleGameSelect(g.id)}
+                                className={`cursor-pointer px-3 py-1.5 rounded-lg border text-xs font-medium transition-all ${
+                                  isSelected
+                                    ? "border-primary bg-primary/10 text-primary"
+                                    : "border-border/40 hover:border-border/80 hover:bg-muted/30 text-muted-foreground hover:text-foreground"
+                                }`}
+                              >
+                                {g.name}
+                                <span className={`ml-2 px-1.5 py-0.5 rounded text-[10px] font-semibold border ${SERIES_COLORS[series]}`}>
+                                  {g.year}
+                                </span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
                     );
                   })}
                 </div>

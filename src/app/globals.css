@@ -174,6 +174,12 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  /* Empêche le caret texte clignotant sur tous les éléments non éditables */
+  *:not(input):not(textarea):not([contenteditable="true"]):not([contenteditable=""]) {
+    caret-color: transparent;
+  }
+
   body {
     @apply font-sans text-foreground antialiased;
     position: relative;
@@ -487,6 +493,21 @@
 
 .animate-squeeze {
   animation: squeeze 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Pokéball hover — 2× gauche-droite vifs puis pause */
+@keyframes pokeball-roll {
+  0%   { transform: translateX(0)     rotate(0deg);   animation-timing-function: ease-out; }
+  7%   { transform: translateX(-14px) rotate(-36deg); animation-timing-function: ease-in-out; }
+  18%  { transform: translateX(14px)  rotate(36deg);  animation-timing-function: ease-in-out; }
+  28%  { transform: translateX(-10px) rotate(-26deg); animation-timing-function: ease-in-out; }
+  38%  { transform: translateX(8px)   rotate(20deg);  animation-timing-function: ease-in-out; }
+  46%  { transform: translateX(0)     rotate(0deg);   animation-timing-function: linear; }
+  100% { transform: translateX(0)     rotate(0deg); }
+}
+
+.animate-pokeball-roll {
+  animation: pokeball-roll 2.2s linear infinite;
 }
 
 .animate-sparkle-1 {

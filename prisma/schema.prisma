@@ -50,6 +50,14 @@ model User {
   birthMonth          Int?
   favoritePokemonId   String?
   favoriteRegion      String?
+  favoriteGame        String?
+  biography           String[]   @default([])
+  pronouns            String?
+  country             String?
+  emailPrivate        Boolean    @default(true)
+  showFavoritePokemon Boolean    @default(true)
+  showFavoriteRegion  Boolean    @default(true)
+  showFavoriteGame    Boolean    @default(true)
   avatar              String?    @default("/avatars/serena.png")
   avatarBackground    String?    @default("#1e293b")
   shinydexDesign      String?    @default("classic")
